@@ -1,19 +1,10 @@
-"use client";
-
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+import styles from "./page.module.css";
 
 export default function Home() {
-    const router = useRouter();
-
-    useEffect(() => {
-        router.push("/signin");
-    }, [router]);
-	
-return (
+    return (
     <div className={styles.firstPage}>
-	    <p>Redirecting …</p>
-        <img src="" alt="" />
+        <img src="logoAmarela.png" alt="" />
+        <h1>Bem-vindo ao Party Life!</h1>
     </div>
 );
 }
