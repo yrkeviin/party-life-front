@@ -1,0 +1,23 @@
+.button button {
+    background-color:#eeb230;
+    border: none;
+    outline: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    width: 20rem;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 4vh;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+.button button:hover {
+    background-color: #c99300;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: white;
+    scale: 1.05;
+}

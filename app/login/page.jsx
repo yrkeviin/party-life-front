@@ -9,8 +9,8 @@ export default function Login() {
         </div>
 
         <div className={styles.button}>
-            <Button text="Login" />
-            <Button text="Cadastrar" />
+            <Button srcc="/entrar" text="Entrar" />
+            <Button srcc="/cadastrar" text="Inscreva-se" />
         </div>
 
     </div>
