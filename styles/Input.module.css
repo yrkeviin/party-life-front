@@ -1,0 +1,14 @@
+.container {
+    background-color: #15002e;
+    border: solid 2px #eeb230;
+    margin: 2rem;
+    width: 35rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.input {
+    background-color: #15002e;
+}

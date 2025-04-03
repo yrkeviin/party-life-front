@@ -1,0 +1,34 @@
+.container {
+    background-color: #15002e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.logo {
+    width: 10%;
+    transition: .3s ease-in-out;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75rem;
+    margin-top: 1rem;
+    margin-bottom: 10%;
+}
+
+.divisor {
+    width: 75rem;
+    height: 2px;
+    background-color: #eeb230;
+    margin: 10px 0;
+}
