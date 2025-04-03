@@ -1,10 +1,16 @@
-import styles from "./page.module.css";
+"use client";
+
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
-    return (
-    <div className={styles.firstPage}>
-        <img src="logoAmarela.png" alt="" />
-        <a href=""><h1>Bem-vindo ao Party Life!</h1></a>
-    </div>
+    const router = useRouter();
+
+    useEffect(() => {
+        router.push("/loading");
+    }, [router]);
+	
+return (
+	<p>Redirecting …</p>
 );
 }
