@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
 .button button {
-    background-color: #eeb230;
+    background: linear-gradient(90deg, rgba(122, 5, 201, 0.8) 0%, rgba(255, 251, 3, 0.9) 100%);
     border: none;
     outline: none;
     color: black;
@@ -12,10 +14,12 @@
     margin-bottom: 10px;
     border-radius: 20px;
     transition: .3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .button button:hover {
-    background-color: #c99300;
+    background: linear-gradient(170deg, rgba(122, 5, 220, 0.8) 0%, rgba(255, 251, 3, 0.9) 100%);
     cursor: pointer;
     transition: 0.3s ease-in-out;
     color: white;

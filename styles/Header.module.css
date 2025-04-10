@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 .navbar {
-    height: 10vh;
+    height: 15vh;
     backdrop-filter: blur(10px);
     display: flex;
     width: 100%;
@@ -15,6 +15,7 @@
 
 .navbar h1 {
     margin: 20%;
+    font-size: 2.1rem;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -25,19 +26,19 @@
 
 .navbar h1 a, .navbar p a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     transition: .3s ease-in-out;
     border-bottom: 2px solid transparent;
 }
 
 .navbar h1 a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
     transition: .3s ease-in-out;
 }
 
 .navbar p a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
     transition: .3s ease-in-out;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 

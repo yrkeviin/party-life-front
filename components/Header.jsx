@@ -5,7 +5,7 @@ export default function Header() {
         <div className={styles.container}>
             <nav className={styles.navbar}>
                 <h1>
-                    <a className={styles.title} href="/home">Party Life</a>
+                    <a className={styles.title} href="/home">PARTY LIFE</a>
                 </h1>
 
                 <p className={styles.page}>
