@@ -3,11 +3,11 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-export default function Home() {
+export default function Redirecting() {
     const router = useRouter();
 
     useEffect(() => {
-        router.push("/loading");
+        router.push("/home");
     }, [router]);
 	
 return (

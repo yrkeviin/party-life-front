@@ -1,0 +1,8 @@
+.containerBanner {
+    background-image: url(/lhamaBackground.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}

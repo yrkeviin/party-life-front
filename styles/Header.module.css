@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar {
+    height: 10vh;
+    backdrop-filter: blur(10px);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 3rem;
+    background-color: rgb(176, 57, 255);
+    background: linear-gradient(90deg, rgba(122, 5, 201, 0.5) 0%, rgba(255, 255, 255, 0.3) 100%);
+}
+
+.navbar h1 {
+    margin: 20%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 100%;
+}
+
+.navbar h1 a, .navbar p a {
+    text-decoration: none;
+    color: black;
+    transition: .3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar h1 a:hover {
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.navbar p a:hover {
+    color: white;
+    transition: .3s ease-in-out;
+    border-bottom: 2px solid white;
+}
+
