@@ -21,3 +21,49 @@
 .textBanner img { 
     width: 24%;
 }
+
+.containerContent {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #000000;
+    width: 40%;
+    background-color: violet;
+    padding: 2%;
+    height: 44vh;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.text:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+.text p {
+    margin-top: 2%;
+}
+
+.imageText {
+    width: 40%;
+    height: 44vh;
+    display: flex;
+    justify-content: center;
+}
+
+.imageText img {
+    width: 54.5%;
+    border-radius: 15px;
+    transition: transform 0.2s;
+}
+
+.imageText img:hover {
+    transform: scale(1.08);
+}
