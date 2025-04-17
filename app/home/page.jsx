@@ -30,11 +30,28 @@ export default function Home() {
                     <p>📍 Use nosso mapa interativo pra achar eventos</p>
                     <p>📢 Divulgue seu evento pra uma galera que realmente curte festa</p>
 
-                    <p>Seja você um organizador, um DJ ou só alguém em busca da próxima vibe… o PartySpot é o seu ponto de partida.</p>
+                    <p>Seja você um organizador, um DJ ou só alguém em busca da próxima vibe… o Party Life é o seu ponto de partida.</p>
                 </div>
 
                 <div className={styles.imageText}>
                     <img src="./imageBeach.jpg" alt="" />
+                </div>
+            </div>
+
+            <div className={styles.containerFooter}>
+                <div>
+                    <p>Desenvolvido por: Kevin Lima</p>
+                </div>
+
+                <div>
+                    <p>Contato: +55 13 00171-0157 </p>
+                </div>
+
+                <div>
+                    <p>🎶 Party Life © 2025 – O melhor lugar pra descobrir, divulgar e viver festas inesquecíveis.</p>
+                    <p>📍 De onde estiver, a vibe te encontra.</p>
+                    <p>📧 Fale com a gente: contato@partylife.com</p>
+                    <p>📱 Siga nas redes: @partylife.oficial</p>
                 </div>
             </div>
         </div>
