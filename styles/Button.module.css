@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 .button button {
-    background: linear-gradient(90deg, rgba(122, 5, 201, 0.8) 0%, rgba(255, 251, 3, 0.9) 100%);
+    background: #fff;
     border: none;
     outline: none;
     color: black;
@@ -19,9 +19,8 @@
 }
 
 .button button:hover {
-    background: linear-gradient(170deg, rgba(122, 5, 220, 0.8) 0%, rgba(255, 251, 3, 0.9) 100%);
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    color: white;
+    color: rgb(0, 0, 0);
     scale: 1.05;
 }

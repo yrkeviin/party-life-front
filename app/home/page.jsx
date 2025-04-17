@@ -74,26 +74,50 @@ export default function Home() {
                         <img src="./atracoes.png" alt="" />
                     </div>
 
-                    <div className={styles.cardsContainer}>
-                        <Cards
-                        picture="./praiaLugar.jpg" 
-                        text="Praia da Vila"
-                        />
+                    <div>
+                        <div className={styles.cardsContainer} >
+                            <Cards
+                            picture="./blakesAtracao.jpg" 
+                            text="DJ Blakes"
+                            />
 
-                        <Cards
-                        picture="./piscinaLugar.jpg"
-                        text="Piscina do Edifício"
-                        />
+                            <Cards
+                            picture="./fischerAtracao.jpg"
+                            text="Nath Fischer"
+                            />
 
-                        <Cards
-                        picture="./raveLugar.jpg"
-                        text="Rave do Centro"
-                        />
+                            <Cards
+                            picture="./negaoAtracao.jpg"
+                            text="MC Negão Original"
+                            />
 
-                        <Cards
-                        picture="./carrosLugar.jpg"
-                        text="Carros do Bairro"
-                        />
+                            <Cards
+                            picture="./natAtracao.jpg"
+                            text="DJ Nath"
+                            />
+                        </div>
+
+                        <div className={styles.cardsContainer} >
+                            <Cards
+                            picture="./menoAtracao.jpg" 
+                            text="Meno K"
+                            />
+
+                            <Cards
+                            picture="./ninoAtracao.jpg"
+                            text="Nino Abravanel"
+                            />
+
+                            <Cards
+                            picture="./igAtracao.jpg"
+                            text="MC Ig"
+                            />
+
+                            <Cards
+                            picture="./tutoAtracao.jpg"
+                            text="MC Tuto"
+                            />
+                        </div>
                     </div>
                 </div>
 
@@ -104,23 +128,23 @@ export default function Home() {
 
                     <div className={styles.cardsContainer}>
                         <Cards
-                        picture="./praiaLugar.jpg" 
-                        text="Praia da Vila"
+                        picture="./funk.jpg" 
+                        text="Funk"
                         />
 
                         <Cards
-                        picture="./piscinaLugar.jpg"
-                        text="Piscina do Edifício"
+                        picture="./eletro.jpg"
+                        text="Eletrônica"
                         />
 
                         <Cards
-                        picture="./raveLugar.jpg"
-                        text="Rave do Centro"
+                        picture="./reggae.jpg"
+                        text="Reggae"
                         />
 
                         <Cards
-                        picture="./carrosLugar.jpg"
-                        text="Carros do Bairro"
+                        picture="./instrumental.jpg"
+                        text="Instrumental"
                         />
                     </div>
                 </div>
