@@ -4,6 +4,8 @@ import Header from "../../components/Header"
 
 import Button from "../../components/Button"
 
+import Cards from "../../components/Cards"
+
 export default function Home() {
     return (
         <div className={styles.container}>
@@ -35,6 +37,92 @@ export default function Home() {
 
                 <div className={styles.imageText}>
                     <img src="./imageBeach.jpg" alt="" />
+                </div>
+            </div>
+
+            <div className={styles.infos}>
+                <div className={styles.locais}>
+                    <div className={styles.images}>
+                        <img src="./lugares.png" alt="" />
+                    </div>
+
+                    <div className={styles.cardsContainer}>
+                        <Cards
+                        picture="./praiaLugar.jpg" 
+                        text="Praia da Vila"
+                        />
+
+                        <Cards
+                        picture="./piscinaLugar.jpg"
+                        text="Piscina do Edifício"
+                        />
+
+                        <Cards
+                        picture="./raveLugar.jpg"
+                        text="Rave do Centro"
+                        />
+
+                        <Cards
+                        picture="./carrosLugar.jpg"
+                        text="Carros do Bairro"
+                        />
+                    </div>
+                </div>
+
+                <div className={styles.atracoes}>
+                    <div className={styles.images}>
+                        <img src="./atracoes.png" alt="" />
+                    </div>
+
+                    <div className={styles.cardsContainer}>
+                        <Cards
+                        picture="./praiaLugar.jpg" 
+                        text="Praia da Vila"
+                        />
+
+                        <Cards
+                        picture="./piscinaLugar.jpg"
+                        text="Piscina do Edifício"
+                        />
+
+                        <Cards
+                        picture="./raveLugar.jpg"
+                        text="Rave do Centro"
+                        />
+
+                        <Cards
+                        picture="./carrosLugar.jpg"
+                        text="Carros do Bairro"
+                        />
+                    </div>
+                </div>
+
+                <div className={styles.estilos}>
+                    <div className={styles.images}>
+                        <img src="./estilos.png" alt="" />
+                    </div>
+
+                    <div className={styles.cardsContainer}>
+                        <Cards
+                        picture="./praiaLugar.jpg" 
+                        text="Praia da Vila"
+                        />
+
+                        <Cards
+                        picture="./piscinaLugar.jpg"
+                        text="Piscina do Edifício"
+                        />
+
+                        <Cards
+                        picture="./raveLugar.jpg"
+                        text="Rave do Centro"
+                        />
+
+                        <Cards
+                        picture="./carrosLugar.jpg"
+                        text="Carros do Bairro"
+                        />
+                    </div>
                 </div>
             </div>
 

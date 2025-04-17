@@ -1,0 +1,33 @@
+.card {
+    width: 18%;
+    height: 35vh;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    transition: all .7s;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card img {
+    width: 60%;
+    margin-bottom: 5%;
+    margin-top: 7%;
+}
+
+.card h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: rgb(63, 63, 63);
+    margin-bottom: 10%;
+    width: 100%;
+    text-align: center;
+}

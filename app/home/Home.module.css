@@ -80,3 +80,27 @@
     font-size: .9rem;
     font-weight: bold;
 }
+
+.infos {
+    margin-top: 2%;
+    background-color: gray;
+    padding: 2%;
+}
+
+.locais img, .atracoes img, .estilos img {
+    width: 20%;
+    border-radius: 15px;
+}
+
+
+.locais, .atracoes, .estilos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8%;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
