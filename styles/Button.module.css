@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 .button button {
     background: #fff;
@@ -9,18 +9,17 @@
     text-decoration: none;
     width: 20rem;
     font-size: 1rem;
-    font-weight: bold;
     height: 4vh;
     margin-bottom: 10px;
-    border-radius: 20px;
-    transition: .3s ease-in-out;
+    border-radius: 5px;
+    transition: .6s ease-in-out;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .button button:hover {
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-    color: rgb(0, 0, 0);
-    scale: 1.05;
+    transition: .3s ease-in-out;
+    background: #a5a5a5;
+    border-radius: 20px;
+    width: 15rem;
+    color: white;
 }

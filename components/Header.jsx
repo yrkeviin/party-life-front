@@ -12,11 +12,11 @@ export default function Header() {
                     <a href="/home">Home</a>
                 </p>
 
-                <p>
+                <p className={styles.page}>
                     <a href="/">Teste</a>
                 </p>
 
-                <p>
+                <p className={styles.page}>
                     <a href="/">Teste2</a>
                 </p>
             </nav>

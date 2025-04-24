@@ -15,13 +15,12 @@
 
 .navbar h1 {
     margin: 20%;
-    font-size: 2.1rem;
-    font-family: "Montserrat", sans-serif;
+    font-size: 2.4rem;
+    font-family: "Bebas Neue", sans-serif;
 }
 
-.navbar p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 100%;
+.page a {
+    font-family: "Poppins", sans-serif;
 }
 
 .navbar h1 a, .navbar p a {

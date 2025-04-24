@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 .containerBanner {
     background-image: url(/lhamaBackground.png);
@@ -30,8 +30,8 @@
 }
 
 .text {
-    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
+    font-family: "Nunito", sans-serif;
     color: #000000;
     width: 40%;
     background-color: violet;
@@ -74,7 +74,7 @@
     margin-top: 2%;
     height: 20vh;
     align-items: center;
-    background-color: rgb(176, 57, 255);
+    background-color: rgb(161, 161, 161);
     background: linear-gradient(90deg, rgba(122, 5, 201, 0.5) 0%, rgba(255, 255, 255, 0.3) 100%);
     font-family: 'Poppins', sans-serif;
     font-size: .9rem;
@@ -83,13 +83,16 @@
 
 .infos {
     margin-top: 2%;
-    background-color: rgb(204, 128, 255);
+    background: linear-gradient(to right, 
+    #b9a9f1 0%, 
+    #b9a9f1 40%, 
+    #a5e3f8 60%, 
+    #a5e3f8 100%);
     padding: 2%;
 }
 
-.locais img, .atracoes img, .estilos img {
-    width: 20%;
-    border-radius: 15px;
+.images h1, .images h1, .images h1 {
+    font-size: 2rem;
 }
 
 
