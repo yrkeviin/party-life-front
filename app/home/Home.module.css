@@ -39,12 +39,14 @@
     height: 44vh;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.6
+    s, box-shadow 0.2s;
 }
 
 .text:hover {
     transform: scale(1.08);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s, box-shadow 0.2s;
 }
 
 .text p {

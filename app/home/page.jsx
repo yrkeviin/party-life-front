@@ -48,23 +48,38 @@ export default function Home() {
 
                     <div className={styles.cardsContainer}>
                         <Cards
-                        picture="./praiaLugar.jpg" 
-                        text="Praia da Vila"
+                        picture="./bolzaniAtracao.jpg" 
+                        text="📸 Camila Bolzani"
+                        idade="19 anos"
+                        description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
 
                         <Cards
-                        picture="./piscinaLugar.jpg"
-                        text="Piscina do Edifício"
+                        picture="./bolzaniAtracao.jpg" 
+                        text="📸 Camila Bolzani"
+                        idade="19 anos"
+                        description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
 
                         <Cards
-                        picture="./raveLugar.jpg"
-                        text="Rave do Centro"
+                        picture="./bolzaniAtracao.jpg" 
+                        text="📸 Camila Bolzani"
+                        idade="19 anos"
+                        description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
 
                         <Cards
-                        picture="./carrosLugar.jpg"
-                        text="Carros do Bairro"
+                        picture="./bolzaniAtracao.jpg" 
+                        text="📸 Camila Bolzani"
+                        idade="19 anos"
+                        description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                        />
+
+                        <Cards
+                        picture="./bolzaniAtracao.jpg" 
+                        text="📸 Camila Bolzani"
+                        idade="19 anos"
+                        description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
                     </div>
                 </div>
@@ -159,24 +174,40 @@ export default function Home() {
 
                     <div className={styles.cardsContainer}>
                         <Cards
-                        picture="./funk.jpg" 
-                        text="Funk"
+                        picture="./bolzaniAtracao.jpg" 
+                        text="📸 Camila Bolzani"
+                        idade="19 anos"
+                        description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
 
                         <Cards
-                        picture="./eletro.jpg"
-                        text="Eletrônica"
+                        picture="./bolzaniAtracao.jpg" 
+                        text="📸 Camila Bolzani"
+                        idade="19 anos"
+                        description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
 
                         <Cards
-                        picture="./reggae.jpg"
-                        text="Reggae"
+                        picture="./bolzaniAtracao.jpg" 
+                        text="📸 Camila Bolzani"
+                        idade="19 anos"
+                        description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
 
                         <Cards
-                        picture="./instrumental.jpg"
-                        text="Instrumental"
+                        picture="./bolzaniAtracao.jpg" 
+                        text="📸 Camila Bolzani"
+                        idade="19 anos"
+                        description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
+
+                        <Cards
+                        picture="./bolzaniAtracao.jpg" 
+                        text="📸 Camila Bolzani"
+                        idade="19 anos"
+                        description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                        />
+
                     </div>
                 </div>
             </div>
