@@ -77,45 +77,76 @@ export default function Home() {
                     <div>
                         <div className={styles.cardsContainer} >
                             <Cards
+                            picture="./bolzaniAtracao.jpg" 
+                            text="📸 Camila Bolzani"
+                            idade="19 anos"
+                            description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                            />
+
+                            <Cards
                             picture="./blakesAtracao.jpg" 
-                            text="DJ Blakes"
+                            text="🤖 DJ Blakes"
+                            idade="18 anos"
+                            description="DJ e produtora de funk paulista, presença confirmada nas melhores festas!"
                             />
 
                             <Cards
                             picture="./fischerAtracao.jpg"
-                            text="Nath Fischer"
+                            text="💄 Nath Fischer"
+                            idade="20 anos"
+                            description="Modelo e influencer, compartilha lifestyle e beleza com autenticidade."
                             />
 
                             <Cards
                             picture="./negaoAtracao.jpg"
-                            text="MC Negão Original"
+                            idade="25 anos"
+                            text="🔥 MC Negão"
+
+                            description="Voz potente e estilo único no funk consciente, respeitado dentro e fora das favelas."
                             />
 
                             <Cards
                             picture="./natAtracao.jpg"
-                            text="DJ Nath"
+                            text="🎵 DJ Nath"
+                            idade="24 anos"
+                            description="DJ de sucesso nas maiores festas do Brasil, mistura carisma e talento."
                             />
                         </div>
 
                         <div className={styles.cardsContainer} >
                             <Cards
                             picture="./menoAtracao.jpg" 
-                            text="Meno K"
+                            text="🎧 Meno K"
+                            idade="22 anos"
+                            description="Jovem talento do funk, com estilo autêntico e batidas contagiantes."
                             />
 
                             <Cards
                             picture="./ninoAtracao.jpg"
-                            text="Nino Abravanel"
+                            text="🎭 Nino Abravanel"
+                            idade="18 anos"
+                            description="Influencer e artista irreverente, sempre presente nos rolês mais hypados."
                             />
 
                             <Cards
                             picture="./igAtracao.jpg"
-                            text="MC Ig"
+                            text="🎶 MC Ig"
+                            idade="27 anos"
+                            description="Um dos nomes mais fortes do funk atual, com letras marcantes e flow envolvente."
+                            />
+
+                            <Cards
+                            picture="./dojaAtracao.jpg"
+                            text="🌟 Doja Cat"
+                            idade="29 anos"
+                            description="Cantora e rapper internacional, mistura pop e hip-hop com atitude única."
                             />
 
                             <Cards
                             picture="./tutoAtracao.jpg"
-                            text="MC Tuto"
+                            text="🎤 MC Tuto"
+                            idade="23 anos"
+                            description="Revelação do funk paulista, conhecido por hits que bombam nas pistas."
                             />
                         </div>
                     </div>
