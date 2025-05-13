@@ -36,7 +36,7 @@ export default function Home() {
                 </div>
 
                 <div className={styles.imageText}>
-                    <img src="./imageBeach.jpg" alt="" />
+                    <img src="./logo.png" alt="" />
                 </div>
             </div>
 
@@ -48,37 +48,32 @@ export default function Home() {
 
                     <div className={styles.cardsContainer}>
                         <Cards
-                        picture="./bolzaniAtracao.jpg" 
-                        text="📸 Camila Bolzani"
-                        idade="19 anos"
+                        picture="./piscina.png" 
+                        text="🏖️ Pool Partys"
                         description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
 
                         <Cards
-                        picture="./bolzaniAtracao.jpg" 
-                        text="📸 Camila Bolzani"
-                        idade="19 anos"
+                        picture="./rave.png" 
+                        text="🎉 Raves Fest"
                         description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
 
                         <Cards
-                        picture="./bolzaniAtracao.jpg" 
-                        text="📸 Camila Bolzani"
-                        idade="19 anos"
+                        picture="./carro.png" 
+                        text="🚗 Encontro Carros"
                         description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
 
                         <Cards
-                        picture="./bolzaniAtracao.jpg" 
-                        text="📸 Camila Bolzani"
-                        idade="19 anos"
+                        picture="./praia.png" 
+                        text="🏖️ Festas na Praia"
                         description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
 
                         <Cards
-                        picture="./bolzaniAtracao.jpg" 
-                        text="📸 Camila Bolzani"
-                        idade="19 anos"
+                        picture="./resenha.png" 
+                        text="🏠 Resenhas em Casa"
                         description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
                     </div>
