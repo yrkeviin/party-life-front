@@ -13,7 +13,7 @@ export default function Header() {
                 </p>
 
                 <p className={styles.page}>
-                    <a href="/">Teste</a>
+                    <a href="/feed">Teste</a>
                 </p>
 
                 <p className={styles.page}>

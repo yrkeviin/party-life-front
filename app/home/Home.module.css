@@ -36,7 +36,6 @@
     width: 40%;
     background-color: violet;
     padding: 2%;
-    height: 44vh;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.6
@@ -112,5 +111,5 @@
 .cardsContainer {
     display: flex;
     justify-content: space-around;
-    margin-top: 2%;
+    margin-bottom: 10%;
 }
