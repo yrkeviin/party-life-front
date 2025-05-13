@@ -2,9 +2,7 @@ import styles from "./Feed.module.css";
 
 import Header from "../../components/Header"
 
-import Button from "../../components/Button"
-
-import Cards from "../../components/Cards"
+import Post from "../../components/Posts"
 
 export default function Feed() {
     return (
@@ -15,6 +13,16 @@ export default function Feed() {
                     <img src="/textVemP-removebg-preview.png" alt="" />
                 </div>
             </div>
+
+            <div className={styles.separation}>
+            </div>
+
+            <Post 
+            textName="@menorKabrinha"
+            picture="./raveBanner.jpg"
+            local="Praia do Leme, Rio de Janeiro"
+            button="Festa na Praia"
+            />
         </div>
     );
 }

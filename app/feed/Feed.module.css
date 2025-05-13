@@ -8,3 +8,11 @@
     height: 70vh;
     text-align: center;
 }
+
+.separation {
+    margin: 0;
+    padding: 0;
+    height: 20vh;
+    background-color: #cc7aff;
+    width: 100%;
+}

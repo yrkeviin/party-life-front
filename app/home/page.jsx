@@ -111,7 +111,6 @@ export default function Home() {
                             picture="./negaoAtracao.jpg"
                             idade="25 anos"
                             text="🔥 MC Negão"
-
                             description="Voz potente e estilo único no funk consciente, respeitado dentro e fora das favelas."
                             />
 
