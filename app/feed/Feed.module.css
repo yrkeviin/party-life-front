@@ -1,3 +1,7 @@
+.container {
+    background: linear-gradient(to right, #3da6b4, #f3f3f3);
+}
+
 .containerBanner {
     background-image: url(/lhamaBackground.png);
     background-color: rgba(0, 0, 0, 0.5);
@@ -15,10 +19,41 @@
     height: 20vh;
     background-color: #cc7aff;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separation input {
+    width: 30%;
+    height: 23%;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1%;
+    border-radius: 15px 0 0 15px;
+}
+
+.separation button {
+    height: 23%;
+    border: none;
+    width: 3.2%;
+    background-color: #ffffff;
+    transition: .3s ease-in-out;
+    border-radius: 0 15px 15px 0;
+}
+
+.separation button:hover {
+    cursor: pointer;
+    background-color: #c9c9c9;
+    transition: .3s ease-in-out;
 }
 
 .feed {
     display: flex;
+}
+
+.separation2 {
+    height: 10rem;
 }
 
 @media screen and (max-width: 1579px) {
