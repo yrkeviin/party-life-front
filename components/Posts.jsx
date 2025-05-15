@@ -9,7 +9,9 @@ export default function Posts({ textName, picture, local, button }) {
 
             <div className={styles.action}>
                 <h4>{local}</h4>
-                <button><a href="">{button}</a></button>
+                <button>
+                    <a href="/detalheRaveCor">Ver Detalhes</a>
+                </button>
             </div>
         </div>
     );
