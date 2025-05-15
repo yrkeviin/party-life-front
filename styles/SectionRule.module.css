@@ -1,0 +1,21 @@
+.section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #ffffff15;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+  
+.section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.section-red {
+    border-left: 6px solid #ff4c4c;
+}
+  
+.section-green {
+    border-left: 6px solid #4cff4c;
+    font-family: 'Arial', sans-serif;
+}
