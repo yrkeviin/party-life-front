@@ -4,7 +4,7 @@
     background-color: #cc7aff;
     width: 30%;
     height: 50vh;
-    margin: 6% auto;
+    margin: 2% auto;
     border-radius: 40px;
 }
 
@@ -60,3 +60,93 @@
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 1579px) {
+    .post {
+        height: 35vh;
+        width: 40%;
+    }
+
+    .post img {
+        height: 60%;
+    }
+
+    .action {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .action button {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 1203px) {
+    .post {
+        height: 30vh;
+        width: 40%;
+    }
+
+    .post img {
+        height: 60%;
+    }
+
+    .action {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .action button {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .post {
+        height: 40vh;
+        width: 50%;
+    }
+
+    .post img {
+        height: 60%;
+    }
+
+    .action {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .action button {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 679px) {
+    .post {
+        height: 40vh;
+        width: 80%;
+        
+    }
+
+    .post img {
+        height: 60%;
+    }
+
+    .action {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .action button {
+        width: 50%;
+        height: 50%;
+    }
+}
+
