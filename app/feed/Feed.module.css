@@ -16,3 +16,7 @@
     background-color: #cc7aff;
     width: 100%;
 }
+
+.feed {
+    display: flex;
+}

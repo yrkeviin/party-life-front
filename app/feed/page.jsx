@@ -17,12 +17,97 @@ export default function Feed() {
             <div className={styles.separation}>
             </div>
 
-            <Post 
-            textName="@menorKabrinha"
-            picture="./raveBanner.jpg"
-            local="Praia do Leme, Rio de Janeiro"
-            button="Festa na Praia"
-            />
+            <div className={styles.feed}>
+                <Post 
+                textName="@menorKabrinha"
+                picture="./raveBanner.jpg"
+                local="Praia do Leme, Rio de Janeiro"
+                button="Ver Detalhes"
+                />
+
+                <Post 
+                textName="@menorKabrinha"
+                picture="./raveBanner.jpg"
+                local="Praia do Leme, Rio de Janeiro"
+                button="Ver Detalhes"
+                />
+
+                <Post 
+                textName="@menorKabrinha"
+                picture="./raveBanner.jpg"
+                local="Praia do Leme, Rio de Janeiro"
+                button="Ver Detalhes"
+                />
+            </div>
+
+            <div className={styles.feed}>
+                <Post 
+                textName="@menorKabrinha"
+                picture="./raveBanner.jpg"
+                local="Praia do Leme, Rio de Janeiro"
+                button="Ver Detalhes"
+                />
+
+                <Post 
+                textName="@menorKabrinha"
+                picture="./raveBanner.jpg"
+                local="Praia do Leme, Rio de Janeiro"
+                button="Ver Detalhes"
+                />
+
+                <Post 
+                textName="@menorKabrinha"
+                picture="./raveBanner.jpg"
+                local="Praia do Leme, Rio de Janeiro"
+                button="Ver Detalhes"
+                />
+            </div>
+
+            <div className={styles.feed}>
+                <Post 
+                textName="@menorKabrinha"
+                picture="./raveBanner.jpg"
+                local="Praia do Leme, Rio de Janeiro"
+                button="Ver Detalhes"
+                />
+
+                <Post 
+                textName="@menorKabrinha"
+                picture="./raveBanner.jpg"
+                local="Praia do Leme, Rio de Janeiro"
+                button="Ver Detalhes"
+                />
+
+                <Post 
+                textName="@menorKabrinha"
+                picture="./raveBanner.jpg"
+                local="Praia do Leme, Rio de Janeiro"
+                button="Ver Detalhes"
+                />
+            </div>
+
+            <div className={styles.feed}>
+                <Post 
+                textName="@menorKabrinha"
+                picture="./raveBanner.jpg"
+                local="Praia do Leme, Rio de Janeiro"
+                button="Ver Detalhes"
+                />
+
+                <Post 
+                textName="@menorKabrinha"
+                picture="./raveBanner.jpg"
+                local="Praia do Leme, Rio de Janeiro"
+                button="Ver Detalhes"
+                />
+
+                <Post 
+                textName="@menorKabrinha"
+                picture="./raveBanner.jpg"
+                local="Praia do Leme, Rio de Janeiro"
+                button="Ver Detalhes"
+                />
+            </div>
         </div>
     );
 }
