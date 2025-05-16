@@ -1,7 +1,17 @@
+'use client';
+
 import styles from './Page.module.css';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
-export default function login() {
+
+export default function Login() {
+    const router = useRouter();
+
+    function handleLogin() {
+        router.push('/home');
+    }
+
     return (
         <div className={styles.container}>
             <Image src="/logopartylife.png" alt="Logo PARTY LIFE" width={450} height={200} className={styles.image} />
@@ -25,7 +35,7 @@ export default function login() {
                     />
                 </div>
             </div>
-            <div className={styles.entrarButton}> Entrar </div>
+            <div className={styles.entrarButton} onClick={handleLogin}>Entrar</div>
         </div>
     );
 }

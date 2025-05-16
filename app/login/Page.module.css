@@ -36,27 +36,25 @@
 .inputGroup {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 0.2rem;
+    align-items: flex-start;
+    width: 50%;
+    gap: 0.5rem;
     color: white;
     font-weight: bold;
     font-size: 1rem;
-}  
+}
 
 .label {
-    display: flex;
-    align-items: flex-start;
-    margin-left: 0.2rem;
     color: #ffffff;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    margin-left: 0.2rem;
 }
 
 .emailInput, .senhaInput {
     background-color: #ffffff;
     color: #c36cff;
-    width: 50%;
+    width: 100%;
     height: 3.5rem;
     border-radius: 10px;
     border: none;
@@ -80,6 +78,9 @@
 }
 
 .entrarButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #c36cff;
     color: #ffffff;
     width: 50%;
@@ -91,4 +92,5 @@
     border: none;
     cursor: pointer;
     text-align: center;
+    font-size: 32px;
 }
