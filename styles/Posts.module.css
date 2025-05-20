@@ -50,10 +50,9 @@
 }
 
 .action button:hover {
-    background-color: rgb(132, 72, 230);
+    background-color: rgb(91, 48, 160);
     transition: .4s ease-in-out;
     cursor: pointer;
-    font-weight: bold;
 }
 
 .action button a {
@@ -63,8 +62,8 @@
 
 @media screen and (max-width: 1579px) {
     .post {
-        height: 35vh;
-        width: 40%;
+        height: 50vh;
+        width: 30%;
     }
 
     .post img {
@@ -75,6 +74,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        gap: 1rem;
     }
 
     .action button {

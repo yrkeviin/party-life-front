@@ -14,9 +14,11 @@
 .infoContainer h1 {
     font-size: 7rem;
     color: #fff;
+    display: flex;
 }
 
 .infoContainer p {
     font-size: 1.5rem;
     font-family: 'Open Sans', sans-serif;
 }
+
