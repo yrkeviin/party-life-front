@@ -1,23 +1,43 @@
+.containerBanner {
+  background-image: url(/raveBanner.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  text-align: center;
+}
+
+.textBanner {
+  margin-top: 4%;
+  color: white;
+}
+
+.textBanner img { 
+  width: 24%;
+}
+
 .hero {
-    background-image: url('/assets/party-background.jpg'); /* atualize com a imagem correta */
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-  }
+  background-image: url('/assets/party-background.jpg'); /* atualize com a imagem correta */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
   
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 2rem;
-    text-align: center;
-    border-radius: 12px;
-  }
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 12px;
+}
   
-  .overlay h2 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-  }
+.overlay h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
