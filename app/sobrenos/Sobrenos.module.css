@@ -3,15 +3,76 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
+}
+
+.subHeader {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #7d5691;
+    text-align: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.imageteam {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.content {
     background-color: #7d5691;
 }
 
-/* .subHeader */
-/* .text */
-/* .image */
-/* .content */
-/* .textContent */
-/* .descript */
-/* .teamContent */
-/* .teamCards */
-/* .textjoin */
+.textContent {
+    display: flex;
+    width:100%;
+    height: 50vh;
+    margin: 2rem;
+}
+
+.descript {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+
+}
+
+.teamContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.teamtitle {
+    display: flex;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .contentjoin */
