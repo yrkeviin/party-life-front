@@ -17,7 +17,7 @@ export default function Header() {
                 </p>
 
                 <p className={styles.page}>
-                    <a href="/">Sobre Nós</a>
+                    <a href="/sobrenos">Sobre Nós</a>
                 </p>
             </nav>
         </div>
