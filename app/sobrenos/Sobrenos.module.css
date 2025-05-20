@@ -3,10 +3,16 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #7d5691;
+    background-color: #ffffff;
 }
 
-/* .subHeader */
+.subHeader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #7d5691;
+}
 /* .text */
 /* .image */
 /* .content */
