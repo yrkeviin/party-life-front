@@ -1,0 +1,24 @@
+.card {
+    background-color: #ca0000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+}
+
+.nome {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.fotocontainer {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.funcao {
+    font-size: 18px;
+    color: #666;
+}
