@@ -1,10 +1,10 @@
 import React from "react";
-import SectionInfo from "../../components/SectionInfo";
 import Footer from "../../components/Footer";
 import List from "../../components/List";
 import styles from "./DetalheRaveCor.module.css";
 import Header from "../../components/Header";
-import InfoDetalhes from "../../components/InfoDetalhes"
+import InfoDetalhes from "../../components/InfoDetalhes";
+import DescSeparador from "../../components/DescSeparador";
 
 export default function App() {
 return (
@@ -21,11 +21,15 @@ return (
                 />
             </div>
         </div>
+        <div>
+            <DescSeparador
+            text="teste"
+            />
+        </div>
 
         <main className={styles.mainContent}>
             <div className={styles.redSection}>
                 <h2 className={styles.sectionTitle}>REGRAS</h2>
-                <SectionInfo />
                 <List items={[
                     "Respeito é essencial – atitudes racistas, homofóbicas ou violentas resultarão em expulsão.",
                     "Som externo é proibido - DJs oficiais garantem a música.",
@@ -38,7 +42,6 @@ return (
 
             <div className={styles.greenSection}>
                 <h2 className={styles.sectionTitle}>O QUE TERÁ NA FESTA?</h2>
-                <SectionInfo />
                 <List items={[
                     "Line-up de DJs insanos com os melhores nomes do eletrônico, trance e tech house.",
                     "Open bar premium (em algumas áreas) e drinks exclusivos.",
@@ -48,7 +51,6 @@ return (
 
             <div className={styles.greenSection}>
                 <h2 className={styles.sectionTitle}>O QUE LEVAR PARA A FESTA?</h2>
-                <SectionInfo />
                 <List items={[
                     "Protetor solar (se a festa for ao ar livre durante o dia).",
                     "Documento com foto (RG, CNH ou versão digital – obrigatório para entrada).",
