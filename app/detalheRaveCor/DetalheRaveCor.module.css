@@ -26,4 +26,24 @@
   margin-left: 10%;
 }
 
+.redSection {
+  margin-bottom: 5%;
+}
 
+.greenSection {
+  margin-bottom: 5%;
+}
+
+.hashtags h2{
+  margin-bottom: 1%;
+}
+
+.redSection h2 {
+  color: red;
+  margin-bottom: 1%;
+}
+
+.greenSection h2 {
+  color: green;
+  margin-bottom: 1%;
+}
