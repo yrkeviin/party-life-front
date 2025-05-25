@@ -18,13 +18,13 @@ export default function Header() {
                     <p className={styles.page}>
                         <a href="/feed">Feed</a>
                     </p>
-
+                    
                     <p className={styles.page}>
-                        <a href="/sobrenos">Sobre Nós</a>
+                        <a href="/profile">Perfil</a>
                     </p>
 
                     <p className={styles.page}>
-                        <a href="/profile">Perfil</a>
+                        <a href="/sobrenos">Sobre Nós</a>
                     </p>
                 </div>
             </nav>
