@@ -22,6 +22,10 @@ export default function Header() {
                     <p className={styles.page}>
                         <a href="/sobrenos">Sobre Nós</a>
                     </p>
+
+                    <p className={styles.page}>
+                        <a href="/profile">Perfil</a>
+                    </p>
                 </div>
             </nav>
         </div>
