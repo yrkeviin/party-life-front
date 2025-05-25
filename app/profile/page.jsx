@@ -7,7 +7,7 @@ export default function Profile() {
     return (
         <div className={styles.container}>
             <div className={styles.content}>
-                <Header />
+                < Header />
                 <div className={styles.profileinfo}>
                     <div className={styles.profileimage}>
                         <img src="/profilePic.png" alt="Profile Picture" className={styles.image}/>
@@ -28,6 +28,7 @@ export default function Profile() {
                     </div>
                 </div>
             </div>
+            < Footer />
         </div>
     );
 }

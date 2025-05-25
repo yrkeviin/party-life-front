@@ -18,7 +18,7 @@
     color: white;
 }
 
-.textBanner img { 
+.textBanner img {
     width: 24%;
 }
 
@@ -38,8 +38,7 @@
     padding: 2%;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.6
-    s, box-shadow 0.2s;
+    transition: transform 0.6 s, box-shadow 0.2s;
     transition: .4s ease-in-out;
 }
 
@@ -72,31 +71,59 @@
 
 .infos {
     margin-top: 2%;
-    background: linear-gradient(to right, 
-    #b9a9f1 0%, 
-    #b9a9f1 40%, 
-    #a5e3f8 60%, 
-    #a5e3f8 100%);
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
     padding: 2%;
 }
 
-.images h1, .images h1, .images h1 {
+.images h1,
+.images h1,
+.images h1 {
     font-size: 2rem;
     margin-left: 2.5%;
 }
 
-
-.locais, .atracoes, .estilos {
+.locais,
+.atracoes,
+.estilos {
     display: flex;
     flex-direction: column;
     margin-bottom: 8%;
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 .cardsContainer {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .containerContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text, .imageText {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .cardsContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardsContainer > * {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    .images h1 {
+        text-align: center;
+        margin-left: 0;
+    }
 }
