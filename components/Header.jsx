@@ -18,7 +18,7 @@ export default function Header() {
                     <p className={styles.page}>
                         <a href="/feed">Feed</a>
                     </p>
-                    
+
                     <p className={styles.page}>
                         <a href="/profile">Perfil</a>
                     </p>

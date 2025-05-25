@@ -44,7 +44,8 @@
     margin-left: 0.2rem;
 }
 
-.emailInput, .senhaInput {
+.emailInput,
+.senhaInput {
     background-color: #ffffff;
     color: #c36cff;
     width: 100%;

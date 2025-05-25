@@ -107,7 +107,8 @@
         align-items: center;
     }
 
-    .text, .imageText {
+    .text,
+    .imageText {
         width: 90%;
         margin-bottom: 5%;
     }
@@ -117,7 +118,7 @@
         align-items: center;
     }
 
-    .cardsContainer > * {
+    .cardsContainer>* {
         margin-bottom: 20px;
         width: 90%;
     }

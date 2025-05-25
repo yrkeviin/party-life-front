@@ -10,7 +10,7 @@ export default function Profile() {
                 < Header />
                 <div className={styles.profileinfo}>
                     <div className={styles.profileimage}>
-                        <img src="/profilePic.png" alt="Profile Picture" className={styles.image}/>
+                        <img src="/profilePic.png" alt="Profile Picture" className={styles.image} />
                     </div>
                     <div className={styles.profiletext}>
                         <h1>Enzo Turcovic</h1>

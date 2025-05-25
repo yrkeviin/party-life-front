@@ -13,14 +13,14 @@
 
 .infos {
     margin-top: 2%;
-    background: linear-gradient(to right, 
-    #b9a9f1 0%, 
-    #b9a9f1 40%, 
-    #a5e3f8 60%, 
-    #a5e3f8 100%);
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
     padding: 2%;
 }
 
 .footerContent {
-        margin: 0 2%; 
+    margin: 0 2%;
 }
