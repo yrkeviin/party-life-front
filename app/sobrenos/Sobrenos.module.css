@@ -21,7 +21,7 @@
 .text {
     font-size: 32px;
     color: #ffffff;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .imagecard {
@@ -44,10 +44,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .textContent {
     display: flex;
+    justify-content: center;
     height: 50vh;
     margin: 2rem;
 }
@@ -61,7 +63,7 @@
     justify-content: center;
     align-items: center;
     letter-spacing: 1px;
-    width: 70rem;
+    width: 70%;
 }
 
 .teamContent {
@@ -105,6 +107,7 @@
 
 .descriptionjoin {
     font-size: 24px;
+    font-weight: bold;
     color: #ffffff;
     text-align: center;
     margin: 1rem;
