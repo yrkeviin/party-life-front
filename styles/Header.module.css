@@ -9,14 +9,17 @@
     width: 100%;
     align-items: center;
     gap: 3rem;
-    background-color: rgb(176, 57, 255);
-    background: linear-gradient(90deg, rgba(122, 5, 201, 0.5) 0%, rgba(255, 255, 255, 0.3) 100%);
+    background-color: #b039ff;
+    background: linear-gradient(90deg, #7a05c980 0%, #ffffff4d 100%);
+    justify-content: space-between;
+    padding: 3rem;
 }
 
 .navbar h1 {
-    margin: 20%;
+    margin: 0;
     font-size: 2.4rem;
     font-family: "Bebas Neue", sans-serif;
+    width: 30%;
 }
 
 .page a {
@@ -25,19 +28,57 @@
 
 .navbar h1 a, .navbar p a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     transition: .3s ease-in-out;
     border-bottom: 2px solid transparent;
 }
 
 .navbar h1 a:hover {
-    color: rgb(0, 0, 0);
+    color: #000000;
     transition: .3s ease-in-out;
 }
 
 .navbar p a:hover {
-    color: rgb(0, 0, 0);
+    color: #000000;
     transition: .3s ease-in-out;
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid #000000;
 }
 
+.logo {
+    flex: 1;
+}
+
+.links {
+    display: flex;
+    gap: 5rem;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 0.5rem;
+    }
+
+    .page {
+        margin: 0;
+    }
+
+    .page a {
+        display: block;
+        width: auto;
+    }
+
+    .logo h1 {
+        margin: 0;
+    }
+}

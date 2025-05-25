@@ -7,7 +7,7 @@ export default function CardSobreNos({ nome, foto, funcao }) {
                 <h2>{nome}</h2>
             </div>
             <div className={styles.fotocontainer}>
-                <img src={foto} alt={nome} width={200} height={200} />
+                <img src={foto} alt={nome} width={200} height={200} className={styles.fotocontent}/>
             </div>
             <div className={styles.funcao}>
                 <p>{funcao}</p>

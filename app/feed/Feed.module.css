@@ -50,10 +50,13 @@
 
 .feed {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .separation2 {
-    height: 10rem;
+    height: 1rem;
 }
 
 @media screen and (max-width: 1579px) {
