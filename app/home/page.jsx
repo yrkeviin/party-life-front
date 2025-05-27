@@ -166,38 +166,66 @@ export default function Home() {
 
                     <div className={styles.cardsContainer}>
                         <Cards
-                            picture="./bolzaniAtracao.jpg"
-                            text="📸 Camila Bolzani"
-                            idade="19 anos"
-                            description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                            picture="./eletrônica_style.png"
+                            text="🎧 Eletônica"
+                            description="Mergulhe nas batidas pulsantes da música eletrônica e sinta a energia contagiante da pista de dança!"
                         />
 
                         <Cards
-                            picture="./bolzaniAtracao.jpg"
-                            text="📸 Camila Bolzani"
-                            idade="19 anos"
-                            description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                            picture="./rock_style.png"
+                            text="🎸 Rock"
+                            description="Sinta a força do rock com guitarras marcantes e riffs que elevam qualquer festa a outro nível!"
                         />
 
                         <Cards
-                            picture="./bolzaniAtracao.jpg"
-                            text="📸 Camila Bolzani"
-                            idade="19 anos"
-                            description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                            picture="./pop_style.png"
+                            text="🪩 Pop"
+                            description="Curta os hits do pop, com melodias cativantes e ritmo alegre que animam qualquer evento!"
                         />
 
                         <Cards
-                            picture="./bolzaniAtracao.jpg"
-                            text="📸 Camila Bolzani"
-                            idade="19 anos"
-                            description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                            picture="./jazz_style.png"
+                            text="🎷 Jazz"
+                            description="Desfrute do charme do jazz, com improvisos e sonoridades que trazem sofisticação e descontração!"
                         />
 
                         <Cards
-                            picture="./bolzaniAtracao.jpg"
-                            text="📸 Camila Bolzani"
-                            idade="19 anos"
-                            description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                            picture="./hip-hop_style.png"
+                            text="🎤 Hip-Hop"
+                            description="Entre no ritmo do hip-hop, com rimas poderosas e batidas urbanas que fazem a festa ferver!"
+                        />
+
+                    </div>
+
+                    <div className={styles.cardsContainer}>
+                        <Cards
+                            picture="./clássica_style.png"
+                            text="🎻 Clássica"
+                            description="Encante-se com a sofisticação da música clássica, perfeita para criar um clima elegante e inesquecível no seu evento!"
+                        />
+
+                        <Cards
+                            picture="./funk_style.png"
+                            text="🎵 Funk"
+                            description="Solte a energia com batidas marcantes e letras que celebram a festa, a diversão e o ritmo contagiante do funk!"
+                        />
+
+                        <Cards
+                            picture="./sertanejo_style.png"
+                            text="💃 Sertanejo"
+                            description="Viva a emoção do sertanejo, com canções que falam de amor e festa, garantindo animação e clima de rodeio!"
+                        />
+
+                        <Cards
+                            picture="./reggae_style.png"
+                            text="🤟 Reggae"
+                            description="Deixe o clima relaxar com o reggae, trazendo vibrações positivas e muita paz para sua festa!"
+                        />
+
+                        <Cards
+                            picture="./trap_style.png"
+                            text="💸 Trap"
+                            description="Eleve a vibe com o trap, o som urbano e moderno que mistura batidas eletrônicas intensas e muita atitude!"
                         />
 
                     </div>
