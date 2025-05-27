@@ -11,6 +11,26 @@
     gap: 10px;
 }
 
+.card img {
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.card img:hover {
+    filter: grayscale(0);
+    border: 0;
+    transform: translateY(-10px);
+    width: 300px;
+
+}
+
+.card span {
+    margin-top: 1.7rem;
+    color: #b6b6b6;
+}
+
 .nome {
     display: flex;
     justify-content: center;

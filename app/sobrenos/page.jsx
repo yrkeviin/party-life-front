@@ -34,13 +34,13 @@ export default function Sobrenos() {
                     <h1>Sobre o PARTYLIFE!</h1>
                 </div>
             </div>
-            <div className={styles.imagecard}>
+            <div className={styles.imageCard}>
                 <Image
                     src="/bannerPraia.jpg"
                     alt="Logo PARTY LIFE"
                     width={850}
                     height={600}
-                    className={styles.imageteam}
+                    className={styles.imageTeam}
                 />
             </div>
 
@@ -55,7 +55,7 @@ export default function Sobrenos() {
                 </div>
 
                 <div className={styles.teamContent}>
-                    <h2 className={styles.teamtitle}>Nossa equipeee!</h2>
+                    <h2 className={styles.teamTitle}>Nossa equipeee!</h2>
                     <div className={styles.teamCards}>
                         <CardSobreNos
                             nome="Maria Parma"
@@ -90,41 +90,9 @@ export default function Sobrenos() {
                     </div>
                 </div>
 
-                <div className={styles.equipe}>
-                    <div className={styles.membroEquipe}>
-                        <img src="/profileenzo.png" alt="amanssa" />
-                        <span>Amanda Mechi</span>
-                    </div>
-
-                    <div className={styles.membroEquipe}>
-                        <img src="assets/images/gilca.jpeg" alt="gi" />
-                        <span>Giovanna Caron</span>
-                    </div>
-
-                    <div className={styles.membroEquipe}>
-                        <img src="assets/images/tavia.jpeg" alt="fla" />
-                        <span>Flavia Mendes</span>
-                    </div>
-
-                    <div className={styles.membroEquipe}>
-                        <img src="assets/images/ju.jpeg" alt="ju" />
-                        <span>Julia Neves</span>
-                    </div>
-
-                    <div className={styles.membroEquipe}>
-                        <img src="assets/images/ana ju.jpeg" alt="naju" />
-                        <span>Ana Julia</span>
-                    </div>
-
-                    <div className={styles.membroEquipe}>
-                        <img src="assets/images/kevin22.jpeg" alt="kevi" />
-                        <span>Kevin Lima</span>
-                    </div>
-                </div>
-
-                <div className={styles.contentjoin}>
-                    <h2 className={styles.titlejoin}>Junte-se a Nós!</h2>
-                    <p className={styles.descriptionjoin}>
+                <div className={styles.contentJoin}>
+                    <h2 className={styles.titleJoin}>Junte-se a Nós!</h2>
+                    <p className={styles.descriptionJoin}>
                         Se você ama festas e quer fazer parte de uma comunidade vibrante,
                         junte-se ao PartyLife hoje mesmo! Estamos ansiosos para ver suas
                         fotos e ouvir suas histórias de festa.
