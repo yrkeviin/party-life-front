@@ -69,31 +69,31 @@ export default function Home() {
                         <Cards
                             picture="./piscina.png"
                             text="🏖️ Pool Partys"
-                            description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                            description="Mergulhe na vibe das pool parties! Música alta, sol, piscina e muita animação em festas que são a cara do verão."
                         />
 
                         <Cards
                             picture="./rave.png"
                             text="🎉 Raves Fest"
-                            description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                            description="Sinta a batida das raves com DJs incríveis, luzes intensas e uma atmosfera eletrizante que dura até o amanhecer."
                         />
 
                         <Cards
                             picture="./carro.png"
                             text="🚗 Encontro Carros"
-                            description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                            description="Para os apaixonados por motores! Encontros com carros tunados, som automotivo e um clima cheio de adrenalina."
                         />
 
                         <Cards
                             picture="./praia.png"
                             text="🏖️ Festas na Praia"
-                            description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                            description="Areia nos pés, pôr do sol e som rolando! Festas na praia trazem a energia perfeita para curtir com os amigos à beira-mar."
                         />
 
                         <Cards
                             picture="./resenha.png"
                             text="🏠 Festas em Casa"
-                            description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                            description="Clima íntimo, boas risadas e amigos. As festas em casa são perfeitas para quem gosta de curtir com conforto."
                         />
                     </div>
                 </div>
@@ -123,7 +123,7 @@ export default function Home() {
                                 picture="./fischerAtracao.jpg"
                                 text="💄 Nath Fischer"
                                 idade="20 anos"
-                                description="Modelo e influencer, compartilha lifestyle e beleza com autenticidade."
+                                description="Modelo e influencer, compartilha lifestyle e beleza com autenticidade com o púbico."
                             />
 
                             <Cards
@@ -137,7 +137,7 @@ export default function Home() {
                                 picture="./natAtracao.jpg"
                                 text="🎵 DJ Nath"
                                 idade="24 anos"
-                                description="DJ de sucesso nas maiores festas do Brasil, mistura carisma e talento."
+                                description="DJ de sucesso nas maiores festas do Brasil, mistura carisma e talento em seus shows."
                             />
                         </div>
 
@@ -146,14 +146,14 @@ export default function Home() {
                                 picture="./menoAtracao.jpg"
                                 text="🎧 Meno K"
                                 idade="22 anos"
-                                description="Jovem talento do funk, com estilo autêntico e batidas contagiantes."
+                                description="Jovem talento do funk, estilo autêntico e batidas contagiantes de animar a festa."
                             />
 
                             <Cards
                                 picture="./ninoAtracao.jpg"
-                                text="🎭 Nino Abravanel"
+                                text="🎭 Nino"
                                 idade="18 anos"
-                                description="Influencer e artista irreverente, sempre presente nos rolês mais hypados."
+                                description="Influencer e artista, sempre presente nos rolês mais hypados do momento."
                             />
 
                             <Cards
@@ -189,7 +189,7 @@ export default function Home() {
                         <Cards
                             picture="./eletrônica_style.png"
                             text="🎧 Eletônica"
-                            description="Mergulhe nas batidas pulsantes da música eletrônica e sinta a energia contagiante da pista de dança!"
+                            description="Mergulhe nas batidas pulsantes da música eletrônica e sinta a energia eletrizante!"
                         />
 
                         <Cards
@@ -201,7 +201,7 @@ export default function Home() {
                         <Cards
                             picture="./pop_style.png"
                             text="🪩 Pop"
-                            description="Curta os hits do pop, com melodias cativantes e ritmo alegre que animam qualquer evento!"
+                            description="Curta os hits do pop, com melodias cativantes e ritmo alegre que animam o evento!"
                         />
 
                         <Cards
@@ -222,13 +222,13 @@ export default function Home() {
                         <Cards
                             picture="./clássica_style.png"
                             text="🎻 Clássica"
-                            description="Encante-se com a sofisticação da música clássica, perfeita para criar um clima elegante e inesquecível no seu evento!"
+                            description="Encante-se com a sofisticação da música clássica, perfeita para um clima elegante e inesquecível no seu evento!"
                         />
 
                         <Cards
                             picture="./funk_style.png"
                             text="🎵 Funk"
-                            description="Solte a energia com batidas marcantes e letras que celebram a festa, a diversão e o ritmo contagiante do funk!"
+                            description="Solte a energia com batidas marcantes que agitam a festa, a diversão e o ritmo contagiante do funk!"
                         />
 
                         <Cards
