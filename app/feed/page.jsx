@@ -15,28 +15,28 @@ const postsData = [
     },
     {
         textName: "@juliaRiver",
-        picture: "/images/bannerPraia.jpg",
+        picture: "/images/rave1.jpg",
         local: "Praia do Leme, Rio de Janeiro",
         button: "Ver Detalhes",
         page: "/detalhesFestaPraia"
     },
     {
         textName: "@angelotti",
-        picture: "/images/poolPartyBanner.jpg",
+        picture: "/images/pool1.jpg",
         local: "Pool Party, São Paulo",
         button: "Ver Detalhes",
         page: "/detalhesPoolParty"
     },
     {
         textName: "@juju mines",
-        picture: "/images/resenhaBanner.png",
+        picture: "/images/rave3.jpg",
         local: "Casa da Juju, São Paulo",
         button: "Ver Detalhes",
         page: "/detalhesResenhaCasa"
     },
     {
         textName: "@XRCZ",
-        picture: "/images/encontroCarros.jpg",
+        picture: "/images/car1.jpg",
         local: "Pista do Tigre, São Paulo",
         button: "Ver Detalhes",
         page: "/detalhesCorrida"
