@@ -134,6 +134,39 @@
     width: 50vw;
 }
 
+.equipe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.membroEquipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.membroEquipe img {
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.membroEquipe img:hover {
+    filter: grayscale(0);
+    border: 0;
+    transform: translateY(-10px);
+    width: 190px;
+}
+
+.membroEquipe span {
+    margin-top: .7rem;
+    color: #b6b6b6;
+}
+
 @media (max-width: 768px) {
     .teamCards {
         grid-template-columns: repeat(2, 1fr);
