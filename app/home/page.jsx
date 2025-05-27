@@ -92,7 +92,7 @@ export default function Home() {
 
                         <Cards
                             picture="./resenha.png"
-                            text="🏠 Resenhas em Casa"
+                            text="🏠 Festas em Casa"
                             description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
                         />
                     </div>

@@ -40,3 +40,19 @@
 .card p {
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .card {
+        width: 80%;
+        height: auto;
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card {
+        width: 17%;
+        height: auto;
+        margin-top: 5%;
+    }
+}
