@@ -13,6 +13,24 @@
     text-align: center;
 }
 
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/lhamaBackground.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.loadingContainer img {
+    width: 100px;
+    height: 100px;
+}
+
 .textBanner {
     margin-top: 4%;
     color: white;

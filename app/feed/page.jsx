@@ -1,3 +1,5 @@
+"use client";
+import { useState, useEffect } from "react";
 import styles from "./Feed.module.css";
 
 import Header from "../../components/Header"
@@ -7,6 +9,25 @@ import Post from "../../components/Posts"
 import Footer from "../../components/Footer"
 
 export default function Feed() {
+
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsLoading(false);
+        }, 2000);
+
+        return () => clearTimeout(timer);
+    }, []);
+
+    if (isLoading) {
+        return (
+            <div className={styles.loadingContainer}>
+                <img src="/loading.gif" alt="Carregando..." className={styles.loadingGif} />
+            </div>
+        );
+    }
+
     return (
         <div>
             <div className={styles.container}>
@@ -36,7 +57,7 @@ export default function Feed() {
                         picture="./bannerPraia.jpg"
                         local="Praia do Leme, Rio de Janeiro"
                         button="Ver Detalhes"
-                        page={"/detalheResenhaCasa"}
+                        page={"/detalhesFestaPraia"}
                     />
 
                     <Post
