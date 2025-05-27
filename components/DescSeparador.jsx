@@ -6,7 +6,7 @@ export default function DescSeparador({ text }) {
         <div className={styles.separador}>
             <p>{text}</p>
 
-            <img src="/logo.png" alt="" className={styles.logo} />
+            <img src="/images/logo.png" alt="" className={styles.logo} />
         </div>
     )
 }
