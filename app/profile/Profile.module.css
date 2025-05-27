@@ -11,3 +11,31 @@
     width: 100%;
     background: linear-gradient(180deg, #5d1b66 0%, #826099 100%);
 }
+
+.profileinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+    color: #ffffff;
+}
+
+.profileinfo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.profileinfo p {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.profileinfo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    background-color: #ffffff;
+}

@@ -1,10 +1,8 @@
 import styles from "./Feed.module.css";
-
 import Header from "../../components/Header"
-
 import Post from "../../components/Posts"
-
 import Footer from "../../components/Footer"
+import { FaSearch } from 'react-icons/fa';
 
 export default function Feed() {
     return (
@@ -18,8 +16,8 @@ export default function Feed() {
                 </div>
 
                 <div className={styles.separation}>
-                    <input type="text" placeholder="Procure Pelo Nome da Festa!" />
-                    <button>🔍</button>
+                    <input type="text" placeholder="Onde vamos hoje?" />
+                    <button><FaSearch className={styles.searchIcon} /></button>
                 </div>
 
                 <div className={styles.feed}>
