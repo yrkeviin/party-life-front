@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .post {
-    background-color: #000000;
+    background-color: #ffffff49;
     width: 26%;
     height: 50vh;
     margin: 2% auto;
@@ -9,7 +9,7 @@
 }
 
 .post h3 {
-    color: white;
+    color: rgb(148, 98, 230);
     padding: 20px;
     font-size: 100%;
     font-family: "Montserrat", sans-serif;
@@ -26,7 +26,7 @@
     font-family: "Montserrat", sans-serif;
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 1%;
 }
 
@@ -57,7 +57,7 @@
 
 .action button a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 1579px) {
