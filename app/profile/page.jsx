@@ -1,9 +1,30 @@
+"use client";
+import { useState, useEffect } from "react";
 import styles from './Profile.module.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Divisor from '@/components/Divisor';
 
 export default function Profile() {
+
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsLoading(false);
+        }, 2000);
+
+        return () => clearTimeout(timer);
+    }, []);
+
+    if (isLoading) {
+        return (
+            <div className={styles.loadingContainer}>
+                <img src="/loading.gif" alt="Carregando..." className={styles.loadingGif} />
+            </div>
+        );
+    }
+
     return (
         <div className={styles.container}>
             <div className={styles.content}>

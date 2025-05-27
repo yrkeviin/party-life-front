@@ -1,11 +1,30 @@
-'use client';
-
+"use client";
+import { useState, useEffect } from "react";
 import styles from './Page.module.css';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import Divisor from '../../components/Divisor';
 
 export default function Login() {
+
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsLoading(false);
+        }, 2000);
+
+        return () => clearTimeout(timer);
+    }, []);
+
+    if (isLoading) {
+        return (
+            <div className={styles.loadingContainer}>
+                <img src="/loading.gif" alt="Carregando..." className={styles.loadingGif} />
+            </div>
+        );
+    }
+
     const router = useRouter();
 
     function handleLogin() {
