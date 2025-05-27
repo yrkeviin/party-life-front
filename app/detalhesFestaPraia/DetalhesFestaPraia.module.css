@@ -64,6 +64,15 @@
     margin-bottom: 1%;
 }
 
+.hashtags p {
+    color: white;
+    text-decoration:underline;
+}
+
+.hashtags span {
+    color: rgb(0, 0, 0);
+}
+
 .redSection h2 {
     color: red;
     margin-bottom: 1%;

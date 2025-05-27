@@ -6,7 +6,7 @@ import Header from "../../components/Header";
 import InfoDetalhes from "../../components/InfoDetalhes";
 import DescSeparador from "../../components/DescSeparador";
 
-export default function RaveCor() {
+export default function FestaPraia() {
     return (
         <div className={styles.appContainer}>
             <div className={styles.containerBanner}>
