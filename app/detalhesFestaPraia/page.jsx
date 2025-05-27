@@ -64,7 +64,7 @@ export default function FestaPraia() {
 
                 <div className={styles.hashtags}>
                     <h2>HASHTAGS OFICIAIS</h2>
-                    <p>#PartyLife2025, #RaveFest, #Coloridos, #VemProLuz</p>
+                    <p><span>#</span>PartyLife2025, FestaNaPraia, PéNaAreia, VemPraLuz</p>
                 </div>
             </main>
 

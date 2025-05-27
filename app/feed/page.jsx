@@ -38,7 +38,8 @@ const postsData = [
         textName: "@XRCZ",
         picture: "./encontroCarros.jpg",
         local: "Pista do Tigre, São Paulo",
-        button: "Ver Detalhes"
+        button: "Ver Detalhes",
+        page: "/detalhesCorrida"
     },
 ];
 
