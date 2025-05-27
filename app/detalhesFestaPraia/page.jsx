@@ -6,7 +6,7 @@ import Header from "../../components/Header";
 import InfoDetalhes from "../../components/InfoDetalhes";
 import DescSeparador from "../../components/DescSeparador";
 
-export default function RaveCor() {
+export default function FestaPraia() {
     return (
         <div className={styles.appContainer}>
             <div className={styles.containerBanner}>
@@ -64,7 +64,7 @@ export default function RaveCor() {
 
                 <div className={styles.hashtags}>
                     <h2>HASHTAGS OFICIAIS</h2>
-                    <p>#PartyLife2025, #RaveFest, #Coloridos, #VemProLuz</p>
+                    <p><span>#</span>PartyLife2025, FestaNaPraia, PéNaAreia, VemPraLuz</p>
                 </div>
             </main>
 
