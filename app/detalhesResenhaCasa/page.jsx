@@ -1,0 +1,76 @@
+import React from "react";
+import Footer from "../../components/Footer";
+import List from "../../components/List";
+import styles from "./DetalhesResenhaCasa.module.css";
+import Header from "../../components/Header";
+import InfoDetalhes from "../../components/InfoDetalhes";
+import DescSeparador from "../../components/DescSeparador";
+
+export default function ResenhaCasa() {
+    return (
+        <div className={styles.appContainer}>
+            <div className={styles.containerBanner}>
+                <Header />
+                <div className={styles.textBanner}>
+                    <InfoDetalhes
+                        text="RESENHA EM"
+                        title="CASA"
+                        local="Rua krakauer scar, 7"
+                        date="21 de mai de 2025"
+                        hour="21h - 4h"
+                    />
+                </div>
+            </div>
+            <div>
+                <DescSeparador
+                    text="Vem aí a melhor resenha de todas! Vai rolar
+                    aquela festa em casa, com muita música, comida,
+                    bebida e gente legal! O clima vai ser leve  e
+                    descontraído - o tipo de noite que a gente não
+                    esquece!"
+                />
+            </div>
+
+            <main className={styles.mainContent}>
+                <div className={styles.redSection}>
+                    <h2 className={styles.sectionTitle}>REGRAS</h2>
+                    <List items={[
+                        "Nada de briga e confusão.",
+                        "Som ambiente, sem incomodar os vizinhos.",
+                        "Sem exageros com o alcoól.",
+                        "Respeito ao espaço alheio e não quebre nada.",
+                        "Confirme sua presença antes.",
+                        "Menores de idade apenas com acompanhante."
+                    ]} />
+                </div>
+
+                <div className={styles.greenSectionn}>
+                    <h2 className={styles.sectionTitle}>O QUE TERÁ NA FESTA?</h2>
+                    <List items={[
+                        "Som e playlist das músicas mais tocadas.",
+                        "Bebidas e drinks.",
+                        "Equipe de iluminação de festas."
+                    ]} />
+                </div>
+
+                <div className={styles.greenSection}>
+                    <h2 className={styles.sectionTitle}>O QUE LEVAR PARA A FESTA?</h2>
+                    <List items={[
+                        "Óculos estiloso.",
+                        "RG ou Documento com foto.",
+                        "Carregador de celular.",
+                        "Caixinha de som.",
+                        "Garrafa ou copo reutilizável."
+                    ]} />
+                </div>
+
+                <div className={styles.hashtags}>
+                    <h2>HASHTAGS OFICIAIS</h2>
+                    <p><span>#</span>PartyLife2025, FestaEmCasa, VibeBoa, VemPraLuz</p>
+                </div>
+            </main>
+
+            <Footer />
+        </div>
+    );
+}

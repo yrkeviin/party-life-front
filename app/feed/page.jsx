@@ -28,6 +28,7 @@ export default function Feed() {
                         picture="./raveBanner.jpg"
                         local="Rave do Menor, São Paulo"
                         button="Ver Detalhes"
+                        page={"/detalheRaveCor"}
                     />
 
                     <Post
@@ -35,6 +36,7 @@ export default function Feed() {
                         picture="./bannerPraia.jpg"
                         local="Praia do Leme, Rio de Janeiro"
                         button="Ver Detalhes"
+                        page={"/detalheResenhaCasa"}
                     />
 
                     <Post
@@ -51,6 +53,7 @@ export default function Feed() {
                         picture="./resenhaBanner.png"
                         local="Casa da Juju, São Paulo"
                         button="Ver Detalhes"
+                        page={"/detalhesResenhaCasa"}
                     />
 
                     <Post
