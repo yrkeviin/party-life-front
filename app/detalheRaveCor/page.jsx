@@ -23,7 +23,10 @@ export default function App() {
             </div>
             <div>
                 <DescSeparador
-                    text="teste"
+                    text="Prepare-se para uma noite insana de batidas
+                    eletrônicas, luzes psicodélicas e muita energia!
+                    DJs renomados, open bar selecionado e uma
+                    vibe que vai até o amanhecer. Vista-se com cores neon e venha brilhar na pista!"
                 />
             </div>
 
@@ -40,7 +43,7 @@ export default function App() {
                     ]} />
                 </div>
 
-                <div className={styles.greenSection}>
+                <div className={styles.greenSectionn}>
                     <h2 className={styles.sectionTitle}>O QUE TERÁ NA FESTA?</h2>
                     <List items={[
                         "Line-up de DJs insanos com os melhores nomes do eletrônico, trance e tech house.",

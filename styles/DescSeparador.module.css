@@ -1,5 +1,20 @@
 .separador {
     width: 100%;
     height: 30vh;
-    background-color: pink;
+    background-color: #D9A1FF;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10%;
+    align-items: center;
 }
+
+.separador img {
+    border: 8px solid rgb(177, 177, 177);
+    width: 14%;
+}
+
+.separador p {
+    width: 30%;
+    text-align: justify;
+}
+

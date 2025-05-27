@@ -19,19 +19,27 @@
 }
 
 .mainContent {
-  margin: 5% 0 0 5%;
-}
-
-.sectionRules {
-  margin-left: 10%;
+  margin: 5% 0 0 0;
 }
 
 .redSection {
   margin-bottom: 5%;
+  padding: 2% 5%;
 }
 
-.greenSection {
+.greenSection, .greenSectionn {
   margin-bottom: 5%;
+  padding: 2% 5%;
+}
+
+.greenSectionn {
+  background-color: #D9A1FF;
+  padding: 2% 5%;
+}
+
+.hashtags {
+  padding: 2% 5%;
+  background-color: #D9A1FF;
 }
 
 .hashtags h2 {
@@ -43,7 +51,7 @@
   margin-bottom: 1%;
 }
 
-.greenSection h2 {
+.greenSection h2, .greenSectionn h2 {
   color: green;
   margin-bottom: 1%;
 }
