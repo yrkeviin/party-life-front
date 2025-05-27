@@ -34,11 +34,9 @@
 .nome {
     display: flex;
     justify-content: center;
-    border-radius: 12px;
     margin: 0.5rem;
     font-size: 16px;
-    font-weight: bold;
-    color: #ffffff;
+    color: black;
 }
 
 .fotocontainer {
@@ -64,4 +62,5 @@
     margin: 0.5rem;
     font-size: 18px;
     color: #ffffff;
+    color: black;
 }
