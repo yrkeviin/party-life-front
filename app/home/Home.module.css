@@ -128,3 +128,20 @@
         margin-left: 0;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .imageText {
+        width: 60%;
+        height: 60%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .imageText {
+        width: 60%;
+        height: 60%;
+        margin-top: 2%;
+        gap: 20px;
+    }
+}
