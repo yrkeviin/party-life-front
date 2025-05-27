@@ -49,6 +49,13 @@
     outline: none;
     padding: 0 0 0 1%;
     border-radius: 15px 0 0 15px;
+    color: #cc7aff;
+}
+
+.separation input::placeholder {
+    color: #cc7aff;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 .separation button {
@@ -64,6 +71,12 @@
     cursor: pointer;
     background-color: #c9c9c9;
     transition: .3s ease-in-out;
+}
+
+.searchIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #cc7aff;
 }
 
 .feed {

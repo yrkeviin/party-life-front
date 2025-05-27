@@ -63,6 +63,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-bottom: 2rem;
 }
 
 .textContent {
@@ -114,6 +115,7 @@
     align-items: center;
     justify-content: center;
     margin: 2rem;
+    width: 100%;
 }
 
 .titlejoin {
@@ -129,6 +131,7 @@
     color: #ffffff;
     text-align: center;
     margin: 1rem;
+    width: 50vw;
 }
 
 @media (max-width: 768px) {
