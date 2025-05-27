@@ -21,7 +21,7 @@ export default function Sobrenos() {
     if (isLoading) {
         return (
             <div className={styles.loadingContainer}>
-                <img src="/loading.gif" alt="Carregando..." className={styles.loadingGif} />
+                <img src="/images/loading.gif" alt="Carregando..." className={styles.loadingGif} />
             </div>
         );
     }

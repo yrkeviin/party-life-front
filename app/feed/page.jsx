@@ -8,35 +8,35 @@ import Footer from "../../components/Footer";
 const postsData = [
     {
         textName: "@menorKabrinha",
-        picture: "./raveBanner.jpg",
+        picture: "/images/raveBanner.jpg",
         local: "Rave do Menor, São Paulo",
         button: "Ver Detalhes",
         page: "/detalhesRaveCor"
     },
     {
         textName: "@juliaRiver",
-        picture: "./bannerPraia.jpg",
+        picture: "/images/bannerPraia.jpg",
         local: "Praia do Leme, Rio de Janeiro",
         button: "Ver Detalhes",
         page: "/detalhesFestaPraia"
     },
     {
         textName: "@angelotti",
-        picture: "./poolPartyBanner.jpg",
+        picture: "/images/poolPartyBanner.jpg",
         local: "Pool Party, São Paulo",
         button: "Ver Detalhes",
         page: "/detalhesPoolParty"
     },
     {
         textName: "@juju mines",
-        picture: "./resenhaBanner.png",
+        picture: "/images/resenhaBanner.png",
         local: "Casa da Juju, São Paulo",
         button: "Ver Detalhes",
         page: "/detalhesResenhaCasa"
     },
     {
         textName: "@XRCZ",
-        picture: "./encontroCarros.jpg",
+        picture: "/images/encontroCarros.jpg",
         local: "Pista do Tigre, São Paulo",
         button: "Ver Detalhes",
         page: "/detalhesCorrida"
@@ -45,8 +45,8 @@ const postsData = [
 
 export default function Feed() {
     const [isLoading, setIsLoading] = useState(true);
-    const [searchInput, setSearchInput] = useState(""); // valor do input
-    const [search, setSearch] = useState(""); // valor usado para filtrar
+    const [searchInput, setSearchInput] = useState("");
+    const [search, setSearch] = useState("");
     const [posts, setPosts] = useState(postsData);
 
     useEffect(() => {
@@ -64,7 +64,7 @@ export default function Feed() {
     if (isLoading) {
         return (
             <div className={styles.loadingContainer}>
-                <img src="/loading.gif" alt="Carregando..." className={styles.loadingGif} />
+                <img src="/images/loading.gif" alt="Carregando..." className={styles.loadingGif} />
             </div>
         );
     }
@@ -75,7 +75,7 @@ export default function Feed() {
                 <div className={styles.containerBanner}>
                     <Header />
                     <div className={styles.textBanner}>
-                        <img src="/textVemP-removebg-preview.png" alt="" />
+                        <img src="/images/textVemP-removebg-preview.png" alt="" />
                     </div>
                 </div>
 

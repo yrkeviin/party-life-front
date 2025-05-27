@@ -1,5 +1,5 @@
 .containerBanner {
-    background-image: url(/bannerPraia.jpg);
+    background-image: url(/images/bannerPraia.jpg);
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     background-size: cover;
@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(/lhamaBackground.png);
+    background-image: url(/images/lhamaBackground.png);
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     background-size: cover;

@@ -1,3 +1,5 @@
+"use client";
+import { useState, useEffect } from "react";
 import React from "react";
 import Footer from "../../components/Footer";
 import List from "../../components/List";
@@ -7,6 +9,24 @@ import InfoDetalhes from "../../components/InfoDetalhes";
 import DescSeparador from "../../components/DescSeparador";
 
 export default function PoolParty() {
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsLoading(false);
+        }, 2000);
+
+        return () => clearTimeout(timer);
+    }, []);
+
+    if (isLoading) {
+        return (
+            <div className={styles.loadingContainer}>
+                <img src="/images/loading.gif" alt="Carregando..." className={styles.loadingGif} />
+            </div>
+        );
+    }
+
     return (
         <div className={styles.appContainer}>
             <div className={styles.containerBanner}>
