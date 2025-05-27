@@ -4,7 +4,6 @@ import styles from "./Feed.module.css";
 import Header from "../../components/Header";
 import Post from "../../components/Posts";
 import Footer from "../../components/Footer";
-import { FaSearch } from 'react-icons/fa';
 
 const postsData = [
     {
@@ -44,8 +43,8 @@ const postsData = [
 
 export default function Feed() {
     const [isLoading, setIsLoading] = useState(true);
-    const [searchInput, setSearchInput] = useState(""); // valor do input
-    const [search, setSearch] = useState(""); // valor usado para filtrar
+    const [searchInput, setSearchInput] = useState("");
+    const [search, setSearch] = useState("");
     const [posts, setPosts] = useState(postsData);
 
     useEffect(() => {
