@@ -1,9 +1,14 @@
 .separador {
     width: 100%;
-    background-color: #D9A1FF;
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
     display: flex;
     justify-content: space-around;
     padding: 20px 10%;
+    margin-top: 2%;
     align-items: center;
 }
 

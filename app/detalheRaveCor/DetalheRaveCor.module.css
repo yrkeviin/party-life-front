@@ -1,3 +1,7 @@
+.appContainer {
+  background-color: #a5e3f86c;
+}
+
 .containerBanner {
   background-image: url(/raveBanner.jpg);
   background-color: rgba(0, 0, 0, 0.5);
@@ -5,7 +9,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 90vh;
 }
 
 .loadingContainer {
@@ -27,7 +31,7 @@
 }
 
 .textBanner {
-  margin-top: 4%;
+  margin-top: 7%;
   color: white;
   margin-left: 6%;
 }
@@ -51,13 +55,21 @@
 }
 
 .greenSectionn {
-  background-color: #D9A1FF;
+  background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
   padding: 2% 5%;
 }
 
 .hashtags {
   padding: 2% 5%;
-  background-color: #D9A1FF;
+  background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
 }
 
 .hashtags h2 {
