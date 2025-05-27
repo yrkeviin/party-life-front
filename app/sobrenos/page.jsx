@@ -90,6 +90,38 @@ export default function Sobrenos() {
                     </div>
                 </div>
 
+                <div className={styles.equipe}>
+                    <div className={styles.membroEquipe}>
+                        <img src="/profileenzo.png" alt="amanssa" />
+                        <span>Amanda Mechi</span>
+                    </div>
+
+                    <div className={styles.membroEquipe}>
+                        <img src="assets/images/gilca.jpeg" alt="gi" />
+                        <span>Giovanna Caron</span>
+                    </div>
+
+                    <div className={styles.membroEquipe}>
+                        <img src="assets/images/tavia.jpeg" alt="fla" />
+                        <span>Flavia Mendes</span>
+                    </div>
+
+                    <div className={styles.membroEquipe}>
+                        <img src="assets/images/ju.jpeg" alt="ju" />
+                        <span>Julia Neves</span>
+                    </div>
+
+                    <div className={styles.membroEquipe}>
+                        <img src="assets/images/ana ju.jpeg" alt="naju" />
+                        <span>Ana Julia</span>
+                    </div>
+
+                    <div className={styles.membroEquipe}>
+                        <img src="assets/images/kevin22.jpeg" alt="kevi" />
+                        <span>Kevin Lima</span>
+                    </div>
+                </div>
+
                 <div className={styles.contentjoin}>
                     <h2 className={styles.titlejoin}>Junte-se a Nós!</h2>
                     <p className={styles.descriptionjoin}>
