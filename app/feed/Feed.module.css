@@ -49,13 +49,12 @@
     outline: none;
     padding: 0 0 0 1%;
     border-radius: 15px 0 0 15px;
-    color: #cc7aff;
+    color: #000000;
 }
 
 .separation input::placeholder {
-    color: #cc7aff;
-    font-weight: bold;
-    font-size: 1rem;
+    color: #00000073;
+    font-size: .9rem;
 }
 
 .separation button {

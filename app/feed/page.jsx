@@ -1,14 +1,52 @@
 "use client";
 import { useState, useEffect } from "react";
 import styles from "./Feed.module.css";
-import Header from "../../components/Header"
-import Post from "../../components/Posts"
-import Footer from "../../components/Footer"
+import Header from "../../components/Header";
+import Post from "../../components/Posts";
+import Footer from "../../components/Footer";
 import { FaSearch } from 'react-icons/fa';
 
-export default function Feed() {
+const postsData = [
+    {
+        textName: "@menorKabrinha",
+        picture: "./raveBanner.jpg",
+        local: "Rave do Menor, São Paulo",
+        button: "Ver Detalhes",
+        page: "/detalheRaveCor"
+    },
+    {
+        textName: "@juliaRiver",
+        picture: "./bannerPraia.jpg",
+        local: "Praia do Leme, Rio de Janeiro",
+        button: "Ver Detalhes",
+        page: "/detalhesFestaPraia"
+    },
+    {
+        textName: "@angelotti",
+        picture: "./poolPartyBanner.jpg",
+        local: "Praia do Leme, Rio de Janeiro",
+        button: "Ver Detalhes"
+    },
+    {
+        textName: "@juju mines",
+        picture: "./resenhaBanner.png",
+        local: "Casa da Juju, São Paulo",
+        button: "Ver Detalhes",
+        page: "/detalhesResenhaCasa"
+    },
+    {
+        textName: "@XRCZ",
+        picture: "./encontroCarros.jpg",
+        local: "Pista do Tigre, São Paulo",
+        button: "Ver Detalhes"
+    },
+];
 
+export default function Feed() {
     const [isLoading, setIsLoading] = useState(true);
+    const [searchInput, setSearchInput] = useState(""); // valor do input
+    const [search, setSearch] = useState(""); // valor usado para filtrar
+    const [posts, setPosts] = useState(postsData);
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -17,6 +55,10 @@ export default function Feed() {
 
         return () => clearTimeout(timer);
     }, []);
+
+    const filteredPosts = posts.filter(post =>
+        post.textName.toLowerCase().includes(search.toLowerCase())
+    );
 
     if (isLoading) {
         return (
@@ -37,6 +79,7 @@ export default function Feed() {
                 </div>
 
                 <div className={styles.separation}>
+
                     <input type="text" placeholder="Qual a resenha de hoje?" />
                     <button><FaSearch className={styles.searchIcon} /></button>
                 </div>
@@ -110,30 +153,26 @@ export default function Feed() {
                         picture="./raveBanner.jpg"
                         local="Praia do Leme, Rio de Janeiro"
                         button="Ver Detalhes"
+
                     />
+                    <button onClick={() => setSearch(searchInput)}>🔍</button>
                 </div>
 
                 <div className={styles.feed}>
-                    <Post
-                        textName="@menorKabrinha"
-                        picture="./raveBanner.jpg"
-                        local="Praia do Leme, Rio de Janeiro"
-                        button="Ver Detalhes"
-                    />
-
-                    <Post
-                        textName="@menorKabrinha"
-                        picture="./raveBanner.jpg"
-                        local="Praia do Leme, Rio de Janeiro"
-                        button="Ver Detalhes"
-                    />
-
-                    <Post
-                        textName="@menorKabrinha"
-                        picture="./raveBanner.jpg"
-                        local="Praia do Leme, Rio de Janeiro"
-                        button="Ver Detalhes"
-                    />
+                    {filteredPosts.length > 0 ? (
+                        filteredPosts.map((post, idx) => (
+                            <Post
+                                key={idx}
+                                textName={post.textName}
+                                picture={post.picture}
+                                local={post.local}
+                                button={post.button}
+                                page={post.page}
+                            />
+                        ))
+                    ) : (
+                        <p>Nenhum resultado encontrado.</p>
+                    )}
                 </div>
             </div>
 
