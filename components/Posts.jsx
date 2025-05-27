@@ -1,6 +1,6 @@
 import styles from "../styles/Posts.module.css";
 
-export default function Posts({ textName, picture, local, button }) {
+export default function Posts({ textName, picture, local, page }) {
     return (
         <div className={styles.post}>
             <h3>{textName}</h3>
@@ -10,7 +10,7 @@ export default function Posts({ textName, picture, local, button }) {
             <div className={styles.action}>
                 <h4>{local}</h4>
                 <button>
-                    <a href="/detalheRaveCor">Ver Detalhes</a>
+                    <a href={page}>Ver Detalhes</a>
                 </button>
             </div>
         </div>

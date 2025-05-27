@@ -6,7 +6,7 @@ import Header from "../../components/Header";
 import InfoDetalhes from "../../components/InfoDetalhes";
 import DescSeparador from "../../components/DescSeparador";
 
-export default function App() {
+export default function RaveCor() {
     return (
         <div className={styles.appContainer}>
             <div className={styles.containerBanner}>
