@@ -18,7 +18,7 @@
 
 .button button:hover {
     transition: .3s ease-in-out;
-    background: #a5a5a5;
+    background: #ff3c78;
     border-radius: 20px;
     width: 15rem;
     color: white;

@@ -4,8 +4,9 @@ import styles from './Profile.module.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Divisor from '@/components/Divisor';
-import { FaArrowLeft } from 'react-icons/fa';
-import Image from 'next/image';
+import { FaArrowLeft, FaSearchLocation, FaCalendar, FaClock } from 'react-icons/fa';
+import ProfilePosts from '@/components/ProfilePosts';
+
 
 export default function Profile() {
 
@@ -31,36 +32,40 @@ export default function Profile() {
         <div className={styles.container}>
             <div className={styles.content}>
                 < Header />
-                <div className={styles.profileinfo}>
-                    <div className={styles.backIcon}> < FaArrowLeft /> </div>
-                    <div className={styles.profileimage}>
+                <div className={styles.profileInfo}>
+                    <div className={styles.backIcon}> < FaArrowLeft className={styles.icon}/> </div>
+                    <div className={styles.profileUser}>
                         <img src="/profilerandom.webp" alt="Profile Picture" className={styles.image} />
-                    </div>
-                    <div className={styles.profiletext}>
-                        <h1>Enzo Turcovic</h1>
-                        <p>@turcoo</p>
+                        <div className={styles.profileText}>
+                            <h1>Enzo Turcovic</h1>
+                            <p>@turcoo</p>
+                        </div>
                     </div>
                 </div>
                 < Divisor />
                 <div className={styles.postsContent}>
                     <h2>Suas Festas!</h2>
-                    <div className={styles.post}>
-                        <Image src="/bannerPraia.jpg" alt="Post 1" width={300} height={200} className={styles.postImage} />
-                        <div className={styles.postInfo}>
-                            <div className={styles.postTime}>
-                                <p>Localização</p>
-                                <p>Calendário</p>
-                                <p>Relógio</p>
-                            </div>
-                            <div className={styles.postDescription}>
-                                <p>Post 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <button className={styles.postButton}>Ver Detalhes</button>
-                        </div>
-                    </div>
-                    <div className={styles.post}>
-                        <p>Post 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
+                    < ProfilePosts
+                        foto="/profileenzo.png"
+                        local="Praia da Barra"
+                        data="Domingo, 01/05/2025"
+                        horario="18:00"
+                        descricao="Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!"
+                    />
+                    < ProfilePosts
+                        foto="/profileenzo.png"
+                        local="Rave do Turco"
+                        data="Sábado, 15/06/2025"
+                        horario="22:00"
+                        descricao="Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!"
+                    />
+                    < ProfilePosts
+                        foto="/profileenzo.png"
+                        local="Pool Party do Enzo"
+                        data="Sexta-feira, 28/07/2025"
+                        horario="15:00"
+                        descricao="Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!"
+                    />
                 </div>
             </div>
             < Footer />
