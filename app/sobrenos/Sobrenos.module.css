@@ -3,7 +3,11 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
 }
 
 .loadingContainer {
@@ -24,27 +28,21 @@
     height: 100px;
 }
 
-.subHeader {
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    flex-direction: column;
-    background: #5D1B66;
-    background: linear-gradient(180deg, #5d1b66 0%, #826099 100%);
-    text-align: center;
-    justify-content: center;
-    justify-content: space-between
-}
-
 .text {
-    font-size: 32px;
+    font-size: 18px;
     color: #ffffff;
     margin-bottom: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    margin-top: 5rem;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .imageCard {
     width: 100%;
-    height: 40rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,42 +61,54 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 50%;
     margin-bottom: 2rem;
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
 }
 
 .textContent {
     display: flex;
     justify-content: center;
-    height: 50vh;
+    height: 25vh;
     margin: 2rem;
+   
 }
 
 .description {
     display: flex;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 20px;
     color: #ffffff;
     text-align: center;
     justify-content: center;
     align-items: center;
     letter-spacing: 1px;
+    height: 10rem;
     width: 70%;
+    color: black;
 }
 
 .teamContent {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #fffed27f;
+    border-radius: 25px;
 }
 
 .teamTitle {
     display: flex;
-    font-size: 48px;
+    font-size: 35px;
     font-weight: bold;
-    color: #ffffff;
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin: 2rem;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .teamCards {
@@ -116,22 +126,28 @@
     justify-content: center;
     margin: 2rem;
     width: 100%;
+    justify-content: flex-end;
 }
 
 .titleJoin {
     font-size: 32px;
     font-weight: bold;
-    color: #ffffff;
+    color: black;
     text-align: center;
+    height: 10rem;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .descriptionJoin {
-    font-size: 24px;
-    font-weight: bold;
+    display: flex;
+    font-size: 22px;
     color: #ffffff;
     text-align: center;
-    margin: 1rem;
-    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    width: 70%;
+    color: black;
 }
 
 .membroEquipe {
@@ -161,6 +177,8 @@
     margin-top: .7rem;
     color: #b6b6b6;
 }
+
+
 
 @media (max-width: 768px) {
     .teamCards {

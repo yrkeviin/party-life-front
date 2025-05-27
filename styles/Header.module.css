@@ -9,8 +9,8 @@
     width: 100%;
     align-items: center;
     gap: 3rem;
-    background-color: #b039ff;
-    background: linear-gradient(90deg, #7a05c980 0%, #ffffff4d 100%);
+    background-color: #671a9a;
+    background: linear-gradient(90deg, #7a05c980 0%, #dc8efd4d 100%);
     justify-content: space-between;
     padding: 3rem;
 }
@@ -29,7 +29,7 @@
 .navbar h1 a,
 .navbar p a {
     text-decoration: none;
-    color: #ffffff;
+    color: #35025780;
     transition: .3s ease-in-out;
     border-bottom: 2px solid transparent;
 }

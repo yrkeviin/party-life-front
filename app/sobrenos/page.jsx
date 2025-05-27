@@ -28,12 +28,10 @@ export default function Sobrenos() {
 
     return (
         <div className={styles.container}>
-            <div className={styles.subHeader}>
-                <Header />
+            <Header />
                 <div className={styles.text}>
-                    <h1>Sobre o PARTYLIFE!</h1>
+                    <h1>Seja Bem-vindo(a) ao PARTYLIFE!🪩</h1>
                 </div>
-            </div>
             <div className={styles.imageCard}>
                 <Image
                     src="/bannerPraia.jpg"
@@ -55,7 +53,7 @@ export default function Sobrenos() {
                 </div>
 
                 <div className={styles.teamContent}>
-                    <h2 className={styles.teamTitle}>Nossa equipeee!</h2>
+                    <h2 className={styles.teamTitle}>Conheça a nossa equipe!</h2>
                     <div className={styles.teamCards}>
                         <CardSobreNos
                             nome="Maria Parma"
@@ -88,15 +86,6 @@ export default function Sobrenos() {
                             funcao="Desenvolvedor"
                         />
                     </div>
-                </div>
-
-                <div className={styles.contentJoin}>
-                    <h2 className={styles.titleJoin}>Junte-se a Nós!</h2>
-                    <p className={styles.descriptionJoin}>
-                        Se você ama festas e quer fazer parte de uma comunidade vibrante,
-                        junte-se ao PartyLife hoje mesmo! Estamos ansiosos para ver suas
-                        fotos e ouvir suas histórias de festa.
-                    </p>
                 </div>
             </div>
             <Footer />
