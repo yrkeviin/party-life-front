@@ -41,7 +41,6 @@ export default function Profile() {
                         <img src="/profilerandom.webp" alt="Profile Picture" className={styles.image} />
                         <div className={styles.profileText}>
                             <h1>enzoturcovic1234567890@gmail.com</h1>
-                            <p>senha: </p>
                         </div>
                     </div>
                 </div>
