@@ -37,7 +37,7 @@ export default function Feed() {
                 </div>
 
                 <div className={styles.separation}>
-                    <input type="text" placeholder="Onde vamos hoje?" />
+                    <input type="text" placeholder="Qual a resenha de hoje?" />
                     <button><FaSearch className={styles.searchIcon} /></button>
                 </div>
 

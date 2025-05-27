@@ -4,7 +4,7 @@
 
 .containerBanner {
     background-image: url(/lhamaBackground.png);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #00000080;
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
@@ -19,7 +19,7 @@
     align-items: center;
     height: 100vh;
     background-image: url(/lhamaBackground.png);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #00000080;
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
@@ -33,7 +33,7 @@
 
 .textBanner {
     margin-top: 4%;
-    color: white;
+    color: #ffffff;
 }
 
 .textBanner img {
@@ -52,17 +52,17 @@
     font-family: "Nunito", sans-serif;
     color: #000000;
     width: 40%;
-    background-color: violet;
+    background-color: #ee82ee;
     padding: 2%;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px #00000033;
     transition: transform 0.6 s, box-shadow 0.2s;
     transition: .4s ease-in-out;
 }
 
 .text:hover {
     transform: scale(1.08);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 8px 16px #000000b3;
     transition: transform 0.3s, box-shadow 0.2s;
 }
 
@@ -95,6 +95,7 @@
             #a5e3f8 60%,
             #a5e3f8 100%);
     padding: 2%;
+    margin-bottom: 2rem;
 }
 
 .images h1,

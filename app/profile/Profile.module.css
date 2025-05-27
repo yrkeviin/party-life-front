@@ -9,7 +9,7 @@
     align-items: center;
     height: 100vh;
     background-image: url(/lhamaBackground.png);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #00000080;
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
@@ -27,11 +27,11 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: linear-gradient(180deg, #5d1b66 0%, #826099 100%);
+    background: linear-gradient(180deg, #826099 0%, #5d1b66 100%);
     margin-bottom: 2rem;
 }
 
-.profileinfo {
+.profileInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,20 +41,61 @@
     color: #ffffff;
 }
 
-.profileinfo h1 {
+.profileInfo h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
-.profileinfo p {
+.profileInfo p {
     font-size: 1.7rem;
     margin-bottom: 0.5rem;
 }
 
-.profileinfo img {
-    width: 150px;
-    height: 150px;
+.profileInfo img {
+    width: 15rem;
+    height: 15rem;
     border-radius: 50%;
     margin-bottom: 0.5rem;
     background-color: #ffffff;
+}
+
+.backIcon {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 7rem;
+    cursor: pointer;
+    padding: 2rem;
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.profileUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.postsContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.postsContent h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
 }
