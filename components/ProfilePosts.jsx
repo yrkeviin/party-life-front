@@ -6,7 +6,7 @@ export default function ProfilePosts({ foto, local, data, horario, descricao }) 
     return (
         <div className={styles.post}>
             <div className={styles.contentImage}>
-                <Image src={foto} alt="Post 1" width={300} height={200} className={styles.postImage} />
+                <Image src={foto} alt="Post" width={300} height={200} className={styles.postImage} />
             </div>
             <div className={styles.postInfo}>
                 <div className={styles.postTime}>

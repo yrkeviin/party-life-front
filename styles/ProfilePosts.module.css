@@ -89,4 +89,9 @@
     color: #ffffff;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.postButton:hover {
+    background-color: #ff3c78;
 }
