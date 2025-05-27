@@ -4,7 +4,6 @@ import styles from "./Feed.module.css";
 import Header from "../../components/Header";
 import Post from "../../components/Posts";
 import Footer from "../../components/Footer";
-import { FaSearch } from 'react-icons/fa';
 
 const postsData = [
     {
@@ -12,7 +11,7 @@ const postsData = [
         picture: "./raveBanner.jpg",
         local: "Rave do Menor, São Paulo",
         button: "Ver Detalhes",
-        page: "/detalheRaveCor"
+        page: "/detalhesRaveCor"
     },
     {
         textName: "@juliaRiver",
@@ -24,8 +23,9 @@ const postsData = [
     {
         textName: "@angelotti",
         picture: "./poolPartyBanner.jpg",
-        local: "Praia do Leme, Rio de Janeiro",
-        button: "Ver Detalhes"
+        local: "Pool Party, São Paulo",
+        button: "Ver Detalhes",
+        page: "/detalhesPoolParty"
     },
     {
         textName: "@juju mines",
