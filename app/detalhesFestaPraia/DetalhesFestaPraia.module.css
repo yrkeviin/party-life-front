@@ -94,3 +94,18 @@
     color: green;
     margin-bottom: 1%;
 }
+
+.atractions {
+    display: flex;
+    padding: 2% 5%;
+    flex-direction: column;
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
+}
+
+.allAtractions {
+    display: flex;
+}

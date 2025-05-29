@@ -1,8 +1,7 @@
 .containerAtraction {
     display: flex;
     width: 15%;
-    padding: 100px 40px;
-    background-color: yellow;
+    padding: 0 40px 100px 40px;
     text-align: center;
     justify-content: center;
     flex-direction: column;
