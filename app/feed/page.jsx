@@ -82,7 +82,7 @@ export default function Feed() {
                 <div className={styles.separation}>
                     <input
                         type="text"
-                        placeholder="Onde vamos hoje?"
+                        placeholder="Pesquise pelo nome de usuário!"
                         value={searchInput}
                         onChange={e => setSearchInput(e.target.value)}
                     />
