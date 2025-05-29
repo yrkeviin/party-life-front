@@ -71,6 +71,15 @@
     background-color: #ff3c78;
 }
 
+@media (max-width: 1024px) {
+    .post {
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+        width: 90%;
+    }
+}
+
 @media (max-width: 768px) {
     .post {
         width: 90%;
