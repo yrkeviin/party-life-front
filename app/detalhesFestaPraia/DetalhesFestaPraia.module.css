@@ -47,11 +47,13 @@
 .redSection {
     margin-bottom: 5%;
     padding: 2% 5%;
+    font-size: 1.2rem;
 }
 
 .greenSection, .greenSectionn {
     margin-bottom: 5%;
     padding: 2% 5%;
+    font-size: 1.2rem;
 }
 
 .greenSectionn {
@@ -92,6 +94,7 @@
 
 .atractions {
     display: flex;
+    font-size: 1.2rem;
     padding: 2% 5%;
     margin-bottom: 5%;
     flex-direction: column;
