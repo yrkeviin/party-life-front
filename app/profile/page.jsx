@@ -40,7 +40,7 @@ export default function Profile() {
                     <div className={styles.profileUser}>
                         <img src="/images/profilerandom.webp" alt="Profile Picture" className={styles.image} />
                         <div className={styles.profileText}>
-                            <h1>enzoturcovic1234567890@gmail.com</h1>
+                            <h1>enzoturco@gmail.com</h1>
                         </div>
                     </div>
                 </div>
