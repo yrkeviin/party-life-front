@@ -15,7 +15,7 @@
     filter: grayscale(100%);
     transition: all 0.3s ease-in-out;
     width: 250px;
-    border-radius: 15px;
+    border-radius: 50%  
 }
 
 .card img:hover {
