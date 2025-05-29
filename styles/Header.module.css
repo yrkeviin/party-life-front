@@ -29,7 +29,7 @@
 .navbar h1 a,
 .navbar p a {
     text-decoration: none;
-    color: #35025780;
+    color: #ffffff;
     transition: .3s ease-in-out;
     border-bottom: 2px solid transparent;
 }
