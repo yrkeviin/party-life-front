@@ -72,7 +72,7 @@ export default function Sobrenos() {
                         />
                         <CardSobreNos
                             nome="Kevin Lima"
-                            foto="/images/profileenzo.png"
+                            foto="/images/profilekevin.jpg"
                             funcao="Desenvolvedor"
                         />
                         <CardSobreNos
