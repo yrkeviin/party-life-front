@@ -1,11 +1,11 @@
 import styles from "../styles/Atractions.module.css";
 
-export default function Atractions(atractionImage, atractionName) {
+export default function Atractions({atractionImage, atractionName}) {
     return (
-        <div className={styles.button}>
+        <div className={styles.containerAtraction}>
             <img src={atractionImage} alt="" />
 
-            <h2>{atractionName}</h2>
+            <h3>{atractionName}</h3>
         </div>
     );
 }

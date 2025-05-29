@@ -7,6 +7,7 @@ import styles from "./DetalhesResenhaCasa.module.css";
 import Header from "../../components/Header";
 import InfoDetalhes from "../../components/InfoDetalhes";
 import DescSeparador from "../../components/DescSeparador";
+import Atractions from "../../components/Atractions";
 
 export default function ResenhaCasa() {
     const [isLoading, setIsLoading] = useState(true);
@@ -82,6 +83,25 @@ export default function ResenhaCasa() {
                         "Caixinha de som.",
                         "Garrafa ou copo reutilizável."
                     ]} />
+                </div>
+
+                <div className={styles.atractions}>
+                    <h2 className={styles.sectionTitle}>ATRAÇÕES</h2>
+
+                    <div className={styles.allAtractions}>
+                        <Atractions
+                        atractionImage="/images/negaoAtracao.jpg"
+                        atractionName="Negão Original"
+                        />
+                        <Atractions
+                        atractionImage="/images/bolzaniAtracao.jpg"
+                        atractionName="Bolzani"
+                        />
+                        <Atractions
+                        atractionImage="/images/fischerAtracao.jpg"
+                        atractionName="Nath Fischer"
+                        />
+                    </div>
                 </div>
 
                 <div className={styles.hashtags}>
