@@ -137,7 +137,6 @@
     }
 }
 
-/* Celulares médios */
 @media (max-width: 768px) {
     .profileInfo h1 {
         font-size: 1.8rem;
@@ -176,7 +175,6 @@
     }
 }
 
-/* Celulares pequenos */
 @media (max-width: 480px) {
     .profileInfo h1 {
         font-size: 1.5rem;
