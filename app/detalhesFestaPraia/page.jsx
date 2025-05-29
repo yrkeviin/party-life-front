@@ -84,8 +84,8 @@ export default function FestaPraia() {
                 </div>
 
                 <div className={styles.atractions}>
-                    <h2 className={styles.sectionTitle}>O QUE LEVAR PARA A FESTA?</h2>
-                    
+                    <h2 className={styles.sectionTitle}>ATRAÇÕES</h2>
+
                     <div className={styles.allAtractions}>
                         <Atractions
                         atractionImage="/images/negaoAtracao.jpg"

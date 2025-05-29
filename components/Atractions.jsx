@@ -5,7 +5,7 @@ export default function Atractions({atractionImage, atractionName}) {
         <div className={styles.containerAtraction}>
             <img src={atractionImage} alt="" />
 
-            <h2>{atractionName}</h2>
+            <h3>{atractionName}</h3>
         </div>
     );
 }

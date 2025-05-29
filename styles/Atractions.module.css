@@ -1,16 +1,19 @@
 .containerAtraction {
     display: flex;
-    width: 15%;
-    padding: 0 40px 100px 40px;
+    width: 13%;
+    padding: 10px 40px 35px 0;
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    color: rgb(0, 0, 0);
 }
 
 .containerAtraction img {
+    margin-bottom: 15px;
+    border: 6px solid #ffffff;
     border-radius: 50%;
 }
 
-.containerAtraction h2 {
+.containerAtraction h3 {
     font-size: 1.3rem;
 }
