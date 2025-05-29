@@ -7,6 +7,7 @@ import styles from "./DetalhesFestaPraia.module.css";
 import Header from "../../components/Header";
 import InfoDetalhes from "../../components/InfoDetalhes";
 import DescSeparador from "../../components/DescSeparador";
+import Atractions from "../../components/Atractions";
 
 export default function FestaPraia() {
     const [isLoading, setIsLoading] = useState(true);
@@ -80,6 +81,10 @@ export default function FestaPraia() {
                         "Ingresso/Pulseira (digital ou física, se for o caso).",
                         "Boa vibe e disposição pra dançar até o fim!"
                     ]} />
+                </div>
+
+                <div className={styles.atractions}>
+                    <Atractions />
                 </div>
 
                 <div className={styles.hashtags}>
