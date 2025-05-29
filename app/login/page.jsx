@@ -33,7 +33,7 @@ export default function Login() {
 
     return (
         <div className={styles.container}>
-            <Image src="/logopartylife.png" alt="Logo PARTY LIFE" width={450} height={200} className={styles.image} />
+            <Image src="/images/logopartylife.png" alt="Logo PARTY LIFE" width={450} height={200} className={styles.image} />
             < Divisor />
             <div className={styles.controls}>
                 <div className={styles.inputGroup}>

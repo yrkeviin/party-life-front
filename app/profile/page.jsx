@@ -38,7 +38,7 @@ export default function Profile() {
                         </a>
                     </div>
                     <div className={styles.profileUser}>
-                        <img src="/profilerandom.webp" alt="Profile Picture" className={styles.image} />
+                        <img src="/images/profilerandom.webp" alt="Profile Picture" className={styles.image} />
                         <div className={styles.profileText}>
                             <h1>enzoturcovic1234567890@gmail.com</h1>
                         </div>
@@ -48,21 +48,21 @@ export default function Profile() {
                 <div className={styles.postsContent}>
                     <h2>Suas Festas!</h2>
                     <ProfilePosts
-                        foto="/profileenzo.png"
+                        foto="/images/profileenzo.png"
                         local="Praia da Barra"
                         data="Domingo, 01/05/2025"
                         horario="18:00"
                         descricao="Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!"
                     />
                     <ProfilePosts
-                        foto="/profileenzo.png"
+                        foto="/images/profileenzo.png"
                         local="Estádio do Maracanã"
                         data="Sábado, 15/06/2025"
                         horario="22:00"
                         descricao="Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!"
                     />
                     <ProfilePosts
-                        foto="/profileenzo.png"
+                        foto="/images/profileenzo.png"
                         local="SENAI Valinhos"
                         data="Sexta-feira, 28/07/2025"
                         horario="15:00"

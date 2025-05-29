@@ -34,7 +34,7 @@ export default function Sobrenos() {
                 </div>
             <div className={styles.imageCard}>
                 <Image
-                    src="/bannerPraia.jpg"
+                    src="/images/bannerPraia.jpg"
                     alt="Logo PARTY LIFE"
                     width={850}
                     height={600}
@@ -57,32 +57,32 @@ export default function Sobrenos() {
                     <div className={styles.teamCards}>
                         <CardSobreNos
                             nome="Maria Parma"
-                            foto="/profileenzo.png"
+                            foto="/images/profileenzo.png"
                             funcao="Scrum Master"
                         />
                         <CardSobreNos
                             nome="Giovanna Alba"
-                            foto="/profileenzo.png"
+                            foto="/images/profileenzo.png"
                             funcao="Product Owner"
                         />
                         <CardSobreNos
                             nome="Enzo Turcovic"
-                            foto="/profileenzo.png"
+                            foto="/images/profileenzo.png"
                             funcao="Desenvolvedor"
                         />
                         <CardSobreNos
                             nome="Kevin Lima"
-                            foto="/profileenzo.png"
+                            foto="/images/profileenzo.png"
                             funcao="Desenvolvedor"
                         />
                         <CardSobreNos
                             nome="Luiz Ricci"
-                            foto="/profileenzo.png"
+                            foto="/images/profileenzo.png"
                             funcao="Desenvolvedor"
                         />
                         <CardSobreNos
                             nome="Lucas Zani"
-                            foto="/profileenzo.png"
+                            foto="/images/profileenzo.png"
                             funcao="Desenvolvedor"
                         />
                     </div>
