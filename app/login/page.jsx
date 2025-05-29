@@ -12,7 +12,7 @@ export default function Login() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsLoading(false);
-        }, 2000);
+        }, 200);
 
         return () => clearTimeout(timer);
     }, []);
