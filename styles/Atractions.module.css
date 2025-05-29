@@ -1,0 +1,17 @@
+.containerAtraction {
+    display: flex;
+    width: 15%;
+    padding: 100px 40px;
+    background-color: yellow;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerAtraction img {
+    border-radius: 50%;
+}
+
+.containerAtraction h2 {
+    font-size: 1.3rem;
+}
