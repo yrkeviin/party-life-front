@@ -34,7 +34,7 @@ export default function Sobrenos() {
                 </div>
             <div className={styles.imageCard}>
                 <Image
-                    src="/images/bannerPraia.jpg"
+                    src="/images/logopartylife.png" // imagem temporária, apenas para teste
                     alt="Logo PARTY LIFE"
                     width={850}
                     height={600}
@@ -57,32 +57,32 @@ export default function Sobrenos() {
                     <div className={styles.teamCards}>
                         <CardSobreNos
                             nome="Maria Parma"
-                            foto="/images/profileenzo.png"
+                            foto="/images/profileenzo.png" // imagem temporária, apenas para teste
                             funcao="Scrum Master"
                         />
                         <CardSobreNos
                             nome="Giovanna Alba"
-                            foto="/images/profileenzo.png"
+                            foto="/images/profileenzo.png" // imagem temporária, apenas para teste
                             funcao="Product Owner"
                         />
                         <CardSobreNos
                             nome="Enzo Turcovic"
-                            foto="/images/profileenzo.png"
+                            foto="/images/profileenzo.png" // imagem temporária, apenas para teste
                             funcao="Desenvolvedor"
                         />
                         <CardSobreNos
                             nome="Kevin Lima"
-                            foto="/images/profilekevin.jpg"
+                            foto="/images/profilekevin.jpg" // imagem temporária, apenas para teste
                             funcao="Desenvolvedor"
                         />
                         <CardSobreNos
                             nome="Luiz Ricci"
-                            foto="/images/profileenzo.png"
+                            foto="/images/profileenzo.png" // imagem temporária, apenas para teste
                             funcao="Desenvolvedor"
                         />
                         <CardSobreNos
                             nome="Lucas Zani"
-                            foto="/images/profileenzo.png"
+                            foto="/images/profileenzo.png" // imagem temporária, apenas para teste
                             funcao="Desenvolvedor"
                         />
                     </div>

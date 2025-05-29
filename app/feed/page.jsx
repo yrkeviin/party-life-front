@@ -4,6 +4,7 @@ import styles from "./Feed.module.css";
 import Header from "../../components/Header";
 import Post from "../../components/Posts";
 import Footer from "../../components/Footer";
+import axios from "axios";
 
 const postsData = [
     {
@@ -69,6 +70,21 @@ export default function Feed() {
     const [searchInput, setSearchInput] = useState("");
     const [search, setSearch] = useState("");
     const [posts, setPosts] = useState(postsData);
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+        const fetchPosts = async () => {
+            try {
+                const response = await axios.get("http://localhost:3000/api/posts");
+                setData(response.data);
+                console.log("Posts recebidos:", response.data);
+            } catch (error) {
+                console.error("Erro ao buscar posts:", error);
+            }
+        };
+
+        fetchPosts();
+    },[]);
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -79,7 +95,8 @@ export default function Feed() {
     }, []);
 
     const filteredPosts = posts.filter(post =>
-        post.textName.toLowerCase().includes(search.toLowerCase())
+        Array.isArray(post) ? post.some(p => p.textName?.toLowerCase().includes(search.toLowerCase())) :
+        post.textName?.toLowerCase().includes(search.toLowerCase())
     );
 
     if (isLoading) {
@@ -89,7 +106,6 @@ export default function Feed() {
             </div>
         );
     }
-
     return (
         <div>
             <div className={styles.container}>
@@ -123,7 +139,7 @@ export default function Feed() {
                             />
                         ))
                     ) : (
-                        <p>Nenhum resultado encontrado.</p>
+                        <p>Nenhum resultado encontrado!</p>
                     )}
                 </div>
             </div>
