@@ -67,6 +67,11 @@
 
 .hashtags {
     padding: 2% 5%;
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
 }
 
 .hashtags h2 {
@@ -112,4 +117,11 @@
 
 .allAtractions {
     display: flex;
+}
+
+.music {
+    padding: 2% 5% 0 5%;
+    font-size: 1.2rem;
+    color: rgb(135, 35, 155);
+    margin-bottom: 5%;
 }
