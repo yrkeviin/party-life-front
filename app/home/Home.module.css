@@ -129,7 +129,7 @@
 
     .text,
     .imageText {
-        width: 40%;
+        width: 30%;
         margin-bottom: 5%;
     }
 
@@ -150,6 +150,10 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .containerContent {
+        padding: 1rem;
+    } 
+
     .imageText {
         width: 60%;
         height: 60%;

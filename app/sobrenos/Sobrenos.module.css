@@ -75,7 +75,6 @@
     justify-content: center;
     height: 25vh;
     margin: 2rem;
-   
 }
 
 .description {
@@ -177,6 +176,19 @@
     margin-top: .7rem;
     color: #b6b6b6;
 }
+
+/* @media (min-width: 1440px) {
+    .teamContent {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .teamCards {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3rem;
+    }
+}*/
 
 @media (max-width: 1024px) {
     .imageTeam {

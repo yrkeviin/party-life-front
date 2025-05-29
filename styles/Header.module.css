@@ -55,6 +55,21 @@
     width: 30%;
 }
 
+@media (max-width: 1024px) {
+    .navbar {
+        gap: 2rem;
+        padding: 1.5rem 3rem;
+    }
+
+    .navbar h1 {
+        font-size: 2rem;
+    }
+
+    .links {
+        gap: 3rem;
+    }
+}
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: row;
