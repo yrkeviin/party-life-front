@@ -13,10 +13,10 @@ export default function Footer() {
                 </div>
                 <div className={styles.right}>
                     <div className={styles.socialIcons}>
-                        <a href="#"><FaInstagram /></a>
-                        <a href="#"><FaTwitter /></a>
-                        <a href="#"><FaFacebookF /></a>
-                        <a href="#"><FaTiktok /></a>
+                        <a href="https://www.instagram.com/accounts/login/"><FaInstagram /></a>
+                        <a href="https://x.com/i/flow/login"><FaTwitter /></a>
+                        <a href="https://www.facebook.com/?locale=pt_BR"><FaFacebookF /></a>
+                        <a href="https://www.tiktok.com/upload?lang=pt_BR"><FaTiktok /></a>
                     </div>
                     <p className={styles.copy}>
                         © 2025 Party Life — Todos os direitos reservados.

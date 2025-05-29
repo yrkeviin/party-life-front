@@ -41,6 +41,27 @@ const postsData = [
         button: "Ver Mais",
         page: "/detalhesCorrida"
     },
+    {
+        textName: "@GP",
+        picture: "/images/corridaPost.jpg",
+        local: "Pista do Tigre, São Paulo",
+        button: "Ver Mais",
+        page: "/detalhesCorrida"
+    },
+    {
+        textName: "@Cebezinho",
+        picture: "/images/beachPost.jpg",
+        local: "Pista do Tigre, São Paulo",
+        button: "Ver Mais",
+        page: "/detalhesFestaPraia"
+    },
+    {
+        textName: "@Ju Santos",
+        picture: "/images/ravePost.jpg",
+        local: "Rave da Ju, São Paulo",
+        button: "Ver Mais",
+        page: "/detalhesRaveCor"
+    }
 ];
 
 export default function Feed() {
@@ -52,7 +73,7 @@ export default function Feed() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsLoading(false);
-        }, 2000);
+        }, 200);
 
         return () => clearTimeout(timer);
     }, []);
