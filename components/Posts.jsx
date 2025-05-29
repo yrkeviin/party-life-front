@@ -10,7 +10,7 @@ export default function Posts({ textName, picture, local, page }) {
             <div className={styles.action}>
                 <h4>{local}</h4>
                 <button>
-                    <a href={page}>Ver Detalhes</a>
+                    <a href={page}>Ver Mais</a>
                 </button>
             </div>
         </div>

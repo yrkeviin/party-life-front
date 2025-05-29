@@ -8,37 +8,37 @@ import Footer from "../../components/Footer";
 const postsData = [
     {
         textName: "@menorKabrinha",
-        picture: "/images/raveBanner.jpg",
+        picture: "/images/raveFestFeed.jpg",
         local: "Rave do Menor, São Paulo",
-        button: "Ver Detalhes",
+        button: "Ver Mais",
         page: "/detalhesRaveCor"
     },
     {
         textName: "@juliaRiver",
-        picture: "/images/rave1.jpg",
+        picture: "/images/beachFeed.jpg",
         local: "Praia do Leme, Rio de Janeiro",
-        button: "Ver Detalhes",
+        button: "Ver Mais",
         page: "/detalhesFestaPraia"
     },
     {
         textName: "@angelotti",
-        picture: "/images/pool1.jpg",
+        picture: "/images/poolPartyFeed.jpg",
         local: "Pool Party, São Paulo",
-        button: "Ver Detalhes",
+        button: "Ver Mais",
         page: "/detalhesPoolParty"
     },
     {
         textName: "@juju mines",
-        picture: "/images/rave3.jpg",
+        picture: "/images/resenhaFeed.jpg",
         local: "Casa da Juju, São Paulo",
-        button: "Ver Detalhes",
+        button: "Ver Mais",
         page: "/detalhesResenhaCasa"
     },
     {
         textName: "@XRCZ",
         picture: "/images/car1.jpg",
         local: "Pista do Tigre, São Paulo",
-        button: "Ver Detalhes",
+        button: "Ver Mais",
         page: "/detalhesCorrida"
     },
 ];

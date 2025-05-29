@@ -3,14 +3,13 @@
 .post {
     background-color: #ffffff49;
     width: 20%;
-    height: 50vh;
     margin: 2% auto;
     border-radius: 40px;
 }
 
 .post h3 {
     color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
+    padding: 20px 0 10px 20px;
     font-size: 100%;
     font-family: "Montserrat", sans-serif;
     margin-left: 1%;
