@@ -1,5 +1,9 @@
+.appContainer {
+    background-color: #a5e3f86c;
+}
+
 .containerBanner {
-    background-image: url(/images/bannerCorrida.png);
+    background-image: url(/images/bannerCorrida.jpeg);
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     background-size: cover;
@@ -51,13 +55,21 @@
 }
 
 .greenSectionn {
-    background-color: #D9A1FF;
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
     padding: 2% 5%;
 }
 
 .hashtags {
     padding: 2% 5%;
-    background-color: #D9A1FF;
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
 }
 
 .hashtags h2 {
