@@ -8,6 +8,7 @@ import Header from "../../components/Header";
 import InfoDetalhes from "../../components/InfoDetalhes";
 import DescSeparador from "../../components/DescSeparador";
 import Atractions from "../../components/Atractions";
+import Cards from "../../components/Cards";
 
 export default function RaveCor() {
     const [isLoading, setIsLoading] = useState(true);
@@ -101,6 +102,15 @@ export default function RaveCor() {
                         atractionName="Nath Fischer"
                         />
                     </div>
+                </div>
+
+                <div className={styles.music}>
+                    <h2 className={styles.sectionTitle}>ESTILO</h2>
+                    <Cards
+                    picture="/images/rave.png"
+                    text="🏖️ Festas na Praia"
+                    description="Areia nos pés, pôr do sol e som rolando! Festas na praia trazem a energia perfeita para curtir com os amigos à beira-mar."
+                    />
                 </div>
 
                 <div className={styles.hashtags}>
