@@ -90,6 +90,12 @@
     padding: 2rem;
 }
 
+.profileText h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
 .postsContent {
     display: flex;
     flex-direction: column;
@@ -105,4 +111,106 @@
     margin-bottom: 1rem;
     color: #ffffff;
     margin: 4rem;
+}
+
+@media (max-width: 1024px) {
+    .profileInfo h1 {
+        font-size: 2rem;
+    }
+
+    .profileInfo p {
+        font-size: 1.4rem;
+    }
+
+    .profileInfo img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .postsContent h2 {
+        font-size: 2.5rem;
+        margin: 2rem;
+    }
+
+    .backIcon a {
+        font-size: 2.5rem;
+    }
+}
+
+/* Celulares médios */
+@media (max-width: 768px) {
+    .profileInfo h1 {
+        font-size: 1.8rem;
+    }
+
+    .profileInfo p {
+        font-size: 1.2rem;
+    }
+
+    .profileInfo img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .profileText h1 {
+        font-size: 1.6rem;
+    }
+
+    .postsContent h2 {
+        font-size: 2rem;
+        margin: 2rem;
+    }
+
+    .backIcon {
+        height: 5rem;
+        padding: 1.5rem;
+    }
+
+    .backIcon a {
+        font-size: 2rem;
+    }
+
+    .icon a {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+/* Celulares pequenos */
+@media (max-width: 480px) {
+    .profileInfo h1 {
+        font-size: 1.5rem;
+    }
+
+    .profileInfo p {
+        font-size: 1rem;
+    }
+
+    .profileInfo img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .profileText h1 {
+        font-size: 1.4rem;
+    }
+
+    .postsContent h2 {
+        font-size: 1.6rem;
+        margin: 1.5rem;
+    }
+
+    .backIcon {
+        height: 4rem;
+        padding: 1rem;
+    }
+
+    .backIcon a {
+        font-size: 1.8rem;
+    }
+
+    .icon a {
+        width: 2rem;
+        height: 2rem;
+    }
 }

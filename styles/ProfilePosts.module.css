@@ -1,29 +1,28 @@
-.post {
+.post { 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-bottom: 3rem;
-    background-color: #ffffff;
     border-radius: 8px;
-    width: 80rem;
-    height: 30rem;
+    max-width: 80rem;
     padding: 1.5rem;
-}
-
-.post img {
-    width: auto;
-    height: auto;
-    border-radius: 15px;
-    object-fit: cover;
+    gap: 2rem;
+    flex-wrap: wrap;
+    background-color: #ffffff;
 }
 
 .contentImage {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30rem;
-    height: 30rem;
+    width: 100%;
+    max-width: 30rem;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
     border-radius: 15px;
     object-fit: cover;
 }
@@ -31,66 +30,66 @@
 .postInfo {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    width: 70%;
-    height: 100%;
-    gap: 3rem;
+    flex: 1;
+    gap: 7rem;
 }
 
 .postTime {
     display: flex;
-    flex-direction: row ;
-    align-items: center;
-    justify-content: center;
-    height: 3rem;
-    font-size: 1rem;
+    flex-wrap: wrap;
     color: #c36cff;
-    margin-bottom: 10px;
-    gap: 4rem;
-    font-size: 24px;
-}
-
-.postTime p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 .icon {
-    width: 1.5rem;
-    height: 1.5rem;
     margin-right: 0.5rem;
 }
 
 .postDescription {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 30rem;
-    font-size: 1.2rem;
+    text-align: center;
     color: #000000;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .postButton {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-    height: 5rem;
-    gap: 2rem;
+    max-width: 30rem;
+    padding: 1rem;
     background-color: #c36cff;
     color: #ffffff;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .postButton:hover {
     background-color: #ff3c78;
+}
+
+@media (max-width: 768px) {
+    .post {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .postTime {
+        gap: 1rem;
+        font-size: 1rem;
+    }
+
+    .postDescription {
+        font-size: 0.9rem;
+    }
+
+    .postButton {
+        font-size: 1rem;
+    }
 }
