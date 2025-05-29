@@ -27,7 +27,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: linear-gradient(180deg, #826099 0%, #5d1b66 100%);
+    background: linear-gradient(0deg, #ecd0ff 0%, #e1b5ff 25%, #c36cff 100%);
     margin-bottom: 2rem;
 }
 
