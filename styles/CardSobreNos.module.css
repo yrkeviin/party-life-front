@@ -64,3 +64,67 @@
     color: #ffffff;
     color: black;
 }
+
+@media (max-width: 1024px) {
+    .card {
+        width: 14rem;
+        height: 20rem;
+        margin: 1.5rem;
+    }
+
+    .card img {
+        width: 200px;
+    }
+
+    .card img:hover {
+        width: 230px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 12rem;
+        height: 18rem;
+        margin: 1rem;
+    }
+
+    .card img {
+        width: 160px;
+    }
+
+    .card img:hover {
+        width: 190px;
+    }
+
+    .nome {
+        font-size: 14px;
+    }
+
+    .funcao {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+        max-width: 320px;
+        margin: 1rem auto;
+    }
+
+    .card img {
+        width: 140px;
+    }
+
+    .card img:hover {
+        width: 170px;
+    }
+
+    .nome {
+        font-size: 14px;
+    }
+
+    .funcao {
+        font-size: 14px;
+    }
+}

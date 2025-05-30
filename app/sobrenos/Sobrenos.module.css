@@ -16,7 +16,7 @@
     align-items: center;
     height: 100vh;
     background-image: url(/images/lhamaBackground.png);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #00000080;
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
@@ -36,7 +36,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: black;
+    color: #000000;
     margin-top: 5rem;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -87,7 +87,7 @@
     letter-spacing: 1px;
     height: 10rem;
     width: 70%;
-    color: black;
+    color: #000000;
 }
 
 .teamContent {
@@ -96,6 +96,7 @@
     flex-wrap: wrap;
     background-color: #fffed27f;
     border-radius: 25px;
+    width: 90%;
 }
 
 .teamTitle {
@@ -106,7 +107,7 @@
     justify-content: center;
     align-items: center;
     margin: 2rem;
-    color: black;
+    color: #000000;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -116,7 +117,6 @@
     justify-items: center;
     gap: 3rem;
 }
-
 
 .contentJoin {
     display: flex;
@@ -131,7 +131,7 @@
 .titleJoin {
     font-size: 32px;
     font-weight: bold;
-    color: black;
+    color: #000000;
     text-align: center;
     height: 10rem;
     font-family: 'Courier New', Courier, monospace;
@@ -146,15 +146,15 @@
     align-items: center;
     letter-spacing: 1px;
     width: 70%;
-    color: black;
+    color: #000000;
 }
 
 .membroEquipe {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 90%;
+    max-width: 200px;
     justify-content: space-between;
 }
 
@@ -177,7 +177,7 @@
     color: #b6b6b6;
 }
 
-/* @media (min-width: 1440px) {
+@media (min-width: 1440px) {
     .teamContent {
         max-width: 1300px;
         margin: 0 auto;
@@ -185,10 +185,10 @@
     }
 
     .teamCards {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 3rem;
     }
-}*/
+}
 
 @media (max-width: 1024px) {
     .imageTeam {
@@ -291,9 +291,15 @@
         margin: 1rem;
     }
 
+    .teamContent {
+        width: 90%;
+        padding: 1rem;
+    }
+
     .teamCards {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+        width: 90%;
     }
 
     .teamTitle {
