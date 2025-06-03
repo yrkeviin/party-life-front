@@ -3,11 +3,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to right,
-            #b9a9f1 0%,
-            #b9a9f1 40%,
-            #a5e3f8 60%,
-            #a5e3f8 100%);
+    background-color: #ffffff;
 }
 
 .loadingContainer {
@@ -43,6 +39,7 @@
 
 .imageCard {
     width: 100%;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,24 +47,20 @@
 }
 
 .imageTeam {
-    width: 50%;
-    height: 70%;
+    width: 30rem;
+    height: 25rem;
     border-radius: 10px;
 }
 
 .content {
-    background-color: #7d5691;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 50%;
     margin-bottom: 2rem;
-    background: linear-gradient(to right,
-            #b9a9f1 0%,
-            #b9a9f1 40%,
-            #a5e3f8 60%,
-            #a5e3f8 100%);
+    background: #EE82EE;
+    background: linear-gradient(180deg, #ee82ee 0%, #c38ee6 100%);
 }
 
 .textContent {
@@ -94,7 +87,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #fffed27f;
+    background-color: #ffffff7f;
     border-radius: 25px;
     width: 90%;
 }
@@ -129,6 +122,8 @@
 }
 
 .titleJoin {
+    display: flex;
+    align-items: center;
     font-size: 32px;
     font-weight: bold;
     color: #000000;
