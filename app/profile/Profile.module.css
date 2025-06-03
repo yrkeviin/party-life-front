@@ -22,12 +22,20 @@
 }
 
 .container {
-    background: linear-gradient(0deg, #ecd0ff 0%, #e1b5ff 25%, #c36cff 100%);
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
 }
 
 .containerPostagens {
     width: 70%;
     margin: 0 auto;
+}
+
+.containerPostagens h1 {
+    margin-bottom: 5rem;
 }
 
 .postInfo {
@@ -36,8 +44,34 @@
     width: 100%;
 }
 
+.containerProfile {
+    width: 100%;
+    margin: 5% 10%;
+}
 
+.profileHeader  {
+    display: flex;
+    gap: 4rem;
+}
 
+.profileHeader a button {
+    background: transparent;
+    border: none;
+}
+
+.profileHeader a button .iconBack {
+    font-size: 3rem;
+}
+
+.profileHeader img {
+    width: 8%;
+    border-radius: 50%;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+}
 
 @media (max-width: 1024px) {
     .profileInfo h1 {

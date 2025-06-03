@@ -43,8 +43,10 @@ export default function Profile() {
 
                     <img src="/images/profilekevin.jpg" alt="" />
 
-                    <h1>User Name</h1>
-                    <h2>@username</h2>
+                    <div className={styles.profileInfo}>
+                        <h1>Olá, Kevin</h1>
+                        <h2>@username</h2>
+                    </div>
                 </div>
             </div>
 
@@ -79,6 +81,9 @@ export default function Profile() {
                 />
             </div>
 
+            <div>
+                <Footer />
+            </div>
 
         </div>
     );
