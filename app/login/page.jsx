@@ -1,47 +1,73 @@
 "use client";
 import React, { useState } from 'react';
+import axios from 'axios';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import Input from '../../components/Input';
+import styles from './page.module.css';
 
-const Formulario = () => {
+export default function Login() {
+
     const [email, setEmail] = useState('');
-    const [senha, setSenha] = useState('');
-    const [repetirSenha, setRepetirSenha] = useState('');
-    const [erro, setErro] = useState('');
+    const [password, setPassword] = useState('');
+    const [error, setError] = useState(null);
+    const [success, setSuccess] = useState(null);
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        setErro('');
+    const handleLogin = async () => {
+        try {
+            const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/auth/login`, {
+                email,
+                senha: password,
+            });
 
-        if (senha.length < 6) {
-            setErro('A senha deve ter pelo menos 6 caracteres.');
-        } else {
-            window.location.href = '/home';
+            const { token } = response.data;
+
+            if (!token) {
+                throw new Error('Token não encontrado na resposta');
+            }
+
+            await AsyncStorage.setItem('token', token);
+
+            setError(null);
+            setSuccess('Login realizado com sucesso!');
+
+            navigation.navigate('/home');
+        } catch (error) {
+            const errorMessage = error.response?.data?.message || 'Erro ao fazer login. Tente novamente.';
+            setError(errorMessage);
+            setSuccess(null);
         }
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <div>
-                <label>Email:</label>
-                <input
-                    type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                />
+        <div className={styles.container}>
+            <div className={styles.loginContainer}>
+                <h1>Login</h1>
+
+                <div>
+                    <Input
+                        placeholder="E-mail"
+                        type="email"
+                        value={email}
+                        place="E-mail"
+                        onChange={e => setEmail(e.target.value)}
+                    />
+
+                    <Input
+                        placeholder="Senha"
+                        value={password}
+                        place="Senha"
+                        onChange={e => setPassword(e.target.value)}
+                    />
+
+                    {error && <p className={styles.error}>{error}</p>}
+                    {success && <p className={styles.success}>{success}</p>}
+                    <button className={styles.entrar} onClick={handleLogin}>Entrar</button>
+                </div>
             </div>
-            <div>
-                <label>Senha:</label>
-                <input
-                    type="password"
-                    value={senha}
-                    onChange={(e) => setSenha(e.target.value)}
-                    required
-                />
+
+            <div className={styles.imageContainer}>
+                <img src="/images/imageLogin2.jpg" alt="Login" className={styles.image} />
             </div>
-            {erro && <p style={{ color: 'red' }}>{erro}</p>}
-            <button type="submit">Enviar</button>
-        </form>
+        </div>
     );
 };
-
-export default Formulario;
