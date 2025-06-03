@@ -108,7 +108,6 @@ export default function FestaPraia() {
                     <Cards
                     picture="/images/praia.png"
                     text="🏖️ Festas na Praia"
-                    description="Areia nos pés, pôr do sol e som rolando! Festas na praia trazem a energia perfeita para curtir com os amigos à beira-mar."
                     />
                 </div>
 

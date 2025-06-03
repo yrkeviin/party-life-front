@@ -107,8 +107,7 @@ export default function PoolParty() {
                     <h2 className={styles.sectionTitle}>ESTILO</h2>
                     <Cards
                     picture="/images/piscina.png"
-                    text="🏖️ Festas na Praia"
-                    description="Areia nos pés, pôr do sol e som rolando! Festas na praia trazem a energia perfeita para curtir com os amigos à beira-mar."
+                    text="🏖️ Pool Partys"
                     />
                 </div>
 
