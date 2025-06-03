@@ -28,67 +28,9 @@ export default function Sobrenos() {
 
     return (
         <div className={styles.container}>
-            <Header />
-                <div className={styles.text}>
-                    <h1>Seja Bem-vindo(a) ao PARTYLIFE!🪩</h1>
-                </div>
-            <div className={styles.imageCard}>
-                <Image
-                    src="/images/logopartylife.png" // imagem temporária, apenas para teste
-                    alt="Logo PARTY LIFE"
-                    width={850}
-                    height={600}
-                    className={styles.imageTeam}
-                />
+            <div className={styles.containerHeader}>
+                <Header />
             </div>
-
-            <div className={styles.content}>
-                <div className={styles.textContent}>
-                    <p className={styles.description}>
-                        Bem-vindo ao PARTYLIFE, a rede social que te conecta aos melhores
-                        eventos e festas da sua cidade! Nosso objetivo é simplificar a
-                        descoberta de rolês, proporcionando uma experiência intuitiva e
-                        dinâmica tanto no mobile quanto na web.
-                    </p>
-                </div>
-
-                <div className={styles.teamContent}>
-                    <h2 className={styles.teamTitle}>Conheça a nossa equipe!</h2>
-                    <div className={styles.teamCards}>
-                        <CardSobreNos
-                            nome="Maria Parma"
-                            foto="/images/profileenzo.png" // imagem temporária, apenas para teste
-                            funcao="Scrum Master"
-                        />
-                        <CardSobreNos
-                            nome="Giovanna Alba"
-                            foto="/images/profileenzo.png" // imagem temporária, apenas para teste
-                            funcao="Product Owner"
-                        />
-                        <CardSobreNos
-                            nome="Enzo Turcovic"
-                            foto="/images/profileenzo.png" // imagem temporária, apenas para teste
-                            funcao="Desenvolvedor"
-                        />
-                        <CardSobreNos
-                            nome="Kevin Lima"
-                            foto="/images/profilekevin.jpg" // imagem temporária, apenas para teste
-                            funcao="Desenvolvedor"
-                        />
-                        <CardSobreNos
-                            nome="Luiz Ricci"
-                            foto="/images/profileenzo.png" // imagem temporária, apenas para teste
-                            funcao="Desenvolvedor"
-                        />
-                        <CardSobreNos
-                            nome="Lucas Zani"
-                            foto="/images/profileenzo.png" // imagem temporária, apenas para teste
-                            funcao="Desenvolvedor"
-                        />
-                    </div>
-                </div>
-            </div>
-            <Footer />
         </div>
     );
 }
