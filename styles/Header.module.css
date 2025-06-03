@@ -12,14 +12,13 @@
     background-color: #671a9a;
     background: linear-gradient(90deg, #7a05c980 0%, #dc8efd4d 100%);
     justify-content: space-between;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .navbar h1 {
     margin: 0;
     font-size: 2.4rem;
     font-family: "Bebas Neue", sans-serif;
-    width: 30%;
 }
 
 .page a {
@@ -47,12 +46,12 @@
 
 .logo {
     flex: 1;
+    width: 30%;
 }
 
 .links {
     display: flex;
     gap: 5rem;
-    width: 30%;
 }
 
 @media (max-width: 1024px) {
