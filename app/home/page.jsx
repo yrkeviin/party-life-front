@@ -106,75 +106,65 @@ export default function Home() {
                     <div>
                         <div className={styles.cardsContainer} >
                             <Cards
-                                picture="/images/bolzaniAtracao.jpg"
-                                text="📸 Camila Bolzani"
-                                idade="19 anos"
-                                description="Influenciadora digital de lifestyle e beleza, com conteúdos e engajamento."
+                                picture="/images/alokAtracao.jpg"
+                                text="🎧 Alok"
+                                description="Alok é um DJ e produtor musical brasileiro, conhecido mundialmente por popularizar o estilo brazilian bass e já foi eleito um dos melhores DJs do mundo pela revista DJ Mag. Além da música, atua em projetos sociais por meio do Instituto Alok."
                             />
 
                             <Cards
-                                picture="/images/blakesAtracao.jpg"
-                                text="🤖 DJ Blakes"
-                                idade="18 anos"
-                                description="DJ e produtora de funk paulista, presença confirmada nas melhores festas!"
+                                picture="/images/matueAtracao.jpg"
+                                text="🎤 Matue"
+                                description="Matuê, nome artístico de Matheus Brasileiro Aguiar, é um rapper e cantor brasileiro Seus álbuns Máquina do Tempo e 333 quebraram recordes de streaming no Brasil. Matuê também é fundador do selo 30PRAUM, promovendo a cena do trap no Nordeste."
                             />
 
                             <Cards
-                                picture="/images/fischerAtracao.jpg"
-                                text="💄 Nath Fischer"
-                                idade="20 anos"
-                                description="Modelo e influencer, compartilha lifestyle e beleza com autenticidade com o púbico."
+                                picture="/images/menosemaisAtracao.png"
+                                text="🎺 Menos é Mais"
+                                description="Menos é Mais é um grupo de pagode formado em 2016. Ganhou destaque com o projeto Churrasquinho do Menos é Mais. Com um estilo moderno, o grupo mistura clássicos com músicas autorais e já se apresentou ao lado de grandes nomes."
                             />
 
                             <Cards
-                                picture="/images/negaoAtracao.jpg"
-                                idade="25 anos"
-                                text="🔥 MC Negão"
-                                description="Voz potente e estilo único no funk consciente, respeitado dentro e fora das favelas."
+                                picture="/images/natirutsAtracao.jpg"
+                                text="🌵 Natiruts"
+                                description="Natiruts é uma banda brasileira de reggae. Conhecida por misturar reggae com influências da música brasileira, alcançou sucesso com músicas como Liberdade pra Dentro da Cabeça, Presente de um Beija-Flor e Sorri, Sou Rei."
                             />
 
                             <Cards
-                                picture="/images/natAtracao.jpg"
-                                text="🎵 DJ Nath"
-                                idade="24 anos"
-                                description="DJ de sucesso nas maiores festas do Brasil, mistura carisma e talento em seus shows."
+                                picture="/images/donjuanAtracao.jpg"
+                                text="🎭 Don Juan"
+                                description="MC Don Juan é um cantor de funk paulista que ganhou fama em 2016 com o hit 'Me Amarro na Noite'. Conhecido por sucessos como 'Amar, Amei', já colaborou com artistas como Alok e MC Ryan SP, sendo um dos grandes nomes do funk atual."
                             />
                         </div>
 
                         <div className={styles.cardsContainer} >
                             <Cards
-                                picture="/images/menoAtracao.jpg"
-                                text="🎧 Meno K"
-                                idade="22 anos"
-                                description="Jovem talento do funk, estilo autêntico e batidas contagiantes de animar a festa."
+                                picture="/images/cabelinhoAtracao.jpg"
+                                text="🎶 MC Cabelinho"
+                                description="MC Cabelinho é um cantor, rapper e ator. Ganhou destaque no cenário do trap e funk, que alcançaram milhões de streams. Além da música, também já atuou em novelas da TV Globo. Seu estilo mistura temas da periferia com romantismo."
                             />
 
                             <Cards
-                                picture="/images/ninoAtracao.jpg"
-                                text="🎭 Nino"
-                                idade="18 anos"
-                                description="Influencer e artista, sempre presente nos rolês mais hypados do momento."
+                                picture="/images/capitalinicialAtracao.jpg"
+                                text="� Capital Inicial"
+                                description="Capital Inicial é uma banda de rock brasileira. Comandada pelo vocalista Dinho Ouro Preto, a banda ganhou destaque nos anos 1980. Nos anos 2000, voltou ao sucesso com o Acústico MTV, que apresentou novos hits como À Sua Maneira."
                             />
 
                             <Cards
-                                picture="/images/igAtracao.jpg"
-                                text="🎶 MC Ig"
-                                idade="27 anos"
-                                description="Um dos nomes mais fortes do funk atual, com letras marcantes e flow envolvente."
+                                picture="/images/brunomartiniAtracao.jpg"
+                                text="🎹 Bruno Martini"
+                                description="Bruno Martini é um DJ, produtor e cantor brasileiro. Ganhou destaque em 2016 com o hit Hear Me Now, em parceria com Alok e Zeeba. Desde então, colaborou com artistas e se apresentou em festivais como Tomorrowland e Lollapalooza."
                             />
 
                             <Cards
-                                picture="/images/dojaAtracao.jpg"
-                                text="🌟 Doja Cat"
-                                idade="29 anos"
-                                description="Cantora e rapper internacional, mistura pop e hip-hop com atitude única."
+                                picture="/images/eliAtracao.jpg"
+                                text="🌟 Eli Iwasa"
+                                description="Eli Iwasa é uma DJ, produtora e empresária brasileira com mais de 25 anos de carreira na música eletrônica. Além de se apresentar em grandes festivais como Rock in Rio, Time Warp e DGTL, ela é fundadora do selo Heels of Love."
                             />
 
                             <Cards
-                                picture="/images/tutoAtracao.jpg"
-                                text="🎤 MC Tuto"
-                                idade="23 anos"
-                                description="Revelação do funk paulista, conhecido por hits que bombam nas pistas."
+                                picture="/images/diegoevictorAtracao.jpg"
+                                text="🎸 Diego e Victor"
+                                description="Diego & Victor Hugo é uma dupla sertaneja. Inicialmente, destacaram-se como compositores, criando sucessos gravados por artistas como Henrique & Juliano e Wesley Safadão. Ganhou destaque com músicas como Infarto, Facas e Tubarões."
                             />
                         </div>
                     </div>
@@ -207,7 +197,7 @@ export default function Home() {
                         <Cards
                             picture="/images/jazz_style.png"
                             text="🎷 Jazz"
-                            description="Desfrute do charme do jazz, com improvisos e sonoridades que trazem sofisticação e descontração!"
+                            description="Desfrute do charme do jazz, com improvisos e sonoridades que trazem sofisticação!"
                         />
 
                         <Cards
@@ -220,9 +210,9 @@ export default function Home() {
 
                     <div className={styles.cardsContainer}>
                         <Cards
-                            picture="/images/clássica_style.png"
-                            text="🎻 Clássica"
-                            description="Encante-se com a sofisticação da música clássica, perfeita para um clima elegante e inesquecível no seu evento!"
+                            picture="/images/pagode_style.png"
+                            text="🎻 Pagode"
+                            description="Sinta a alegria contagiante do pagode, com samba no pé e aquela vibe de roda de amigos que não deixa ninguém parado!"
                         />
 
                         <Cards
@@ -240,13 +230,13 @@ export default function Home() {
                         <Cards
                             picture="/images/reggae_style.png"
                             text="🤟 Reggae"
-                            description="Deixe o clima relaxar com o reggae, trazendo vibrações positivas e muita paz para sua festa!"
+                            description="Curta a energia positiva do reggae, com batidas envolventes que criam um clima leve, alto astral e cheio de boas vibrações!"
                         />
 
                         <Cards
                             picture="/images/trap_style.png"
                             text="💸 Trap"
-                            description="Eleve a vibe com o trap, o som urbano e moderno que mistura batidas eletrônicas intensas e muita atitude!"
+                            description="Entre no ritmo intenso do trap, rimas afiadas e uma vibe urbana que mistura atitude, estilo e muita autenticidade nas pistas!"
                         />
 
                     </div>
