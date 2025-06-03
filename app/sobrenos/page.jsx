@@ -28,19 +28,10 @@ export default function Sobrenos() {
 
     return (
         <div className={styles.container}>
+            
             <div className={styles.subHeader}>
                 < Header />
-                
             </div>
-            {/* <div className={styles.imageCard}>
-                <Image
-                    src="/images/imageteam.jpg"
-                    alt="Logo PARTY LIFE"
-                    width={750}
-                    height={550}
-                    className={styles.imageTeam}
-                />
-            </div> */}
 
             <div className={styles.content}>
                 <div className={styles.text}>
@@ -48,10 +39,7 @@ export default function Sobrenos() {
                 </div>
                 <div className={styles.textContent}>
                     <p className={styles.description}>
-                        Bem-vindo ao PARTYLIFE, a rede social que te conecta aos melhores
-                        eventos e festas da sua cidade! Nosso objetivo é simplificar a
-                        descoberta de rolês, proporcionando uma experiência intuitiva e
-                        dinâmica tanto no mobile quanto na web.
+                        Bem-vindo ao PARTYLIFE, a rede social que te conecta aos melhores eventos e festas da sua cidade! Nosso objetivo é simplificar a descoberta de rolês, proporcionando uma experiência intuitiva e dinâmica tanto no mobile quanto na web. A revolução na forma como você vive, descobre e compartilha experiências festivas! Somos muito mais que uma rede social: somos uma comunidade de amantes da diversão, criada para conectar pessoas através da magia das festas e eventos inesquecíveis.
                     </p>
                 </div>
 
@@ -94,9 +82,7 @@ export default function Sobrenos() {
                 <div className={styles.contentJoin}>
                     <h2 className={styles.titleJoin}>Junte-se a Nós!</h2>
                     <p className={styles.descriptionJoin}>
-                        Se você ama festas e quer fazer parte de uma comunidade vibrante,
-                        junte-se ao PartyLife hoje mesmo! Estamos ansiosos para ver suas
-                        fotos e ouvir suas histórias de festa.
+                        Se você ama festas e quer fazer parte de uma comunidade vibrante, junte-se ao PartyLife hoje mesmo! Estamos ansiosos para ver suas fotos e ouvir suas histórias de festa. Se você vive pela emoção das noites inesquecíveis, pela energia das pistas de dança e pela magia das conexões que só uma boa festa proporciona, então você já é um de nós! O PartyLife não é apenas um aplicativo - é um movimento, um estilo de vida e a sua nova casa digital onde os amantes da diversão se encontram.
                     </p>
                 </div>
             </div>

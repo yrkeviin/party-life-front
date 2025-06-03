@@ -24,17 +24,22 @@
     height: 100px;
 }
 
+.subHeader {
+    background-color: #EE82EE;
+}
+
 .text {
     font-size: 18px;
     color: #ffffff;
-    margin-bottom: 4.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #000000;
-    margin-top: 5rem;
     font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 5rem;
+    margin-top: 5rem;
 }
 
 .imageCard {
@@ -66,8 +71,9 @@
 .textContent {
     display: flex;
     justify-content: center;
-    height: 25vh;
-    margin: 2rem;
+    align-items: center;
+    height: auto;
+    margin:3rem;
 }
 
 .description {
@@ -78,16 +84,20 @@
     justify-content: center;
     align-items: center;
     letter-spacing: 1px;
-    height: 10rem;
+    height: auto;
     width: 70%;
     color: #000000;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    line-height: 1.7rem;
 }
 
 .teamContent {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #ffffff7f;
+    background-color: #ffffffde;
     border-radius: 25px;
     width: 90%;
 }
@@ -101,7 +111,7 @@
     align-items: center;
     margin: 2rem;
     color: #000000;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
 }
 
 .teamCards {
@@ -142,6 +152,11 @@
     letter-spacing: 1px;
     width: 70%;
     color: #000000;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    margin-bottom: 4rem;
+    line-height: 1.7rem;
 }
 
 .membroEquipe {
