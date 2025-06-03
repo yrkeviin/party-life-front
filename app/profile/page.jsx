@@ -63,7 +63,7 @@ export default function Profile() {
                 />
                 
                 <ProfilePosts
-                foto="/images/raveFestFeed.jpg"
+                foto="/images/ravePost.jpg"
                 local="São Paulo, SP"
                 data="01/01/2023"
                 horario="10:00 AM"
@@ -71,7 +71,7 @@ export default function Profile() {
                 />
 
                 <ProfilePosts
-                foto="/images/raveFestFeed.jpg"
+                foto="/images/resenhaFeed.jpg"
                 local="São Paulo, SP"
                 data="01/01/2023"
                 horario="10:00 AM"
