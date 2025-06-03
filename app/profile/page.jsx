@@ -5,7 +5,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Divisor from '@/components/Divisor';
 import { FaArrowLeft } from 'react-icons/fa';
-import ProfilePosts from '@/components/ProfilePosts';
+import ProfilePosts from '../../components/ProfilePosts';
 
 export default function Profile() {
 
@@ -29,48 +29,57 @@ export default function Profile() {
 
     return (
         <div className={styles.container}>
-            <Header />
-            <div className={styles.content}>
-                <div className={styles.profileInfo}>
-                    <div className={styles.backIcon}>
-                        <a href="/home" >
-                            <FaArrowLeft className={styles.icon} />
-                        </a>
-                    </div>
-                    <div className={styles.profileUser}>
-                        <img src="/images/profilerandom.webp" alt="Profile Picture" className={styles.image} />
-                        <div className={styles.profileText}>
-                            <h1>enzoturco@gmail.com</h1>
-                        </div>
-                    </div>
-                </div>
-                <Divisor />
-                <div className={styles.postsContent}>
-                    <h2>Suas Festas!</h2>
-                    <ProfilePosts
-                        foto="/images/profileenzo.png"
-                        local="Praia da Barra"
-                        data="Domingo, 01/05/2025"
-                        horario="18:00"
-                        descricao="Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!"
-                    />
-                    <ProfilePosts
-                        foto="/images/profileenzo.png"
-                        local="Estádio do Maracanã"
-                        data="Sábado, 15/06/2025"
-                        horario="22:00"
-                        descricao="Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!"
-                    />
-                    <ProfilePosts
-                        foto="/images/profileenzo.png"
-                        local="SENAI Valinhos"
-                        data="Sexta-feira, 28/07/2025"
-                        horario="15:00"
-                        descricao="Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!Venha se jogar nessa pool party que promete ser inesquecível! Estamos organizando um evento cheio de energia positiva, boa música e muita diversão à beira da piscina. Ideal para quem quer relaxar, curtir a companhia dos amigos e aproveitar o calor com estilo!"
-                    />
+            <div className={styles.containerHeader}>
+                <Header />
+            </div>
+
+            <div className={styles.containerProfile}>
+                <div className={styles.profileHeader}>
+                    <a href="/home">
+                        <button>
+                            <FaArrowLeft className={styles.iconBack} />
+                        </button>
+                    </a>
+
+                    <img src="/images/profilekevin.jpg" alt="" />
+
+                    <h1>User Name</h1>
+                    <h2>@username</h2>
                 </div>
             </div>
-            <Footer />
+
+            <div className={styles.containerDivisor}>
+                <Divisor />
+            </div>
+
+            <div className={styles.containerPostagens}>
+                <h1>POSTAGENS</h1>
+                <ProfilePosts
+                foto="/images/raveFestFeed.jpg"
+                local="São Paulo, SP"
+                data="01/01/2023"
+                horario="10:00 AM"
+                descricao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+                />
+                
+                <ProfilePosts
+                foto="/images/raveFestFeed.jpg"
+                local="São Paulo, SP"
+                data="01/01/2023"
+                horario="10:00 AM"
+                descricao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+                />
+
+                <ProfilePosts
+                foto="/images/raveFestFeed.jpg"
+                local="São Paulo, SP"
+                data="01/01/2023"
+                horario="10:00 AM"
+                descricao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+                />
+            </div>
+
+
         </div>
     );
 }
