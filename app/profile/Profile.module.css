@@ -52,20 +52,21 @@
 .profileHeader  {
     display: flex;
     gap: 4rem;
+    align-items: center;
 }
 
-.profileHeader a button {
+.arrowIcon a button {
     background: transparent;
     border: none;
     cursor: pointer;
 }
 
-.profileHeader a button .iconBack {
+.arrowIcon a button .iconBack {
     font-size: 3rem;
     transition: all .3s ease;
 }
 
-.profileHeader a button .iconBack:hover {
+.arrowIcon a button .iconBack:hover {
     color: rgb(97, 37, 153);
     scale: 0.9;
     transition: all .3s ease;
