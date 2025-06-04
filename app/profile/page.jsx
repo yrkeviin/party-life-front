@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, use } from "react";
+import { useState, useEffect } from "react";
 import styles from './Profile.module.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -27,7 +27,6 @@ function parseJwt(token) {
     }
 }
 
-
 export default function Profile() {
     const [isLoading, setIsLoading] = useState(true);
     const [posts, setPosts] = useState([]);
@@ -36,7 +35,6 @@ export default function Profile() {
     const [modalVisible, setModalVisible] = useState(false);
     const [editName, setEditName] = useState('');
     const [editBio, setEditBio] = useState('');
-
 
     const getUserData = async () => {
         try {
@@ -59,6 +57,7 @@ export default function Profile() {
             console.error('Erro ao buscar dados do usuário:', error);
         }
     };
+
     const getUserPosts = async () => {
         try {
             const token = await AsyncStorage.getItem('token');
@@ -75,34 +74,32 @@ export default function Profile() {
         }
     };
 
-      const handleSave = async () => {
-    try {
-      const token = await AsyncStorage.getItem('token');
-      const payload = parseJwt(token);
-      await axios.put(
-        `${process.env.NEXT_PUBLIC_API_URL}/api/users_info/${payload.id}`,
-        { name: editName, bio: editBio },
-        { headers: { Authorization: `Bearer ${token}` } }
-      );
-      setName(editName);
-      setBio(editBio);
-      setModalVisible(false);
-    } catch (error) {
-      console.error('Erro ao salvar dados:', error);
-    }
-  };
+    const handleSave = async () => {
+        try {
+            const token = await AsyncStorage.getItem('token');
+            const payload = parseJwt(token);
+            await axios.put(
+                `${process.env.NEXT_PUBLIC_API_URL}/api/users_info/${payload.id}`,
+                { name: editName, bio: editBio },
+                { headers: { Authorization: `Bearer ${token}` } }
+            );
+            setName(editName);
+            setBio(editBio);
+            setModalVisible(false);
+        } catch (error) {
+            console.error('Erro ao salvar dados:', error);
+        }
+    };
 
     const openModal = () => {
-    setEditName(name);
-    setEditBio(bio);
-    setModalVisible(true);
-  };
+        setEditName(name);
+        setEditBio(bio);
+        setModalVisible(true);
+    };
 
-  const closeModal = () => {
-    setModalVisible(false);
-  };
-
-
+    const closeModal = () => {
+        setModalVisible(false);
+    };
 
     useEffect(() => {
         getUserData();
@@ -147,7 +144,6 @@ export default function Profile() {
                         <div className={styles.profileInfo}>
                             <h1>Olá, {name}</h1>
                             <h2>@{name}</h2>
-                            
                         </div>
                         <p className={styles.bio}>{bio}</p>
                     </div>
@@ -160,36 +156,21 @@ export default function Profile() {
 
             <div className={styles.containerPostagens}>
                 <h1>POSTAGENS</h1>
-
-                <ProfilePosts
-                    foto="/images/raveFestFeed.jpg"
-                    local="São Paulo, SP"
-                    data="01/01/2023"
-                    horario="10:00 AM"
-                    descricao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
-                />
-
-                <ProfilePosts
-                    foto="/images/ravePost.jpg"
-                    local="São Paulo, SP"
-                    data="01/01/2023"
-                    horario="10:00 AM"
-                    descricao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
-                />
-
-                <ProfilePosts
-                    foto="/images/resenhaFeed.jpg"
-                    local="São Paulo, SP"
-                    data="01/01/2023"
-                    horario="10:00 AM"
-                    descricao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
-                />
+                {posts.map((post) => (
+                    <ProfilePosts
+                        key={post.id}
+                        foto={post.image_post}
+                        data={post.data_postagem ? new Date(post.data_postagem).toLocaleDateString('pt-BR') : ''}
+                        horario={post.horario}
+                        descricao={post.content}
+                    />
+                ))}
             </div>
 
             <div>
                 <Footer />
             </div>
-        <Modal
+            <Modal
                 open={modalVisible}
                 onCancel={closeModal}
                 footer={null}
