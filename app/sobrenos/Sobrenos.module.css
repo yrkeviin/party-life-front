@@ -64,8 +64,11 @@
     width: 100%;
     height: 50%;
     margin-bottom: 2rem;
-    background: #EE82EE;
-    background: linear-gradient(180deg, #ee82ee 0%, #c38ee6 100%);
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
 }
 
 .textContent {

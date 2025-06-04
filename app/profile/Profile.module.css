@@ -41,10 +41,12 @@
 .postInfo {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
 }
 
 .containerProfile {
+    flex-direction: column;
+    gap: 2rem;
     width: 80%;
     margin: 5% 10%;
     display: flex;
@@ -55,6 +57,8 @@
     gap: 4rem;
     align-items: center;
     width: 60%;
+    margin: 0 4rem;
+    margin-bottom: 2rem;
 }
 
 .arrowIcon a button {
@@ -75,7 +79,7 @@
 }
 
 .profileHeader img {
-    width: 10%;
+    width: 20%;
     margin-left: 5%;
     border-radius: 50%;
 }
@@ -113,6 +117,11 @@
     .backIcon a {
         font-size: 2.5rem;
     }
+
+    .profileHeader img {
+        width: 40%;
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -125,7 +134,7 @@
     }
 
     .profileInfo img {
-        width: 10rem;
+        width: 80rem;
         height: 10rem;
     }
 
@@ -158,8 +167,29 @@
         font-size: 1.5rem;
     }
 
+    .containerProfile {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .profileHeader {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+        margin: 0;
+        gap: 1rem;
+    }
+
+    .profileHeader img {
+        width: 40%;
+        margin-left: 0;
+    }
+
     .profileInfo p {
         font-size: 1rem;
+        width: 70%;
     }
 
     .profileInfo img {
@@ -169,6 +199,14 @@
 
     .profileText h1 {
         font-size: 1.4rem;
+    }
+
+    .containerPostagens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 90%;
     }
 
     .postsContent h2 {

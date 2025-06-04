@@ -24,6 +24,7 @@
 .postInfo {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     flex: 1;
     gap: 7rem;
@@ -32,6 +33,7 @@
 .postTime {
     display: flex;
     gap: 2rem;
+    margin-top: 2rem;
 }
 
 .icon {
@@ -67,10 +69,23 @@
 
 @media (max-width: 1024px) {
     .post {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         padding: 1rem;
         width: 90%;
+    }
+
+    .postInfo {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .postButton {
+        width: 80%;
+        max-width: none;
+        margin-top: 1rem;
     }
 }
 
@@ -84,8 +99,19 @@
     }
 
     .postTime {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 5rem;
         gap: 1rem;
         font-size: 1rem;
+    }
+
+    .postInfo {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        text-align: center;
     }
 
     .postDescription {
