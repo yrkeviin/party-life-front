@@ -83,10 +83,10 @@
     }
 }
 
-@media screen and (max-width: 1203px) {
+@media screen and (max-width: 1024px) {
     .post {
-        height: 30vh;
-        width: 40%;
+        height: 20rem;
+        width: 30%;
     }
 
     .post img {

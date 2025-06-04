@@ -1,5 +1,5 @@
 .card {
-    width: 15%;
+    width: 10%;
     height: 40vh;
     display: flex;
     border-radius: 47px;
@@ -39,6 +39,9 @@
 
 .card p {
     text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
 }
 
 @media (max-width: 768px) {
@@ -51,7 +54,7 @@
 
 @media (min-width: 1024px) {
     .card {
-        width: 17%;
+        width: 80%;
         height: auto;
         margin-top: 5%;
     }

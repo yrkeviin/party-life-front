@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import styles from "./Home.module.css";
 import Header from "../../components/Header"
-import Button from "../../components/Button"
 import Cards from "../../components/Cards"
 import Footer from "../../components/Footer"
 
@@ -33,10 +32,6 @@ export default function Home() {
                 <div className={styles.textBanner}>
                     <img src="/images/textVemP-removebg-preview.png" alt="" />
                 </div>
-
-                <Button
-                    text="Crie seu post aqui!"
-                />
             </div>
 
             <div className={styles.containerContent}>
@@ -145,7 +140,7 @@ export default function Home() {
 
                             <Cards
                                 picture="/images/capitalinicialAtracao.jpg"
-                                text="� Capital Inicial"
+                                text="🎸 Capital Inicial"
                                 description="Capital Inicial é uma banda de rock brasileira. Comandada pelo vocalista Dinho Ouro Preto, a banda ganhou destaque nos anos 1980. Nos anos 2000, voltou ao sucesso com o Acústico MTV, que apresentou novos hits como À Sua Maneira."
                             />
 

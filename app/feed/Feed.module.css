@@ -113,6 +113,10 @@
         width: 90%;
     }
 
+    .feed {
+        width: 100%;
+    }
+
     .separation button {
         border-radius: 15px;
         width: 60px;
