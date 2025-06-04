@@ -2,7 +2,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import Input from '../../components/Input';
+//import Input from '../../components/Input';
+import { Input } from 'antd';
 import styles from './page.module.css';
 
 export default function Login() {
