@@ -75,9 +75,9 @@ export default function Feed() {
     useEffect(() => {
         const fetchPosts = async () => {
             try {
-                const response = await axios.get("http://localhost:3000/api/posts");
+                const response = await axios.get("http://localhost:3000/api/events");
                 setData(response.data);
-                console.log("Posts recebidos:", response.data);
+                console.log("Eventos recebidos:", response.data);
             } catch (error) {
                 console.error("Erro ao buscar posts:", error);
             }

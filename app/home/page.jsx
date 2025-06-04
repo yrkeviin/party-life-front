@@ -36,7 +36,7 @@ export default function Home() {
 
             <div className={styles.containerContent}>
                 <div className={styles.text}>
-                    <h1>Bem vindo ao Party Life! 🪅</h1>
+                    <h1>Bem vindo ao Party Life!</h1>
                     <p>A sua rede social definitiva para festas inesquecíveis!
                         Aqui, você descobre e compartilha os melhores eventos da sua cidade — sejam baladas, festas na praia, encontros alternativos ou rolês secretos. Publique seu evento, convide a galera e fique por dentro de onde a diversão está rolando.
                         A festa começa aqui. 🎉🌴</p>
