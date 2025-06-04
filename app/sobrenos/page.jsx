@@ -28,14 +28,15 @@ export default function Sobrenos() {
 
     return (
         <div className={styles.container}>
-            
+
             <div className={styles.subHeader}>
                 < Header />
             </div>
 
             <div className={styles.content}>
+                    
                 <div className={styles.text}>
-                    <h1>Seja Bem-vindo(a) ao PARTYLIFE!</h1>
+                    <h1 className={styles.shadowDanceText}>Sobre nossa equipe!</h1>
                 </div>
                 <div className={styles.textContent}>
                     <p className={styles.description}>
@@ -80,7 +81,7 @@ export default function Sobrenos() {
                 </div>
 
                 <div className={styles.contentJoin}>
-                    <h2 className={styles.titleJoin}>Junte-se a Nós!</h2>
+                    <h1 className={styles.shadowDanceText}>Junte-se a nós!!</h1>
                     <p className={styles.descriptionJoin}>
                         Se você ama festas e quer fazer parte de uma comunidade vibrante, junte-se ao PartyLife hoje mesmo! Estamos ansiosos para ver suas fotos e ouvir suas histórias de festa. Se você vive pela emoção das noites inesquecíveis, pela energia das pistas de dança e pela magia das conexões que só uma boa festa proporciona, então você já é um de nós! O PartyLife não é apenas um aplicativo - é um movimento, um estilo de vida e a sua nova casa digital onde os amantes da diversão se encontram.
                     </p>
