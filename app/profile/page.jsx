@@ -32,6 +32,8 @@ export default function Profile() {
     const [posts, setPosts] = useState([]);
     const [name, setName] = useState('');
     const [bio, setBio] = useState('');
+    const [perfil_photo, setPerfil_photo] = useState('');
+    const [username, setUsername] = useState('');
     const [modalVisible, setModalVisible] = useState(false);
     const [editName, setEditName] = useState('');
     const [editBio, setEditBio] = useState('');
@@ -44,7 +46,7 @@ export default function Profile() {
             const payload = parseJwt(token);
             if (!payload?.id) return console.error('ID do usuário não encontrado no token!');
 
-            const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/users_info/${payload.id}`, {
+            const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/users/${payload.id}`, {
                 headers: { Authorization: `Bearer ${token}` }
             });
 
@@ -53,6 +55,8 @@ export default function Profile() {
             const user = Array.isArray(response.data) ? response.data[0] : response.data;
             setName(user?.name || '');
             setBio(user?.bio || '');
+            setPerfil_photo(user?.perfil_photo || '/profilekevin.jpg');
+            setUsername(user?.username || '');
         } catch (error) {
             console.error('Erro ao buscar dados do usuário:', error);
         }
@@ -139,11 +143,11 @@ export default function Profile() {
                     </button>
                 </div>
                 <div className={styles.profileHeader}>
-                    <img src="/images/profilekevin.jpg" alt="" />
+                    <img src={perfil_photo} alt={name} />
                     <div className={styles.userDetails}>
                         <div className={styles.profileInfo}>
                             <h1>Olá, {name}</h1>
-                            <h2>@{name}</h2>
+                            <h2>@{username}</h2>
                         </div>
                         <p className={styles.bio}>{bio}</p>
                     </div>

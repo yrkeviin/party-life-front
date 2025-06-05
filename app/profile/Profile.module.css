@@ -80,7 +80,7 @@
 }
 
 .arrowIcon a button .iconBack:hover {
-    color: rgb(97, 37, 153);
+    color: #612599;
     scale: 0.9;
     transition: all .3s ease;
 }
@@ -109,11 +109,19 @@
     width: 3rem;
     height: 3rem;
 }
+
+.iconPencil:hover {
+    color: #612599;
+    scale: 0.9;
+    transition: all .3s ease;
+}
+
 .buttonEdit {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
+
 .bio{
     display: flex;
     align-items: center;
@@ -122,11 +130,57 @@
     font-style: italic;
     color: #666;
 }
+
 .userDetails {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
+
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.modalButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.saveButton {
+    width: 48%;
+    background-color: #c38ee6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.saveButton:hover {
+    background-color: #ff3c78;
+    transition: background-color 0.3s ease;
+}
+
+.cancelButton {
+    width: 48%;
+    background-color: #77777750;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancelButton:hover {
+    background-color: #ff3c78;
+    transition: background-color 0.3s ease;
+}
+
 @media (max-width: 1024px) {
     .profileInfo h1 {
         font-size: 2rem;
