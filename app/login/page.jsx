@@ -68,7 +68,7 @@ export default function Login() {
             </div>
 
             <div className={styles.imageContainer}>
-                <img src="/images/abstract2.jpg" alt="Login" className={styles.image} />
+                <img src="/images/logo.png" alt="Login" className={styles.image} />
             </div>
         </div>
     );
