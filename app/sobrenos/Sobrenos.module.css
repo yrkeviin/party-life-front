@@ -111,6 +111,7 @@
     text-justify: inter-word;
     hyphens: auto;
     line-height: 1.7rem;
+    font-weight: bold;
 }
 
 .teamContent {
