@@ -18,9 +18,10 @@
 
 .container {
     display: flex;
-    background-image: url(/images/backgroundLogin.png);
+    background-color: aliceblue;
     background-size: cover;
     background-position: center;
+    background-image: url(/images/40q.jpg);
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -30,8 +31,8 @@
     flex-direction: column;
     width: 50%;
     margin: 10% 0 10% 10%;
-    background-color: rgb(255, 255, 255);
     justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
     align-items: center;
 }
 
@@ -39,12 +40,34 @@
     font-size: 1.5rem;
 }
 
+.form {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    margin: 7% 0 7%;
+}
+
 .entrar {
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     border: none;
     cursor: pointer;
-    margin: 20px auto;
+    margin: 20px 0;
     height: 30px;
+    transition: .3s ease-in-out;
+}
+
+.entrar:hover {
+    background-color: rgba(226, 43, 223, 0.389);
+    transition: .3s ease-in-out;
+    width: 70%;
 }
 
 .imageContainer {
