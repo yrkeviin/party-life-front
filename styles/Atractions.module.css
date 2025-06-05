@@ -1,11 +1,11 @@
 .containerAtraction {
     display: flex;
-    width: 13%;
-    padding: 10px 40px 35px 0;
+    width: 17%;
+    padding: 1rem;
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 
 .containerAtraction img {

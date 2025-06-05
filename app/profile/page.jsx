@@ -39,10 +39,10 @@ export default function Profile() {
     const getUserData = async () => {
         try {
             const token = await AsyncStorage.getItem('token');
-            if (!token) return console.error('Token não encontrado');
+            if (!token) return console.error('Token não encontrado!');
 
             const payload = parseJwt(token);
-            if (!payload?.id) return console.error('ID do usuário não encontrado no token');
+            if (!payload?.id) return console.error('ID do usuário não encontrado no token!');
 
             const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/users_info/${payload.id}`, {
                 headers: { Authorization: `Bearer ${token}` }
@@ -61,9 +61,9 @@ export default function Profile() {
     const getUserPosts = async () => {
         try {
             const token = await AsyncStorage.getItem('token');
-            if (!token) return console.error('Token não encontrado');
+            if (!token) return console.error('Token não encontrado!');
             const payload = parseJwt(token);
-            if (!payload?.id) return console.error('ID do usuário não encontrado no token');
+            if (!payload?.id) return console.error('ID do usuário não encontrado no token!');
             const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/posts/${payload.id}`, {
                 headers: { Authorization: `Bearer ${token}` }
             });
