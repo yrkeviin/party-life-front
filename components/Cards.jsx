@@ -13,7 +13,7 @@ export default function Cards({ picture, text, idade, description }) {
             >
                 <h2 style={{ fontSize: "1.2rem", textAlign: "center" }}>{text}</h2>
                 <h3 style={{ fontSize: "0.9rem", textAlign: "center" }}>{idade}</h3>
-                <p style={{ fontSize: "1rem", textAlign: "center", flexGrow: 1 }}>{description}</p>
+                <p style={{ fontSize: "1rem", textAlign: "justify", flexGrow: 1 }}>{description}</p>
             </Card>
         </div>
     );
