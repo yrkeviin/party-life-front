@@ -2,9 +2,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-//import Input from '../../components/Input';
 import { Input } from 'antd';
-import styles from './page.module.css';
+import styles from './Page.module.css';
 
 export default function Login() {
 
@@ -44,13 +43,14 @@ export default function Login() {
             <div className={styles.loginContainer}>
                 <h1>Login</h1>
 
-                <div>
+                <div className={styles.form}>
                     <Input
                         placeholder="E-mail"
                         type="email"
                         value={email}
                         place="E-mail"
                         onChange={e => setEmail(e.target.value)}
+                        className={styles.inputs}
                     />
 
                     <Input
@@ -67,7 +67,7 @@ export default function Login() {
             </div>
 
             <div className={styles.imageContainer}>
-                <img src="/images/imageLogin2.jpg" alt="Login" className={styles.image} />
+                <img src="/images/abstract2.jpg" alt="Login" className={styles.image} />
             </div>
         </div>
     );
