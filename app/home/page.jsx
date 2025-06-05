@@ -121,7 +121,7 @@ export default function Home() {
                             <Cards
                                 picture="/images/natirutsAtracao.jpg"
                                 text="🌵 Natiruts"
-                                description="Natiruts é uma banda brasileira de reggae. Conhecida por misturar reggae com influências da música brasileira, alcançou sucesso com músicas como Liberdade pra Dentro da Cabeça, Presente de um Beija-Flor e Sorri, Sou Rei."
+                                description="Natiruts é uma banda brasileira de reggae dos anos 1990. Conhecida por misturar reggae com influências da música brasileira, alcançou sucesso com músicas como Liberdade pra Dentro da Cabeça, Presente de um Beija-Flor e Sorri, Sou Rei."
                             />
 
                             <Cards
@@ -135,7 +135,7 @@ export default function Home() {
                             <Cards
                                 picture="/images/cabelinhoAtracao.jpg"
                                 text="🎶 MC Cabelinho"
-                                description="MC Cabelinho é um cantor, rapper e ator. Ganhou destaque no cenário do trap e funk, que alcançaram milhões de streams. Além da música, também já atuou em novelas da TV Globo. Seu estilo mistura temas da periferia com romantismo."
+                                description="MC Cabelinho é um cantor, rapper e ator. Ganhou destaque no cenário do trap e funk, que alcançaram milhões de streams. Além da música, também já atuou em novelas da TV Globo, como Amor de Mãe. Seu estilo mistura temas da periferia com romantismo."
                             />
 
                             <Cards
@@ -213,7 +213,7 @@ export default function Home() {
                         <Cards
                             picture="/images/funk_style.png"
                             text="🎵 Funk"
-                            description="Solte a energia com batidas marcantes que agitam a festa, a diversão e o ritmo contagiante do funk!"
+                            description="Fique por dentro das melhores festas de funk, com MCs que fazem o Brasil dançar. Vibe e muita dança te esperam!"
                         />
 
                         <Cards
