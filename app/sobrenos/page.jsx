@@ -36,7 +36,7 @@ export default function Sobrenos() {
             <div className={styles.content}>
                     
                 <div className={styles.text}>
-                    <h1 className={styles.shadowDanceText}>Sobre nossa equipe!</h1>
+                    <h1 className={styles.shadowDanceText}>Sobre nós!</h1>
                 </div>
                 <div className={styles.textContent}>
                     <p className={styles.description}>

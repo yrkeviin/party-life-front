@@ -72,11 +72,18 @@
 
 @media (max-width: 768px) {
     .navbar {
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
         height: auto;
         padding: 2rem;
+    }
+
+    .logo {
+        display: flex;
+        width: 100%;
+        text-align: center;
     }
 
     .links {

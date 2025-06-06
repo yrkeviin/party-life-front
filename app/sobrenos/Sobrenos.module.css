@@ -76,7 +76,7 @@
     color: #000000;
     text-shadow: 5px 5px 0 #b9a9f1, 10px 10px 0 #a5e3f8;
     animation: shadow-dance 2s infinite;
-    margin: 4rem;
+    margin-top: 4rem;
 }
 
 @keyframes shadow-dance {
@@ -93,13 +93,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: auto;
     margin:7rem;
 }
 
 .description {
     display: flex;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -118,7 +119,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #ffffffda;
+    background-color: #ffffffb4;
     border-radius: 25px;
     width: 90%;
 }
@@ -165,19 +166,20 @@
 
 .descriptionJoin {
     display: flex;
-    font-size: 22px;
+    font-size: 20px;
     color: #ffffff;
     text-align: center;
     justify-content: center;
     align-items: center;
     letter-spacing: 1px;
-    width: 50%;
+    width: 70%;
     color: #000000;
     text-align: justify;
     text-justify: inter-word;
     hyphens: auto;
-    margin-bottom: 4rem;
+    margin: 4rem;
     line-height: 1.7rem;
+    font-weight: bold;
 }
 
 .membroEquipe {
@@ -319,7 +321,6 @@
         font-size: 14px;
         width: 90%;
         height: auto;
-        margin: 1rem;
     }
 
     .teamContent {
@@ -363,5 +364,11 @@
 
     .membroEquipe img:hover {
         width: 150px;
+    }
+
+    .shadowDanceText {
+        width: 90%;
+        font-size: 4rem;
+        margin-top: 5rem;
     }
 }

@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 .left h2 {
