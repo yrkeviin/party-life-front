@@ -26,6 +26,10 @@
     background-repeat: no-repeat;
 }
 
+.title {
+    font-size: 4rem;
+}
+
 .loadingContainer img {
     width: 100px;
     height: 100px;
@@ -50,7 +54,7 @@
 .text {
     font-size: 1rem;
     font-family: 'Courier New', Courier, monospace;
-    color: #000000;
+    color: #ffffff;
     width: 40%;
     background-color: #ee82ee;
     padding: 2%;
@@ -60,13 +64,14 @@
 }
 
 .text:hover {
-    transform: scale(1.08);
-    box-shadow: 0 8px 16px #000000b3;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px #000000b3;
     transition: transform 0.3s, box-shadow 0.2s;
 }
 
-.text p {
+.text p{
     margin-top: 2%;
+    color: #ffffff;
 }
 
 .imageText {
@@ -83,7 +88,9 @@
 }
 
 .imageText img:hover {
-    transform: scale(1.08);
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px #000000b3;
+    transition: transform 0.3s, box-shadow 0.2s;
 }
 
 .infos {

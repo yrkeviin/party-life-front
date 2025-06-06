@@ -57,7 +57,7 @@ export default function Home() {
             <div className={styles.infos}>
                 <div className={styles.locais}>
                     <div className={styles.images}>
-                        <h1>Lugares</h1>
+                        <h1 className={styles.title}>Lugares</h1>
                     </div>
 
                     <div className={styles.cardsContainer}>
@@ -95,7 +95,7 @@ export default function Home() {
 
                 <div className={styles.atracoes}>
                     <div className={styles.images}>
-                        <h1>Atrações</h1>
+                        <h1 className={styles.title}>Atrações</h1>
                     </div>
 
                     <div>
@@ -167,7 +167,7 @@ export default function Home() {
 
                 <div className={styles.estilos}>
                     <div className={styles.images}>
-                        <h1>Estilos</h1>
+                        <h1 className={styles.title}>Estilos</h1>
                     </div>
 
                     <div className={styles.cardsContainer}>
