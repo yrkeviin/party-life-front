@@ -38,21 +38,21 @@ const postsData = [
     {
         textName: "@XRCZ",
         picture: "/images/car1.jpg",
-        local: "Pista do Tigre, São Paulo",
+        local: "Encontro de Carros, São Paulo",
         button: "Ver Mais",
         page: "/detalhesCorrida"
     },
     {
         textName: "@GP",
         picture: "/images/corridaPost.jpg",
-        local: "Pista do Tigre, São Paulo",
+        local: "Palazzo Party, São Paulo",
         button: "Ver Mais",
         page: "/palazzoFriday"
     },
     {
         textName: "@Cebezinho",
         picture: "/images/beachPost.jpg",
-        local: "Pista do Tigre, São Paulo",
+        local: "Summer Night, São Paulo",
         button: "Ver Mais",
         page: "/summerNight"
     },
