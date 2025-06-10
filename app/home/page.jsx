@@ -129,9 +129,7 @@ export default function Home() {
                                 text="🎭 Don Juan"
                                 description="MC Don Juan é um cantor de funk paulista que ganhou fama em 2016 com o hit 'Me Amarro na Noite'. Conhecido por sucessos como 'Amar, Amei', já colaborou com artistas como Alok e MC Ryan SP, sendo um dos grandes nomes do funk atual."
                             />
-                        </div>
 
-                        <div className={styles.cardsContainer} >
                             <Cards
                                 picture="/images/cabelinhoAtracao.jpg"
                                 text="🎶 MC Cabelinho"
@@ -200,10 +198,7 @@ export default function Home() {
                             text="🎤 Hip-Hop"
                             description="Entre no ritmo do hip-hop, com rimas poderosas e batidas urbanas que fazem a festa ferver!"
                         />
-
-                    </div>
-
-                    <div className={styles.cardsContainer}>
+                        
                         <Cards
                             picture="/images/pagode_style.png"
                             text="🎻 Pagode"
