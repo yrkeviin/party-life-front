@@ -89,16 +89,8 @@ export default function FestaPraia() {
 
                     <div className={styles.allAtractions}>
                         <Atractions
-                        atractionImage="/images/negaoAtracao.jpg"
-                        atractionName="Negão Original"
-                        />
-                        <Atractions
-                        atractionImage="/images/bolzaniAtracao.jpg"
-                        atractionName="Bolzani"
-                        />
-                        <Atractions
-                        atractionImage="/images/fischerAtracao.jpg"
-                        atractionName="Nath Fischer"
+                        atractionImage="/images/NatirutsAtracao.jpg"
+                        atractionName="Natiruts"
                         />
                     </div>
                 </div>
@@ -106,14 +98,14 @@ export default function FestaPraia() {
                 <div className={styles.music}>
                     <h2 className={styles.sectionTitle}>ESTILO</h2>
                     <Cards
-                    picture="/images/praia.png"
-                    text="🏖️ Festas na Praia"
+                    picture="/images/reggae_style.png"
+                    text="🤟 Reggae"
                     />
                 </div>
 
                 <div className={styles.hashtags}>
                     <h2>HASHTAGS OFICIAIS</h2>
-                    <p><span>#</span>PartyLife2025, FestaNaPraia, PéNaAreia, VemPraLuz</p>
+                    <p>#PartyLife2025, #FestaNaPraia, #PéNaAreia, #VemPraLuz</p>
                 </div>
             </main>
 
