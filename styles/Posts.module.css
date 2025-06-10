@@ -47,8 +47,9 @@
     transition: .4s ease-in-out;
     border: transparent;
     padding: 10px 30px;
+    margin: 2rem;
     border-radius: 15px;
-    width: 40%;
+    width: 8rem;
     height: 50%;
     font-family: "Montserrat", sans-serif;
     font-size: .8rem;
@@ -60,7 +61,7 @@
     cursor: pointer;
 }
 
-.action button a {
+.action button {
     font-weight: bold;
     font-size: 12px;
     text-decoration: none;

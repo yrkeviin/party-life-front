@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../styles/Posts.module.css";
 
 export default function Posts({ textName, picture, local, page }) {
@@ -5,13 +6,13 @@ export default function Posts({ textName, picture, local, page }) {
         <div className={styles.post}>
             <h3 className={styles.username}>{textName}</h3>
 
-            <img alt="Imagem de exemplo" src={picture}></img>
+            <img alt="Imagem de Evento" src={picture}></img>
 
             <div className={styles.action}>
                 <h4>{local}</h4>
-                <button>
-                    <a href={page}>VER MAIS</a>
-                </button>
+                <Link href={page}>
+                    <button className={styles.button}>VER MAIS</button>
+                </Link>
             </div>
         </div>
     );

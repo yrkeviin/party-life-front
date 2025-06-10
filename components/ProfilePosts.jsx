@@ -1,11 +1,12 @@
 import styles from "../styles/ProfilePosts.module.css";
 import { FaSearchLocation, FaCalendar, FaClock } from 'react-icons/fa';
+import Image from "next/image";
 
 export default function ProfilePosts({ foto, local, data, horario, descricao }) {
     return (
         <div className={styles.post}>
             <div className={styles.contentImage}>
-                <img src={foto} alt="" />
+            <Image src={foto} alt="Post Image" className={styles.postImage} width={300} height={300} />
             </div>
 
             <div className={styles.postInfo}>

@@ -127,8 +127,10 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    height: auto;
     font-style: italic;
-    color: #666;
+    color: #000000;
+    margin-top: 2rem;
 }
 
 .userDetails {
