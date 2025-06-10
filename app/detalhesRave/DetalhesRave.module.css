@@ -1,0 +1,128 @@
+.appContainer {
+    background-color: #a5e3f86c;
+}
+
+.containerBanner {
+    background-image: url(/images/bannerRave2.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/images/lhamaBackground.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.loadingContainer img {
+    width: 100px;
+    height: 100px;
+}
+
+.textBanner {
+    margin-top: 7%;
+    color: white;
+    margin-left: 6%;
+}
+
+.textBanner img {
+    width: 24%;
+}
+
+.mainContent {
+    margin: 5% 0 0 0;
+}
+
+.redSection {
+    margin-bottom: 5%;
+    padding: 2% 5%;
+    font-size: 1.2rem;
+}
+
+.greenSection, .greenSectionn {
+    margin-bottom: 5%;
+    padding: 2% 5%;
+    font-size: 1.2rem;
+}
+
+.greenSectionn {
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
+    padding: 2% 5%;
+}
+
+.hashtags {
+    padding: 2% 5%;
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
+}
+
+.hashtags h2 {
+    margin-bottom: 1%;
+}
+
+.hashtags p {
+    color: white;
+    text-decoration:underline;
+}
+
+.hashtags span {
+    color: rgb(0, 0, 0);
+}
+
+.redSection h2 {
+    color: red;
+    margin-bottom: 1%;
+}
+
+.greenSection h2, .greenSectionn h2 {
+    color: green;
+    margin-bottom: 1%;
+}
+
+.atractions {
+    display: flex;
+    font-size: 1.2rem;
+    padding: 2% 5%;
+    margin-bottom: 5%;
+    flex-direction: column;
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
+}
+
+.atractions h2 {
+    margin-bottom: 1%;
+    color: rgb(135, 35, 155);
+}
+
+.allAtractions {
+    display: flex;
+}
+
+.music {
+    padding: 2% 5% 0 5%;
+    font-size: 1.2rem;
+    color: rgb(135, 35, 155);
+    margin-bottom: 5%;
+    width: 30%;
+}

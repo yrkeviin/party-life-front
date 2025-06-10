@@ -1,0 +1,200 @@
+.appContainer {
+    background-color: #a5e3f86c;
+}
+
+.containerBanner {
+    background-image: url(/images/bannerPraia2.jpg);
+    background-color: #00000080;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/images/lhamaBackground.png);
+    background-color: #00000080;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.loadingContainer img {
+    width: 100px;
+    height: 100px;
+}
+
+.textBanner {
+    margin-top: 4%;
+    color: #ffffff;
+    margin-left: 6%;
+}
+
+.textBanner img {
+    width: 24%;
+}
+
+.mainContent {
+    margin: 5% 0 0 0;
+}
+
+.redSection {
+    margin-bottom: 5%;
+    padding: 2% 5%;
+    font-size: 1.2rem;
+}
+
+.greenSection, .greenSectionn {
+    margin-bottom: 5%;
+    padding: 2% 5%;
+    font-size: 1.2rem;
+}
+
+.greenSectionn {
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
+    padding: 2% 5%;
+}
+
+.hashtags {
+    padding: 2% 5%;
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
+}
+
+.hashtags h2 {
+    margin-bottom: 1%;
+}
+
+.hashtags p {
+    color: #ffffff;
+    text-decoration:underline;
+}
+
+.hashtags span {
+    color: #000000;
+}
+
+.redSection h2 {
+    color: #ff0000;
+    margin-bottom: 1%;
+}
+
+.greenSection h2, .greenSectionn h2 {
+    color: #008000;
+    margin-bottom: 1%;
+}
+
+.atractions {
+    display: flex;
+    font-size: 1.2rem;
+    padding: 2% 5%;
+    margin-bottom: 5%;
+    flex-direction: column;
+    background: linear-gradient(to right,
+            #b9a9f1 0%,
+            #b9a9f1 40%,
+            #a5e3f8 60%,
+            #a5e3f8 100%);
+}
+
+.atractions h2 {
+    margin-bottom: 1%;
+    color: #87239b;
+}
+
+.allAtractions {
+    display: flex;
+}
+
+.music {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    font-size: 1.2rem;
+    color: #87239b;
+    margin-bottom: 5%;
+}
+
+@media (max-width: 1024px) {
+    .containerBanner {
+        height: 60vh;
+    }
+    .textBanner img {
+        width: 40%;
+    }
+    .mainContent {
+        margin: 8% 0 0 0;
+    }
+    .allAtractions {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerBanner {
+        height: 40vh;
+    }
+    .textBanner {
+        margin-top: 8%;
+        margin-left: 3%;
+    }
+    .textBanner img {
+        width: 60%;
+    }
+    .mainContent {
+        margin: 12% 0 0 0;
+    }
+    .redSection,
+    .greenSection,
+    .greenSectionn,
+    .hashtags,
+    .atractions,
+    .music {
+        padding: 4% 2%;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .containerBanner {
+        height: 30vh;
+    }
+    .textBanner {
+        margin-top: 12%;
+        margin-left: 2%;
+    }
+    .textBanner img {
+        width: 90%;
+    }
+    .mainContent {
+        margin: 18% 0 0 0;
+    }
+    .redSection,
+    .greenSection,
+    .greenSectionn,
+    .hashtags,
+    .atractions,
+    .music {
+        padding: 6% 1%;
+        font-size: 0.95rem;
+    }
+    .loadingContainer img {
+        width: 70px;
+        height: 70px;
+    }
+}
