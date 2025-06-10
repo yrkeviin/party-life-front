@@ -28,7 +28,12 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 70vh;
-    text-align: center;
+}
+
+.textBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .textBanner img {
