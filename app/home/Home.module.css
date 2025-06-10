@@ -10,7 +10,8 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 70vh;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .loadingContainer {
@@ -37,6 +38,9 @@
 
 .textBanner {
     margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #ffffff;
 }
 
