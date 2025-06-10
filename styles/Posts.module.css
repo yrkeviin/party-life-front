@@ -46,8 +46,6 @@
     color: #4f7070;
     transition: .4s ease-in-out;
     border: transparent;
-    padding: 10px 30px;
-    margin: 2rem;
     border-radius: 15px;
     width: 8rem;
     height: 50%;
@@ -65,13 +63,13 @@
     font-weight: bold;
     font-size: 12px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 
 @media screen and (max-width: 1579px) {
     .post {
-        height: 50vh;
-        width: 22%;
+        height: 25rem;
+        width: 80%;
     }
 
     .post img {
@@ -79,22 +77,27 @@
     }
 
     .action {
+        display: flex;
+        width: 100%;
+        height: 6rem;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         gap: 1rem;
+        padding: 1rem;
     }
 
     .action button {
-        width: 50%;
+        padding: 1rem;
+        width: 8rem;
         height: 50%;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .post {
-        height: 20rem;
-        width: 30%;
+        height: 22rem;
+        width: 90%;
     }
 
     .post img {
@@ -102,13 +105,14 @@
     }
 
     .action {
+        display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .action button {
-        width: 50%;
+        width: 100%;
         height: 50%;
     }
 }
@@ -116,7 +120,7 @@
 @media screen and (max-width: 770px) {
     .post {
         height: 40vh;
-        width: 50%;
+        width: 90%;
     }
 
     .post img {
@@ -130,8 +134,11 @@
     }
 
     .action button {
-        width: 50%;
-        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 2rem;
     }
 }
 
@@ -153,7 +160,7 @@
     }
 
     .action button {
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        height: 2rem;
     }
 }
