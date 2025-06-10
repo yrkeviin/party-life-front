@@ -47,21 +47,21 @@ const postsData = [
         picture: "/images/corridaPost.jpg",
         local: "Pista do Tigre, São Paulo",
         button: "Ver Mais",
-        page: "/detalhesCorrida"
+        page: "/detalhesCorrida2"
     },
     {
         textName: "@Cebezinho",
         picture: "/images/beachPost.jpg",
         local: "Pista do Tigre, São Paulo",
         button: "Ver Mais",
-        page: "/detalhesFestaPraia"
+        page: "/detalhesFestaPraia2"
     },
     {
         textName: "@Ju Santos",
         picture: "/images/ravePost.jpg",
         local: "Rave da Ju, São Paulo",
         button: "Ver Mais",
-        page: "/detalhesRaveCor"
+        page: "/detalhesRave"
     }
 ];
 
