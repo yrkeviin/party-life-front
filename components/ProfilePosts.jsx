@@ -19,8 +19,6 @@ export default function ProfilePosts({ foto, local, data, horario, descricao }) 
                 <div className={styles.postDescription}>
                     <p>{descricao}</p>
                 </div>
-
-                <button className={styles.postButton}>Ver Detalhes</button>
             </div>
         </div>
     );

@@ -22,7 +22,7 @@ export default function Login() {
             const { token } = response.data;
 
             if (!token) {
-                throw new Error('Token não encontrado na resposta');
+                throw new Error('Token não encontrado na resposta!');
             }
 
             await AsyncStorage.setItem('token', token);
@@ -32,7 +32,7 @@ export default function Login() {
 
             navigation.navigate('/home');
         } catch (error) {
-            const errorMessage = error.response?.data?.message || 'Erro ao fazer login. Tente novamente.';
+            const errorMessage = error.response?.data?.message || 'Erro ao fazer login! Tente novamente.';
             setError(errorMessage);
             setSuccess(null);
         }
