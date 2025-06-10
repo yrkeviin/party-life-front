@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import React from "react";
 import Footer from "../../components/Footer";
 import List from "../../components/List";
-import styles from "./DetalhesFestaPraia2.module.css";
+import styles from "./summerNight.module.css";
 import Header from "../../components/Header";
 import InfoDetalhes from "../../components/InfoDetalhes";
 import DescSeparador from "../../components/DescSeparador";
@@ -35,19 +35,17 @@ export default function FestaPraia() {
                 <Header />
                 <div className={styles.textBanner}>
                     <InfoDetalhes
-                        text="PRAIA DA"
-                        title="BARRA"
-                        local="Praia da Barra, Rio de Janeiro"
+                        text="SUMMER NIGHT"
+                        title="PARTY" 
+                        local="Praia do Leme"
                         date="30 de julho de 2025"
-                        hour="15h - 19h"
+                        hour="18h - 02h"
                     />
                 </div>
             </div>
             <div>
                 <DescSeparador
-                    text="Venha curtir o por do sol ao som
-                    de DJs incríveis, drinks referescantes
-                    e boa vibrações!"
+                    text="A festa mais esperada do verão carioca! Venha curtir o pôr do sol com os pés na areia, música sertaneja, drinks refrescantes e uma vibe incrível!"
                 />
             </div>
 
@@ -55,32 +53,27 @@ export default function FestaPraia() {
                 <div className={styles.redSection}>
                     <h2 className={styles.sectionTitle}>REGRAS</h2>
                     <List items={[
-                        "Respeito é essencial – atitudes racistas, homofóbicas ou violentas resultarão em expulsão.",
-                        "Som externo é proibido - DJs oficiais garantem a música.",
-                        "Use pulseira de identificação o tempo todo.",
-                        "Não é permitido entrar com bebidas – teremos open bar e vendas no local.",
-                        "Preserve a praia - Lixo no lixo.",
-                        "Curta com consciência – se beber, não dirija"
+                        "Permitido apenas maiores de 18 anos. Documento com foto obrigatório para entrada.",
+                        "Não é permitido entrar com bebidas.",
+                        "Use pulseira de identificação o tempo todo."
                     ]} />
                 </div>
 
                 <div className={styles.greenSectionn}>
                     <h2 className={styles.sectionTitle}>O QUE TERÁ NA FESTA?</h2>
                     <List items={[
-                        "Line-up de DJs insanos com os melhores nomes do eletrônico, trance e tech house.",
-                        "Open bar premium (em algumas áreas) e drinks exclusivos.",
-                        "Show de laser, fumaça e efeitos especiais."
+                        "Sets ao vivo.",
+                        "Espaço com food trucks e drinks refrescantes."
                     ]} />
                 </div>
 
                 <div className={styles.greenSection}>
                     <h2 className={styles.sectionTitle}>O QUE LEVAR PARA A FESTA?</h2>
                     <List items={[
-                        "Protetor solar (se a festa for ao ar livre durante o dia).",
-                        "Documento com foto (RG, CNH ou versão digital – obrigatório para entrada).",
-                        "Óculos escuros.",
-                        "Ingresso/Pulseira (digital ou física, se for o caso).",
-                        "Boa vibe e disposição pra dançar até o fim!"
+                        "Roupa tropical ou look de verão.",
+                        "Protetor solar.",
+                        "Documento com foto.",
+                        "Muita energia e disposição para dançar até o amanhecer!"
                     ]} />
                 </div>
 
@@ -89,16 +82,8 @@ export default function FestaPraia() {
 
                     <div className={styles.allAtractions}>
                         <Atractions
-                        atractionImage="/images/negaoAtracao.jpg"
-                        atractionName="Negão Original"
-                        />
-                        <Atractions
-                        atractionImage="/images/bolzaniAtracao.jpg"
-                        atractionName="Bolzani"
-                        />
-                        <Atractions
-                        atractionImage="/images/fischerAtracao.jpg"
-                        atractionName="Nath Fischer"
+                        atractionImage="/images/diegoevictorAtracao.jpg"
+                        atractionName="Diego e Victor Hugo"
                         />
                     </div>
                 </div>
@@ -106,14 +91,14 @@ export default function FestaPraia() {
                 <div className={styles.music}>
                     <h2 className={styles.sectionTitle}>ESTILO</h2>
                     <Cards
-                    picture="/images/praia.png"
-                    text="🏖️ Festas na Praia"
+                    picture="/images/sertanejo_style.png"
+                    text="💃 Sertanejo"
                     />
                 </div>
 
                 <div className={styles.hashtags}>
                     <h2>HASHTAGS OFICIAIS</h2>
-                    <p><span>#</span>PartyLife2025, FestaNaPraia, PéNaAreia, VemPraLuz</p>
+                    <p>#PartyLife2025, #FestaNaPraia, #PéNaAreia, #VemPraLuz</p>
                 </div>
             </main>
 

@@ -56,7 +56,7 @@ export default function Corrida() {
                         "Proibido animais.",
                         "Som automotivo controlado.",
                         "Proibido o uso de bebidas alcoólicas por motoristas.",
-                        "Respeito ao espaço alheiol.",
+                        "Respeito ao espaço alheio.",
                         "Lixo no lixo!",
                         "Menores de idade apenas com acompanhante."
                     ]} />
@@ -87,16 +87,8 @@ export default function Corrida() {
 
                     <div className={styles.allAtractions}>
                         <Atractions
-                        atractionImage="/images/negaoAtracao.jpg"
-                        atractionName="Negão Original"
-                        />
-                        <Atractions
-                        atractionImage="/images/bolzaniAtracao.jpg"
-                        atractionName="Bolzani"
-                        />
-                        <Atractions
-                        atractionImage="/images/fischerAtracao.jpg"
-                        atractionName="Nath Fischer"
+                        atractionImage="/images/capitalinicialAtracao.jpg"
+                        atractionName="Capital Inicial"
                         />
                     </div>
                 </div>
@@ -104,14 +96,14 @@ export default function Corrida() {
                 <div className={styles.music}>
                     <h2 className={styles.sectionTitle}>ESTILO</h2>
                     <Cards
-                    picture="/images/carro.png"
-                    text="🚗 Encontro Carros"
+                    picture="/images/rock_style.png"
+                    text="🎸 Rock"
                     />
                 </div>
 
                 <div className={styles.hashtags}>
                     <h2>HASHTAGS OFICIAIS</h2>
-                    <p><span>#</span>PartyLife2025, EncontroCarros, Automotivos, VemPraLuz</p>
+                    <p>#PartyLife2025, #EncontroCarros, #Automotivos, #VemPraLuz</p>
                 </div>
             </main>
 

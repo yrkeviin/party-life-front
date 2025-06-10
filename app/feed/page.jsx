@@ -10,14 +10,14 @@ const postsData = [
     {
         textName: "@menorKabrinha",
         picture: "/images/raveFestFeed.jpg",
-        local: "Rave do Menor, São Paulo",
+        local: "Rave da Cor, São Paulo",
         button: "Ver Mais",
         page: "/detalhesRaveCor"
     },
     {
         textName: "@juliaRiver",
         picture: "/images/beachFeed.jpg",
-        local: "Praia do Leme, Rio de Janeiro",
+        local: "Praia da Vila, Rio de Janeiro",
         button: "Ver Mais",
         page: "/detalhesFestaPraia"
     },
@@ -31,7 +31,7 @@ const postsData = [
     {
         textName: "@juju mines",
         picture: "/images/resenhaFeed.jpg",
-        local: "Casa da Juju, São Paulo",
+        local: "Resenha em Casa, São Paulo",
         button: "Ver Mais",
         page: "/detalhesResenhaCasa"
     },
@@ -47,21 +47,21 @@ const postsData = [
         picture: "/images/corridaPost.jpg",
         local: "Pista do Tigre, São Paulo",
         button: "Ver Mais",
-        page: "/detalhesCorrida2"
+        page: "/palazzoFriday"
     },
     {
         textName: "@Cebezinho",
         picture: "/images/beachPost.jpg",
         local: "Pista do Tigre, São Paulo",
         button: "Ver Mais",
-        page: "/detalhesFestaPraia2"
+        page: "/summerNight"
     },
     {
         textName: "@Ju Santos",
         picture: "/images/ravePost.jpg",
-        local: "Rave da Ju, São Paulo",
+        local: "Silent Party, São Paulo",
         button: "Ver Mais",
-        page: "/detalhesRave"
+        page: "/silentParty"
     }
 ];
 
@@ -75,7 +75,7 @@ export default function Feed() {
     useEffect(() => {
         const fetchPosts = async () => {
             try {
-                const response = await axios.get("http://localhost:3000/api/events");
+                const response = await axios.get("http://localhost:4000/api/events");
                 setData(response.data);
                 console.log("Eventos recebidos:", response.data);
             } catch (error) {

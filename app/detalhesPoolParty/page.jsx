@@ -89,16 +89,8 @@ export default function PoolParty() {
 
                     <div className={styles.allAtractions}>
                         <Atractions
-                        atractionImage="/images/negaoAtracao.jpg"
-                        atractionName="Negão Original"
-                        />
-                        <Atractions
-                        atractionImage="/images/bolzaniAtracao.jpg"
-                        atractionName="Bolzani"
-                        />
-                        <Atractions
-                        atractionImage="/images/fischerAtracao.jpg"
-                        atractionName="Nath Fischer"
+                        atractionImage="/images/menosemaisAtracao.png"
+                        atractionName="Menos é Mais"
                         />
                     </div>
                 </div>
@@ -106,14 +98,14 @@ export default function PoolParty() {
                 <div className={styles.music}>
                     <h2 className={styles.sectionTitle}>ESTILO</h2>
                     <Cards
-                    picture="/images/piscina.png"
-                    text="🏖️ Pool Partys"
+                    picture="/images/pagode_style.png"
+                    text="🎻 Pagode"
                     />
                 </div>
 
                 <div className={styles.hashtags}>
                     <h2>HASHTAGS OFICIAIS</h2>
-                    <p><span>#</span>PartyLife2025, PoolParty, Molhados, VemPraLuz</p>
+                    <p>#PartyLife2025, #PoolParty, #Molhados, #VemPraLuz</p>
                 </div>
             </main>
 

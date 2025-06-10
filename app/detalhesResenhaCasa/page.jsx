@@ -91,16 +91,8 @@ export default function ResenhaCasa() {
 
                     <div className={styles.allAtractions}>
                         <Atractions
-                        atractionImage="/images/negaoAtracao.jpg"
-                        atractionName="Negão Original"
-                        />
-                        <Atractions
-                        atractionImage="/images/bolzaniAtracao.jpg"
-                        atractionName="Bolzani"
-                        />
-                        <Atractions
-                        atractionImage="/images/fischerAtracao.jpg"
-                        atractionName="Nath Fischer"
+                        atractionImage="/images/donjuanAtracao.jpg"
+                        atractionName="Mc Don Juan"
                         />
                     </div>
                 </div>
@@ -108,14 +100,14 @@ export default function ResenhaCasa() {
                 <div className={styles.music}>
                     <h2 className={styles.sectionTitle}>ESTILO</h2>
                     <Cards
-                    picture="/images/resenha.png"
-                    text="🏠 Festas em Casa"
+                    picture="/images/funk_style.png"
+                    text="🎵 Funk"
                     />
                 </div>
 
                 <div className={styles.hashtags}>
                     <h2>HASHTAGS OFICIAIS</h2>
-                    <p><span>#</span>PartyLife2025, FestaEmCasa, VibeBoa, VemPraLuz</p>
+                    <p>#PartyLife2025, #FestaEmCasa, #VibeBoa, #VemPraLuz</p>
                 </div>
             </main>
 

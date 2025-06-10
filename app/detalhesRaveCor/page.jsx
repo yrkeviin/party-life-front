@@ -90,16 +90,8 @@ export default function RaveCor() {
 
                     <div className={styles.allAtractions}>
                         <Atractions
-                        atractionImage="/images/negaoAtracao.jpg"
-                        atractionName="Negão Original"
-                        />
-                        <Atractions
-                        atractionImage="/images/bolzaniAtracao.jpg"
-                        atractionName="Bolzani"
-                        />
-                        <Atractions
-                        atractionImage="/images/fischerAtracao.jpg"
-                        atractionName="Nath Fischer"
+                        atractionImage="/images/alokAtracao.jpg"
+                        atractionName="Alok"
                         />
                     </div>
                 </div>
@@ -107,14 +99,14 @@ export default function RaveCor() {
                 <div className={styles.music}>
                     <h2 className={styles.sectionTitle}>ESTILO</h2>
                     <Cards
-                    picture="/images/rave.png"
-                    text="🎉 Rave Fest"
+                    picture="/images/eletrônica_style.png"
+                    text="🎧 Eletrônica"
                     />
                 </div>
 
                 <div className={styles.hashtags}>
                     <h2>HASHTAGS OFICIAIS</h2>
-                    <p><span>#</span>PartyLife2025, #RaveFest, #Coloridos, #VemProLuz</p>
+                    <p>#PartyLife2025, #RaveFest, #Coloridos, #VemProLuz</p>
                 </div>
             </main>
 
