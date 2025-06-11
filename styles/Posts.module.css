@@ -31,6 +31,7 @@
     color: #000000;
     margin-top: 1%;
     align-items: center;
+    padding: 1rem;
 }
 
 .action h4 {
@@ -40,14 +41,13 @@
 }
 
 .action button {
-    margin-right: 4%;
     background-color: #c38ee6;
     color: #4f7070;
     transition: .4s ease-in-out;
     border: transparent;
     border-radius: 15px;
     width: 8rem;
-    height: 50%;
+    height: 2rem;
     font-family: "Montserrat", sans-serif;
     font-size: .8rem;
 }
