@@ -2,7 +2,7 @@
 
 .post {
     background-color: #ffffffbd;
-    width: 22%;
+    width: 80%;
     height: 35rem;
     margin: 2% auto;
     border-radius: 20px;
@@ -14,7 +14,6 @@
     font-size: 100%;
     font-family: "Montserrat", sans-serif;
     margin-left: 1%;
-
 }
 
 .post img {
@@ -69,7 +68,7 @@
 @media screen and (max-width: 1579px) {
     .post {
         height: 25rem;
-        width: 80%;
+        width: 90%;
     }
 
     .post img {
